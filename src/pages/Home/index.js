@@ -7,6 +7,9 @@ class Home extends Component {
     return (
       <div>
         <Header />
+        <div>
+          <h1>Cristian Maschio</h1>
+        </div>
       </div>
     )
   }

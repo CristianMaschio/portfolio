@@ -21,7 +21,7 @@ export default class Header extends Component {
               <div className="line" />
               <div className="menuContentContainer">
                 <p>{content.key}:</p>
-                <p style={{ flex: 2 }}>{content.text}</p>
+                <p>{content.text}</p>
               </div>
             </div>
           )
