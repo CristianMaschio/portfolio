@@ -1,0 +1,22 @@
+.home {
+  margin-left: 18rem;
+}
+
+.intro {
+  background-image: url("intro.png");
+  background-position: left;
+  background-size: cover;
+  height: 15rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.intro h1 {
+  color: white;
+  text-align: center;
+  flex: 1;
+  font-weight: 500;
+  font-size: 2.5rem;
+  text-shadow: 2px 4px 5px black;
+}
