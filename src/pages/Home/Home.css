@@ -1,5 +1,6 @@
 .home {
   margin-left: 18rem;
+  display: flex;
 }
 
 .intro {
@@ -7,16 +8,28 @@
   background-position: left;
   background-size: cover;
   height: 15rem;
-  width: 100%;
+  flex: 1;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .intro h1 {
   color: white;
   text-align: center;
-  flex: 1;
   font-weight: 500;
   font-size: 2.5rem;
   text-shadow: 2px 4px 5px black;
+  padding: 0;
+  margin: 0;
+}
+
+.intro h2 {
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-shadow: 2px 4px 5px black;
+  padding: 0;
+  margin: 0;
 }
