@@ -1,0 +1,58 @@
+.paragraph {
+  margin: 1rem;
+}
+
+.leftLine {
+  background-image: linear-gradient(to left, #3b62b1, transparent);
+  height: 1px;
+}
+
+.rightLine {
+  background-image: linear-gradient(to right, #3b62b1, transparent);
+  height: 1px;
+}
+
+.paragraphContainer {
+  display: flex;
+  height: 200px;
+}
+
+.paragraphContainer.leftParagraph {
+  flex-direction: row;
+}
+
+.paragraphContainer.rightParagraph {
+  flex-direction: row-reverse;
+}
+
+.paragraphTitle {
+  font-family: Roboto;
+  font-weight: 200;
+  font-size: 2rem;
+  letter-spacing: -0.5px;
+  color: #3b62b1;
+
+  mix-blend-mode: normal;
+}
+
+.leftTitle {
+  text-align: left;
+}
+
+.rightTitle {
+  text-align: right;
+}
+
+.paragraphImage {
+  height: 150px;
+  width: 150px;
+  align-self: center;
+}
+
+.sectionsContainer {
+  flex: 1;
+  align-self: center;
+  font-family: Roboto;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+}
