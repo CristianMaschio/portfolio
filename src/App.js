@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import "./App.css"
 import Home from "./pages/Home"
-import Header from "./pages/_shared/Header"
+import Header from "./_shared/Header"
 
 class App extends Component {
   render() {

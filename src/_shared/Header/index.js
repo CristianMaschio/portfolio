@@ -36,7 +36,7 @@ export default class Header extends Component {
         <div className="header-blue" />
         <div className="header-information">
           <div className="image-container">
-            <img className="image-profile" src={imageProfile} />
+            <img className="image-profile" alt="profile" src={imageProfile} />
           </div>
           <div className="menuContainer">
             <div className="line" />
