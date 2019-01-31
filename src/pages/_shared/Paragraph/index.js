@@ -6,8 +6,8 @@ export default class Paragraph extends PureComponent {
     isLeft: undefined
   }
 
-  componentDidMount(){
-    this.setState({isLeft: this.props.index % 2 === 0})
+  componentDidMount() {
+    this.setState({ isLeft: this.props.index % 2 === 0 })
   }
 
   //----------Functions-----------
@@ -16,7 +16,7 @@ export default class Paragraph extends PureComponent {
     const { title, image, sections } = this.props
     const isLeft = this.state.isLeft
 
-    return(
+    return (
       <div className="paragraph">
         <h2
           className={
@@ -35,8 +35,11 @@ export default class Paragraph extends PureComponent {
           <div className="sectionsContainer">
             {sections.map((section, index) => {
               return (
-                <div key={index}>
-                  <p>{section.date}</p>
+                <div className="sectionContainer" key={index}>
+                  <p className="sectionContent date">{section.date}</p>
+                  <p className="sectionContent description">
+                    {section.description}
+                  </p>
                 </div>
               )
             })}

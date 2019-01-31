@@ -12,19 +12,6 @@
   height: 1px;
 }
 
-.paragraphContainer {
-  display: flex;
-  height: 200px;
-}
-
-.paragraphContainer.leftParagraph {
-  flex-direction: row;
-}
-
-.paragraphContainer.rightParagraph {
-  flex-direction: row-reverse;
-}
-
 .paragraphTitle {
   font-family: Roboto;
   font-weight: 200;
@@ -43,6 +30,22 @@
   text-align: right;
 }
 
+.paragraphContainer {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+}
+
+.paragraphContainer.leftParagraph {
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
+.paragraphContainer.rightParagraph {
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+}
+
 .paragraphImage {
   height: 150px;
   width: 150px;
@@ -55,4 +58,22 @@
   font-family: Roboto;
   font-size: 0.8rem;
   letter-spacing: 0.5px;
+}
+
+.sectionContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.sectionContent {
+  padding: 1rem;
+  padding-top: 0px;
+}
+
+.sectionContent.date {
+  min-width: 10rem;
+}
+
+.sectionContent.description {
+  min-width: 25rem;
 }
