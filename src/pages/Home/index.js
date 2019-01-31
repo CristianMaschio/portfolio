@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import "./Home.css"
+import "./Home.scss"
 
 import Paragraph from "../_shared/Paragraph"
 import data from "../../data/data"
