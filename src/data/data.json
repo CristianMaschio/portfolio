@@ -6,11 +6,29 @@
       "sections": [
         {
           "date": "2015-2019",
-          "description": "Lureato"
+          "description": "Lureato",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
         },
         {
           "date": "2015-2019",
-          "description": "Lureato"
+          "description": "Lureato",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
+        }
+      ],
+      "more": [
+        {
+          "date": "2015-2019",
+          "description": "Lureato",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
         }
       ]
     },
@@ -19,15 +37,19 @@
       "sections": [
         {
           "date": "01/10/2018-03/03/2019",
-          "description": "Software developer with React, React Native, Wordpress, Swift and AWS"
+          "description": "Software developer with React, React Native, Wordpress, Swift and AWS",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
         },
         {
-          "date": "04/02/2014-14/03/2014",
-          "description": "Lureato"
-        },
-        {
-          "date": "01/06/2013-10/08/2013",
-          "description": "Lureato"
+          "date": "01/10/2018-03/03/2019",
+          "description": "Software developer with React, React Native, Wordpress, Swift and AWS",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
         }
       ]
     },
@@ -36,7 +58,19 @@
       "sections": [
         {
           "date": "",
-          "description": "Programming"
+          "description": "Programming",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
+        },
+        {
+          "date": "",
+          "description": "Programming",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
         }
       ]
     },
@@ -45,11 +79,19 @@
       "sections": [
         {
           "date": "2015-2019",
-          "description": "Lureato"
+          "description": "Lureato",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
         },
         {
           "date": "2015-2019",
-          "description": "Lureato"
+          "description": "Lureato",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
         }
       ]
     }
