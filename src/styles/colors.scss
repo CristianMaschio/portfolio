@@ -1,0 +1,16 @@
+$primary-color: #3b62b1;
+$dark-color: #313131;
+
+$text-color: black;
+$background-color: white;
+
+$primary-right-linear-gradient: linear-gradient(
+  to right,
+  $primary-color,
+  transparent
+);
+$primary-left-linear-gradient: linear-gradient(
+  to left,
+  $primary-color,
+  transparent
+);
