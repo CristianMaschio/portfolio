@@ -1,9 +1,10 @@
 import React, { PureComponent } from "react"
-import "./Paragraph.css"
+import "./Paragraph.scss"
 
 export default class Paragraph extends PureComponent {
   state = {
-    isLeft: undefined
+    isLeft: undefined,
+    moreContent: false
   }
 
   componentDidMount() {
@@ -11,10 +12,27 @@ export default class Paragraph extends PureComponent {
   }
 
   //----------Functions-----------
+  renderMoreContent = () => {
+    const { sections } = this.props
+    return (
+      <div className="sectionsContainer">
+        {sections.map((section, index) => {
+          return (
+            <div className="sectionContainer" key={index}>
+              <p className="sectionContent date">{section.date}</p>
+              <p className="sectionContent description">
+                {section.description}
+              </p>
+            </div>
+          )
+        })}
+      </div>
+    )
+  }
 
   renderParagraphContent = () => {
     const { title, image, sections } = this.props
-    const isLeft = this.state.isLeft
+    const { isLeft, moreContent } = this.state
 
     return (
       <div className="paragraph">
@@ -50,6 +68,7 @@ export default class Paragraph extends PureComponent {
             src={image && require("../../../../public/images/" + image)}
           />
         </div>
+        {moreContent && this.renderMoreContent()}
       </div>
     )
   }
@@ -57,11 +76,12 @@ export default class Paragraph extends PureComponent {
   //------------Render--------------
 
   render() {
-    const isLeft = this.state.isLeft
+    const { isLeft, moreContent } = this.state
     return (
       <>
         <div className={isLeft ? "leftLine" : "rightLine"} />
         {this.renderParagraphContent()}
+        <p onClick={() => this.setState({ moreContent: !moreContent })}>more</p>
       </>
     )
   }
