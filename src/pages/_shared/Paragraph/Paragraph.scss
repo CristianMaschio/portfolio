@@ -1,14 +1,16 @@
+@import "../../../styles/colors";
+
 .paragraph {
   margin: 1rem;
 }
 
 .leftLine {
-  background-image: linear-gradient(to left, #3b62b1, transparent);
+  background-image: $primary-left-linear-gradient;
   height: 1px;
 }
 
 .rightLine {
-  background-image: linear-gradient(to right, #3b62b1, transparent);
+  background-image: $primary-right-linear-gradient;
   height: 1px;
 }
 
@@ -17,7 +19,7 @@
   font-weight: 200;
   font-size: 2rem;
   letter-spacing: -0.5px;
-  color: #3b62b1;
+  color: $primary-color;
 
   mix-blend-mode: normal;
 }
@@ -32,7 +34,6 @@
 
 .paragraphContainer {
   display: flex;
-  height: 200px;
   justify-content: center;
 }
 
