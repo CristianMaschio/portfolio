@@ -1,0 +1,12 @@
+@import "../../styles/colors";
+
+footer {
+  background-color: $dark-color;
+  margin-left: 18rem;
+}
+
+footer p {
+  margin: 0px;
+  padding: 1.5em;
+  color: white;
+}
