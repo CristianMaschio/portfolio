@@ -1,0 +1,17 @@
+@import "../../styles/colors";
+
+.image-profile {
+  border-radius: 50%;
+}
+
+.image-container {
+  border-radius: 50%;
+  border: 10px;
+  background-image: $primary-right-linear-gradient;
+  border-color: $dark-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 1em;
+}

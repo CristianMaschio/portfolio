@@ -21,26 +21,6 @@ header {
   background-color: #313131;
 }
 
-.image-profile {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-}
-
-.image-container {
-  border-radius: 50%;
-  border: 10px;
-  width: 210px;
-  height: 210px;
-  background-image: linear-gradient(to right, #3b62b1, transparent);
-  border-color: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-  margin-top: 1em;
-}
-
 .menuContainer {
   color: white;
   margin-top: 1rem;

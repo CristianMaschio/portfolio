@@ -2,7 +2,7 @@ import "./Header.css"
 import React, { Component } from "react"
 import Icon from "antd/lib/icon"
 
-import imageProfile from "./imageProfile.jpg"
+import ImageProfile from "../ImageProfile"
 
 const personalData = [
   { key: "Name", text: "Cristian" },
@@ -35,9 +35,7 @@ export default class Header extends Component {
       <header>
         <div className="header-blue" />
         <div className="header-information">
-          <div className="image-container">
-            <img className="image-profile" alt="profile" src={imageProfile} />
-          </div>
+          <ImageProfile size={200} />
           <div className="menuContainer">
             <div className="line" />
             <h2>Personal</h2>
