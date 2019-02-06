@@ -36,13 +36,26 @@ export default class Paragraph extends PureComponent {
 
     return (
       <div className="paragraph">
-        <h2
+        <div
           className={
-            isLeft ? "paragraphTitle leftTitle" : "paragraphTitle rightTitle"
+            isLeft
+              ? "paragraphContainer leftParagraph"
+              : "paragraphContainer rightParagraph"
           }
         >
-          {title}
-        </h2>
+          <h2
+            className={
+              isLeft ? "paragraphTitle leftTitle" : "paragraphTitle rightTitle"
+            }
+          >
+            {title}
+          </h2>
+          <img
+            className="paragraphImage"
+            alt="Universtity of Padua logo"
+            src={image && require("../../../../public/images/" + image)}
+          />
+        </div>
         <div
           className={
             isLeft
@@ -62,11 +75,6 @@ export default class Paragraph extends PureComponent {
               )
             })}
           </div>
-          <img
-            className="paragraphImage"
-            alt="Universtity of Padua logo"
-            src={image && require("../../../../public/images/" + image)}
-          />
         </div>
         {moreContent && this.renderMoreContent()}
       </div>
