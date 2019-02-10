@@ -53,7 +53,7 @@ export default class Paragraph extends PureComponent {
           <img
             className="paragraphImage"
             alt="Universtity of Padua logo"
-            src={image && require("../../../../public/images/" + image)}
+            src={image && require("../../../data/images/" + image)}
           />
         </div>
         <div

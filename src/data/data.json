@@ -34,6 +34,7 @@
     },
     {
       "title": "Professional",
+      "image": "work.png",
       "sections": [
         {
           "date": "01/10/2018-03/03/2019",
@@ -55,6 +56,7 @@
     },
     {
       "title": "Passions",
+      "image": "passions.png",
       "sections": [
         {
           "date": "",
@@ -76,6 +78,7 @@
     },
     {
       "title": "Personal experiences",
+      "image": "experiences.png",
       "sections": [
         {
           "date": "2015-2019",
