@@ -22,6 +22,7 @@
   letter-spacing: -0.5px;
   color: $primary-color;
   mix-blend-mode: normal;
+  text-align: center;
 }
 
 .leftTitle {
@@ -63,17 +64,25 @@
 .sectionContainer {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .sectionContent {
   padding: 1rem;
   padding-top: 0px;
+  max-width: 35rem;
 }
 
 .sectionContent.date {
   min-width: 10rem;
+  max-width: 12rem;
+  align-self: center;
 }
 
 .sectionContent.description {
   min-width: 25rem;
+}
+
+.more-paragraph {
+  align-self: center;
 }

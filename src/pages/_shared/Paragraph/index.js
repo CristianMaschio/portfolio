@@ -43,13 +43,12 @@ export default class Paragraph extends PureComponent {
               : "paragraphContainer rightParagraph"
           }
         >
-          <h2
-            className={
-              isLeft ? "paragraphTitle leftTitle" : "paragraphTitle rightTitle"
-            }
-          >
-            {title}
-          </h2>
+          <img
+            className="paragraphImage"
+            alt="Universtity of Padua logo"
+            src={image && require("../../../data/images/" + image)}
+          />
+          <h2 className="paragraphTitle">{title}</h2>
           <img
             className="paragraphImage"
             alt="Universtity of Padua logo"
@@ -89,7 +88,12 @@ export default class Paragraph extends PureComponent {
       <>
         <div className={isLeft ? "leftLine" : "rightLine"} />
         {this.renderParagraphContent()}
-        <p onClick={() => this.setState({ moreContent: !moreContent })}>more</p>
+        <p
+          className="more-paragraph"
+          onClick={() => this.setState({ moreContent: !moreContent })}
+        >
+          more
+        </p>
       </>
     )
   }
