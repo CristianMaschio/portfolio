@@ -1,0 +1,12 @@
+@import "../../../styles/colors";
+
+.menu {
+  position: sticky;
+  background-color: $dark-color;
+  top: 0;
+  margin-left: 1px;
+  color: white;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}

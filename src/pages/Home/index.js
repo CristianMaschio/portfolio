@@ -3,6 +3,7 @@ import "./Home.scss"
 
 import Paragraph from "../_shared/Paragraph"
 import data from "../../data/data"
+import Menu from "../_shared/Menu"
 
 class Home extends Component {
   render() {
@@ -12,6 +13,7 @@ class Home extends Component {
           <h1>Cristian Maschio</h1>
           <h2>Software Developer</h2>
         </div>
+        <Menu />
         <div className="paragraphs">
           {data.paragraphs.map((paragraph, index) => {
             return (
