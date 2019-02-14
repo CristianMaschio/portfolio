@@ -1,4 +1,4 @@
-import "./Header.css"
+import "./Header.scss"
 import React, { Component } from "react"
 import Icon from "antd/lib/icon"
 

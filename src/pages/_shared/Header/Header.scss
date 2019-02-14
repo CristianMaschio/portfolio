@@ -1,0 +1,63 @@
+@import "../../../styles/colors";
+
+header {
+  width: 18rem;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  border-right-style: solid;
+  border-right-width: 0.5px;
+  border-right-color: white;
+
+  .header-blue {
+    width: 1em;
+    background-color: #3b62b1;
+    height: 100%;
+  }
+
+  .header-information {
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: #313131;
+  }
+
+  .menuContainer {
+    color: white;
+    margin-top: 1rem;
+  }
+
+  .menuContainer h2 {
+    margin: 0.8rem;
+    margin-left: 1rem;
+    font-weight: 500;
+  }
+
+  .menuContent {
+    margin-left: 1rem;
+  }
+
+  .menuContentContainer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .menuContentContainer p {
+    color: white;
+    flex: 1;
+    margin: 0.5rem;
+    margin-left: 1rem;
+  }
+
+  .menuContent a {
+    color: white;
+    margin: 1rem;
+    font-size: 1.5rem;
+    flex: 1;
+  }
+
+  .line {
+    background-image: $primary-right-linear-gradient;
+    height: 1px;
+  }
+}

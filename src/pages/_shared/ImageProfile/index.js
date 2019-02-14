@@ -14,7 +14,11 @@ export default class ImageProfile extends Component {
     const cSize = size + size / 20
 
     return (
-      <div className="image-container" style={{ height: cSize, width: cSize }}>
+      <div className="image-container">
+        <div
+          className="image-background-animation"
+          style={{ height: cSize, width: cSize }}
+        />
         <img
           className="image-profile"
           alt="profile"
