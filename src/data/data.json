@@ -1,6 +1,7 @@
 {
   "paragraphs": [
     {
+      "id": "education",
       "title": "Education",
       "image": "education.png",
       "sections": [
@@ -33,6 +34,7 @@
       ]
     },
     {
+      "id": "professional",
       "title": "Professional",
       "image": "work.png",
       "sections": [
@@ -55,6 +57,7 @@
       ]
     },
     {
+      "id": "passions",
       "title": "Passions",
       "image": "passions.png",
       "sections": [
@@ -77,6 +80,7 @@
       ]
     },
     {
+      "id": "personal-experiences",
       "title": "Personal experiences",
       "image": "experiences.png",
       "sections": [

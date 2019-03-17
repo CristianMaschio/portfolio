@@ -18,6 +18,7 @@ class Home extends Component {
           {data.paragraphs.map((paragraph, index) => {
             return (
               <Paragraph
+                id={paragraph.id}
                 key={index}
                 index={index}
                 title={paragraph.title}

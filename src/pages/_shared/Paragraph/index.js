@@ -83,9 +83,10 @@ export default class Paragraph extends PureComponent {
   //------------Render--------------
 
   render() {
+    const { id } = this.props
     const { isLeft, moreContent } = this.state
     return (
-      <>
+      <div id={id} style={{ paddingTop: "3rem" }}>
         <div className={isLeft ? "leftLine" : "rightLine"} />
         {this.renderParagraphContent()}
         <p
@@ -94,7 +95,7 @@ export default class Paragraph extends PureComponent {
         >
           more
         </p>
-      </>
+      </div>
     )
   }
 }
