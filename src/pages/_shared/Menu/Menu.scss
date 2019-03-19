@@ -9,6 +9,10 @@
   height: 3rem;
   display: flex;
 
+  @media screen and (max-width: $mobile-max-width) {
+    margin-left: 0px;
+  }
+
   ul {
     flex: 1;
     display: flex;
@@ -22,6 +26,29 @@
         color: white;
         text-decoration: none;
       }
+    }
+    @media screen and (max-width: $mobile-max-width) {
+      display: none;
+    }
+  }
+
+  .info-menu {
+    display: none;
+    cursor: pointer;
+    height: 1.5rem;
+    align-self: center;
+    margin-left: 1rem;
+    @media screen and (max-width: $mobile-max-width) {
+      display: inline;
+    }
+  }
+
+  p {
+    display: none;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    @media screen and (max-width: $mobile-max-width) {
+      display: inline;
     }
   }
 }

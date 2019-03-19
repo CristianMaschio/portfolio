@@ -20,5 +20,13 @@ footer {
         text-decoration: none;
       }
     }
+    @media screen and (max-width: $mobile-max-width) {
+      padding: 0;
+    }
+  }
+
+  @media screen and (max-width: $mobile-max-width) {
+    margin-left: 0px;
+    padding: 0;
   }
 }

@@ -4,6 +4,10 @@ $text-shadow: 2px 4px 5px black;
 
 .home {
   margin-left: 18rem;
+
+  @media screen and (max-width: $mobile-max-width) {
+    margin-left: 0;
+  }
 }
 
 .intro {
