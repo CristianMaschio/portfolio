@@ -33,10 +33,11 @@ export class Header extends Component {
   }
 
   render() {
-    const { isRenderInformation } = this.props.context
+    const { isRenderInformation, setRenderInformation } = this.props.context
     if (isRenderInformation) {
       return (
         <header>
+          <div onClick={() => setRenderInformation(false)} className="close" />
           <div className="header-blue" />
           <div className="header-information">
             <ImageProfile size={200} />

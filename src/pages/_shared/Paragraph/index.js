@@ -93,7 +93,7 @@ export default class Paragraph extends PureComponent {
           className="more-paragraph"
           onClick={() => this.setState({ moreContent: !moreContent })}
         >
-          more
+          {!moreContent ? "more" : "less"}
         </p>
       </div>
     )
