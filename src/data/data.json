@@ -60,7 +60,7 @@
         {
           "date": "-",
           "title": "Programming",
-          "description": "I love programming, thinking and using my mind to create more and more magic, clean and especially performed code. I like working with innovative technologies, mainly with web and mobile application. Currently i use a lot React and React-Native",
+          "description": "I love programming, thinking and using my mind to create more and more magic, clean and especially performed code. I like working with innovative technologies, mainly with web and mobile application. Currently i use a lot React and React-Native.",
           "detail": {
             "image": "",
             "description": ""
@@ -85,7 +85,7 @@
         {
           "date": "26/05/2018",
           "title": "Hackathon",
-          "description": "<b>First prize winning</b> with a web application developed with the use of the <b>React</b> library and the <b>Google Maps API.</b>",
+          "description": "First prize winning with a web application developed with the use of the <b>React</b> library and the <b>Google Maps API.</b>",
           "detail": {
             "image": "",
             "description": ""
