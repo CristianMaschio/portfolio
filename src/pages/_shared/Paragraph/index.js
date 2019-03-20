@@ -67,9 +67,12 @@ export default class Paragraph extends PureComponent {
               return (
                 <div className="sectionContainer" key={index}>
                   <p className="sectionContent date">{section.date}</p>
-                  <p className="sectionContent description">
-                    {section.description}
-                  </p>
+                  <div className="sectionContent description">
+                    <h3>{section.title} </h3>
+                    <div
+                      dangerouslySetInnerHTML={{ __html: section.description }}
+                    />
+                  </div>
                 </div>
               )
             })}
