@@ -8,6 +8,7 @@ header {
   border-right-style: solid;
   border-right-width: 0.5px;
   border-right-color: white;
+  background-color: #3b62b1;
   @media screen and (max-width: $mobile-max-width) {
     position: sticky;
     top: 0;
@@ -30,6 +31,9 @@ header {
     height: 100%;
     color: white;
     background-color: #313131;
+    @media screen and (max-width: $mobile-max-width) {
+      max-width: 18rem;
+    }
   }
 
   .menuContainer {

@@ -8,7 +8,7 @@ export default class GlobalState extends Component {
   }
 
   state = {
-    isRenderInformation: false
+    isRenderInformation: window.innerWidth > 950
   }
 
   setRenderInformation = (value = true) => {
