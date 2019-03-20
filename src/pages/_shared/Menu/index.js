@@ -17,10 +17,10 @@ export class Menu extends Component {
         <p onClick={setRenderInformation}>Cristian Maschio</p>
         <ul>
           <li>
-            <a href="#education">Education</a>
+            <a href="#professional">Professional</a>
           </li>
           <li>
-            <a href="#professional">Professional</a>
+            <a href="#education">Education</a>
           </li>
           <li>
             <a href="#passions">Passions</a>

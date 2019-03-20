@@ -15,7 +15,7 @@
           }
         },
         {
-          "date": "01/10/2018-03/03/2019",
+          "date": "01/10/2018 - 03/03/2019",
           "title": "Stage - Full Stack Developer",
           "description": "Worked principally with React-Native, ReactJS and AWS. And worked in small tasks with Swift.",
           "detail": {
@@ -31,16 +31,16 @@
       "image": "education.png",
       "sections": [
         {
-          "date": "2015-2019",
+          "date": "2015 - 2019",
           "title": "University of Padua - Data Science",
-          "description": "Currently a student with the last 3 exams.",
+          "description": "I am currently a student and i miss the last 3 exams.",
           "detail": {
             "image": "",
             "description": ""
           }
         },
         {
-          "date": "2008-2015",
+          "date": "2008 - 2015",
           "title": "Commercial services",
           "description": "Commercial vocational institute Carlo Rosselli, Castelfranco Veneto (Italy).",
           "detail": {

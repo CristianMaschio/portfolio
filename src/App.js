@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import "./styles/global.scss"
+import "./fonts/roboto/roboto.css"
 import Home from "./pages/Home"
 import Header from "./pages/_shared/Header"
 import Footer from "./pages/_shared/Footer"

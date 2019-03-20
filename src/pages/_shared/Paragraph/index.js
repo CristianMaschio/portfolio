@@ -92,16 +92,16 @@ export default class Paragraph extends PureComponent {
       <div id={id} style={{ paddingTop: "3rem" }}>
         <div className={isLeft ? "leftLine" : "rightLine"} />
         {this.renderParagraphContent()}
-        <p
-          className="more-paragraph"
-          onClick={() => this.setState({ moreContent: !moreContent })}
-        >
-          {moreSections && moreSections.length >= 1
-            ? !moreContent
-              ? "more"
-              : "less"
-            : ""}
-        </p>
+        {moreSections && moreSections.length >= 1 ? (
+          <p
+            className="more-paragraph"
+            onClick={() => this.setState({ moreContent: !moreContent })}
+          >
+            {!moreContent ? "more" : "less"}
+          </p>
+        ) : (
+          ""
+        )}
       </div>
     )
   }
