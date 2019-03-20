@@ -13,10 +13,10 @@ export default class Paragraph extends PureComponent {
 
   //----------Functions-----------
   renderMoreContent = () => {
-    const { sections } = this.props
+    const { moreSections } = this.props
     return (
       <div className="sectionsContainer">
-        {sections.map((section, index) => {
+        {moreSections.map((section, index) => {
           return (
             <div className="sectionContainer" key={index}>
               <p className="sectionContent date">{section.date}</p>
@@ -86,7 +86,7 @@ export default class Paragraph extends PureComponent {
   //------------Render--------------
 
   render() {
-    const { id } = this.props
+    const { id, moreSections } = this.props
     const { isLeft, moreContent } = this.state
     return (
       <div id={id} style={{ paddingTop: "3rem" }}>
@@ -96,7 +96,11 @@ export default class Paragraph extends PureComponent {
           className="more-paragraph"
           onClick={() => this.setState({ moreContent: !moreContent })}
         >
-          {!moreContent ? "more" : "less"}
+          {moreSections && moreSections.length >= 1
+            ? !moreContent
+              ? "more"
+              : "less"
+            : ""}
         </p>
       </div>
     )

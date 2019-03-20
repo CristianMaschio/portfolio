@@ -24,6 +24,7 @@ class Home extends Component {
                 title={paragraph.title}
                 image={paragraph.image}
                 sections={paragraph.sections}
+                moreSections={paragraph.more}
               />
             )
           })}

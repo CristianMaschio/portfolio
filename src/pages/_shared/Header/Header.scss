@@ -105,3 +105,10 @@ header {
     }
   }
 }
+
+.only-desktop {
+  display: none;
+  @media screen and (min-width: $mobile-max-width) {
+    display: flex;
+  }
+}

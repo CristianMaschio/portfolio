@@ -71,7 +71,41 @@ export class Header extends Component {
         </header>
       )
     } else {
-      return <React.Fragment />
+      return (
+        <header className="only-desktop">
+          <div onClick={() => setRenderInformation(false)} className="close" />
+          <div className="header-blue" />
+          <div className="header-information">
+            <ImageProfile size={200} />
+            <div className="menuContainer">
+              <div className="line" />
+              <h2>Personal</h2>
+              {this.renderContent(personalData)}
+            </div>
+            <div className="menuContainer">
+              <div className="line" />
+              <h2>Contacts</h2>
+              <div className="menuContent">
+                <div className="line" />
+                <div className="menuContentContainer">
+                  <a href="tel:345-273-6368">
+                    <Icon type="phone" />
+                  </a>
+                  <a href="mailto:cristianmaschio@hotmail.it">
+                    <Icon type="mail" />
+                  </a>
+                  <a href="https://github.com/CristianMaschio">
+                    <Icon type="github" />
+                  </a>
+                  <a href="https://www.linkedin.com/in/cristian-maschio-37004a146">
+                    <Icon type="linkedin" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+      )
     }
   }
 }
