@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import "./styles/spinner.css"
 import "./styles/global.scss"
 import "./fonts/roboto/roboto.css"
 import Home from "./pages/Home"
