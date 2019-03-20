@@ -8,36 +8,14 @@ import Footer from "./pages/_shared/Footer"
 import GlobalState from "./gState/GlobalState"
 
 class App extends Component {
-  state = {
-    loading: true
-  }
-
-  componentDidMount() {
-    setTimeout(() => {
-      this.setState({ loading: false })
-    }, 1000)
-  }
-
   render() {
-    const { loading } = this.state
-    if (loading) {
-      return (
-        <div className="app-spinner">
-          <div className="lds-ripple">
-            <div />
-            <div />
-          </div>
-        </div>
-      )
-    } else {
-      return (
-        <GlobalState>
-          <Header />
-          <Home />
-          <Footer />
-        </GlobalState>
-      )
-    }
+    return (
+      <GlobalState>
+        <Header />
+        <Home />
+        <Footer />
+      </GlobalState>
+    )
   }
 }
 
