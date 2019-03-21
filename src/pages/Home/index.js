@@ -1,11 +1,11 @@
-import React, { Component } from "react"
+import React, { PureComponent } from "react"
 import "./Home.scss"
 
 import Paragraph from "../_shared/Paragraph"
 import data from "../../data/data"
 import Menu from "../_shared/Menu"
 
-class Home extends Component {
+class Home extends PureComponent {
   render() {
     return (
       <div className="home">

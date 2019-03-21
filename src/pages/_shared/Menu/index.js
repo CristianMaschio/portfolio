@@ -1,10 +1,10 @@
-import React, { Component } from "react"
+import React, { PureComponent } from "react"
 import "./Menu.scss"
 import whiteInfo from "./whiteInfo.png"
 
 import AppState from "../../../gState/context"
 
-export class Menu extends Component {
+export class Menu extends PureComponent {
   render() {
     const { setRenderInformation } = this.props.context
     return (
@@ -34,7 +34,7 @@ export class Menu extends Component {
   }
 }
 
-export default class MenuConsumer extends Component {
+export default class MenuConsumer extends PureComponent {
   render() {
     return (
       <AppState.Consumer>{state => <Menu context={state} />}</AppState.Consumer>

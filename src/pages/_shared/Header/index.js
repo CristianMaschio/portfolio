@@ -1,5 +1,5 @@
 import "./Header.scss"
-import React, { Component } from "react"
+import React, { PureComponent } from "react"
 import Icon from "antd/lib/icon"
 
 import ImageProfile from "../ImageProfile"
@@ -13,7 +13,7 @@ const personalData = [
   { key: "Nationality", text: "Italy" }
 ]
 
-export class Header extends Component {
+export class Header extends PureComponent {
   renderContent = contents => {
     return (
       <div>
@@ -110,7 +110,7 @@ export class Header extends Component {
   }
 }
 
-export default class HeaderConsumer extends Component {
+export default class HeaderConsumer extends PureComponent {
   render() {
     return (
       <AppState.Consumer>
