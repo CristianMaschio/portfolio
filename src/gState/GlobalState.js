@@ -8,20 +8,22 @@ export default class GlobalState extends Component {
   }
 
   state = {
-    isRenderInformation: false
+    headerClass: ""
   }
 
   setRenderInformation = (value = true) => {
-    this.setState({ isRenderInformation: value })
+    this.setState({
+      headerClass: value ? "open-header" : ""
+    })
   }
 
   render() {
-    const { isRenderInformation } = this.state
+    const { headerClass } = this.state
     return (
       <AppState.Provider
         value={{
-          isRenderInformation,
-          setRenderInformation: this.setRenderInformation
+          setRenderInformation: this.setRenderInformation,
+          headerClass
         }}
       >
         {this.props.children}

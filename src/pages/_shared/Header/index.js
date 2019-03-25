@@ -33,80 +33,58 @@ export class Header extends PureComponent {
   }
 
   render() {
-    const { isRenderInformation, setRenderInformation } = this.props.context
-    if (isRenderInformation) {
-      return (
-        <header>
-          <div onClick={() => setRenderInformation(false)} className="close" />
-          <div className="header-blue" />
-          <div className="header-information">
-            <ImageProfile size={200} />
-            <div className="menuContainer">
+    const { setRenderInformation, headerClass } = this.props.context
+    return (
+      <header className={headerClass}>
+        <div onClick={() => setRenderInformation(false)} className="close" />
+        <div className="header-blue" />
+        <div className="header-information">
+          <ImageProfile size={200} />
+          <div className="menuContainer">
+            <div className="line" />
+            <h2>Personal</h2>
+            {this.renderContent(personalData)}
+          </div>
+          <div className="menuContainer">
+            <div className="line" />
+            <h2>Contacts</h2>
+            <div className="menuContent">
               <div className="line" />
-              <h2>Personal</h2>
-              {this.renderContent(personalData)}
-            </div>
-            <div className="menuContainer">
-              <div className="line" />
-              <h2>Contacts</h2>
-              <div className="menuContent">
-                <div className="line" />
-                <div className="menuContentContainer">
-                  <a href="tel:345-273-6368" target="_blank" rel="noopener noreferrer">
-                    <Icon type="phone" />
-                  </a>
-                  <a href="mailto:cristianmaschio@hotmail.it" target="_blank" rel="noopener noreferrer">
-                    <Icon type="mail" />
-                  </a>
-                  <a href="https://github.com/CristianMaschio" target="_blank" rel="noopener noreferrer">
-                    <Icon type="github" />
-                  </a>
-                  <a href="https://www.linkedin.com/in/cristian-maschio-37004a146" target="_blank" rel="noopener noreferrer">
-                    <Icon type="linkedin" />
-                  </a>
-                </div>
+              <div className="menuContentContainer">
+                <a
+                  href="tel:345-273-6368"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Icon type="phone" />
+                </a>
+                <a
+                  href="mailto:cristianmaschio@hotmail.it"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Icon type="mail" />
+                </a>
+                <a
+                  href="https://github.com/CristianMaschio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Icon type="github" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/cristian-maschio-37004a146"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Icon type="linkedin" />
+                </a>
               </div>
             </div>
           </div>
-        </header>
-      )
-    } else {
-      return (
-        <header className="only-desktop">
-          <div onClick={() => setRenderInformation(false)} className="close" />
-          <div className="header-blue" />
-          <div className="header-information">
-            <ImageProfile size={200} />
-            <div className="menuContainer">
-              <div className="line" />
-              <h2>Personal</h2>
-              {this.renderContent(personalData)}
-            </div>
-            <div className="menuContainer">
-              <div className="line" />
-              <h2>Contacts</h2>
-              <div className="menuContent">
-                <div className="line" />
-                <div className="menuContentContainer">
-                  <a href="tel:345-273-6368" target="_blank" rel="noopener noreferrer">
-                    <Icon type="phone" />
-                  </a>
-                  <a href="mailto:cristianmaschio@hotmail.it" target="_blank" rel="noopener noreferrer">
-                    <Icon type="mail" />
-                  </a>
-                  <a href="https://github.com/CristianMaschio" target="_blank" rel="noopener noreferrer">
-                    <Icon type="github" />
-                  </a>
-                  <a href="https://www.linkedin.com/in/cristian-maschio-37004a146" target="_blank" rel="noopener noreferrer">
-                    <Icon type="linkedin" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
-      )
-    }
+        </div>
+      </header>
+    )
   }
 }
 

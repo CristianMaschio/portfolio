@@ -1,5 +1,9 @@
 @import "../../../styles/colors";
 
+.open-header {
+  margin-left: 0px;
+}
+
 header {
   width: 18rem;
   height: 100%;
@@ -15,6 +19,8 @@ header {
     width: 100vw;
     height: 100vh;
     z-index: 2;
+    margin-left: -100vw;
+    transition: all 0.3s ease-in;
   }
 
   .header-blue {
