@@ -52,16 +52,16 @@ export class Header extends PureComponent {
               <div className="menuContent">
                 <div className="line" />
                 <div className="menuContentContainer">
-                  <a href="tel:345-273-6368">
+                  <a href="tel:345-273-6368" target="_blank" rel="noopener noreferrer">
                     <Icon type="phone" />
                   </a>
-                  <a href="mailto:cristianmaschio@hotmail.it">
+                  <a href="mailto:cristianmaschio@hotmail.it" target="_blank" rel="noopener noreferrer">
                     <Icon type="mail" />
                   </a>
-                  <a href="https://github.com/CristianMaschio">
+                  <a href="https://github.com/CristianMaschio" target="_blank" rel="noopener noreferrer">
                     <Icon type="github" />
                   </a>
-                  <a href="https://www.linkedin.com/in/cristian-maschio-37004a146">
+                  <a href="https://www.linkedin.com/in/cristian-maschio-37004a146" target="_blank" rel="noopener noreferrer">
                     <Icon type="linkedin" />
                   </a>
                 </div>
@@ -88,16 +88,16 @@ export class Header extends PureComponent {
               <div className="menuContent">
                 <div className="line" />
                 <div className="menuContentContainer">
-                  <a href="tel:345-273-6368">
+                  <a href="tel:345-273-6368" target="_blank" rel="noopener noreferrer">
                     <Icon type="phone" />
                   </a>
-                  <a href="mailto:cristianmaschio@hotmail.it">
+                  <a href="mailto:cristianmaschio@hotmail.it" target="_blank" rel="noopener noreferrer">
                     <Icon type="mail" />
                   </a>
-                  <a href="https://github.com/CristianMaschio">
+                  <a href="https://github.com/CristianMaschio" target="_blank" rel="noopener noreferrer">
                     <Icon type="github" />
                   </a>
-                  <a href="https://www.linkedin.com/in/cristian-maschio-37004a146">
+                  <a href="https://www.linkedin.com/in/cristian-maschio-37004a146" target="_blank" rel="noopener noreferrer">
                     <Icon type="linkedin" />
                   </a>
                 </div>
