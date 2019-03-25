@@ -2,6 +2,13 @@
 
 .open-header {
   margin-left: 0px;
+  height: 100vh;
+  border-radius: 0;
+  .header-information {
+    @media screen and (max-width: $mobile-max-width) {
+      border-radius: 0;
+    }
+  }
 }
 
 header {
@@ -17,10 +24,11 @@ header {
     position: sticky;
     top: 0;
     width: 100vw;
-    height: 100vh;
+    height: 0;
     z-index: 2;
     margin-left: -100vw;
-    transition: all 0.3s ease-in;
+    transition: all 0.3s;
+    border-radius: 100vw;
   }
 
   .header-blue {
@@ -39,6 +47,7 @@ header {
     background-color: #313131;
     @media screen and (max-width: $mobile-max-width) {
       max-width: 18rem;
+      border-radius: 100vw;
     }
   }
 
