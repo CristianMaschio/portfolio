@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/my_portfolio/static/media/Roboto-Bold.ee7b96fa.ttf"
   },
   {
-    "revision": "89e2666c24d37055bcb60e9d2d9f7e35",
-    "url": "/my_portfolio/static/media/Roboto-Thin.89e2666c.ttf"
-  },
-  {
     "revision": "fc84e998bc29b297ea20321e4c90b6ed",
     "url": "/my_portfolio/static/media/Roboto-Light.fc84e998.ttf"
+  },
+  {
+    "revision": "89e2666c24d37055bcb60e9d2d9f7e35",
+    "url": "/my_portfolio/static/media/Roboto-Thin.89e2666c.ttf"
   },
   {
     "revision": "42bbe4eefcde1297b11dc4b6491e9746",
@@ -52,12 +52,12 @@ self.__precacheManifest = [
     "url": "/my_portfolio/static/media/Roboto-ThinItalic.0fc25386.ttf"
   },
   {
-    "revision": "bd19ad60600a1537c00d3b4923a5e5de",
-    "url": "/my_portfolio/static/media/Roboto-MediumItalic.bd19ad60.ttf"
-  },
-  {
     "revision": "d1efcd4d126837fe0dcf9b6cf3a00d64",
     "url": "/my_portfolio/static/media/Roboto-LightItalic.d1efcd4d.ttf"
+  },
+  {
+    "revision": "bd19ad60600a1537c00d3b4923a5e5de",
+    "url": "/my_portfolio/static/media/Roboto-MediumItalic.bd19ad60.ttf"
   },
   {
     "revision": "80ca91f647162861c759f202803bbb93",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/my_portfolio/static/media/work.a1edc6c2.png"
   },
   {
-    "revision": "7af67f02a41471dd28e926c634784688",
+    "revision": "a0234304e2bdc8d6c35590d9740fb49e",
     "url": "/my_portfolio/index.html"
   }
 ];
