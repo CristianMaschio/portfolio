@@ -24,6 +24,9 @@ export default class Footer extends PureComponent {
               https://github.com/CristianMaschio
             </a>
           </li>
+          <li>
+          I authorize the processing of my personal data pursuant to Legislative Decree 196/03 and the General Data Protection Regulation (EU / 2016/679).
+          </li>
         </ul>
       </footer>
     )
