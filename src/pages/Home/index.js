@@ -11,7 +11,7 @@ class Home extends PureComponent {
       <div className="home">
         <div className="intro">
           <h1>Cristian Maschio</h1>
-          <h2>Software Developer</h2>
+          <h2>{"{Software Developer}"}</h2>
         </div>
         <Menu />
         <div className="paragraphs">
