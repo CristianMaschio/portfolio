@@ -15,7 +15,7 @@
           }
         },
         {
-          "date": "01/10/2018 - 03/03/2019",
+          "date": "10/01/2018 - 03/03/2019",
           "title": "Stage - Full Stack Developer",
           "description": "Worked principally with React-Native, ReactJS and AWS. And worked in small tasks with Swift.",
           "detail": {
@@ -83,7 +83,25 @@
       "image": "experiences.png",
       "sections": [
         {
-          "date": "26/05/2018",
+          "date": "03/21/2019",
+          "title": "Partecipated {Codemotion} Rome",
+          "description": "Codemotion is the biggest tech conference in Italy and one of the most important in Europe.",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
+        },
+        {
+          "date": "11/29/2018",
+          "title": "Partecipated {Codemotion} Milan",
+          "description": "Codemotion is the biggest tech conference in Italy and one of the most important in Europe.",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
+        },
+        {
+          "date": "05/26/2018",
           "title": "Hackathon",
           "description": "First prize winning with a web application developed with the use of the <b>React</b> library and the <b>Google Maps API.</b>",
           "detail": {
