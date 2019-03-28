@@ -31,7 +31,7 @@
       "image": "education.png",
       "sections": [
         {
-          "date": "2015 - 2019",
+          "date": "2015 - Today",
           "title": "University of Padua - Data Science",
           "description": "I am currently a student and i miss the last 3 exams.",
           "detail": {
@@ -51,7 +51,6 @@
       ],
       "more": []
     },
-
     {
       "id": "passions",
       "title": "Passions",
@@ -84,8 +83,8 @@
       "sections": [
         {
           "date": "03/21/2019",
-          "title": "Partecipated {Codemotion} Rome",
-          "description": "Codemotion is the biggest tech conference in Italy and one of the most important in Europe.",
+          "title": "{Codemotion} Rome",
+          "description": "(Partecipated) Codemotion is the biggest tech conference in Italy and one of the most important in Europe.",
           "detail": {
             "image": "",
             "description": ""
@@ -93,8 +92,8 @@
         },
         {
           "date": "11/29/2018",
-          "title": "Partecipated {Codemotion} Milan",
-          "description": "Codemotion is the biggest tech conference in Italy and one of the most important in Europe.",
+          "title": "{Codemotion} Milan",
+          "description": "(Partecipated) Codemotion is the biggest tech conference in Italy and one of the most important in Europe.",
           "detail": {
             "image": "",
             "description": ""
@@ -122,6 +121,35 @@
           "date": "2018",
           "title": "University project",
           "description": "Realization of a project on voluntary request for the <b>Mobile Programming and Multimedia course</b>, which allowed me to create a mobile application developed with the <b>React Native</b> framework.",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
+        }
+      ],
+      "more": [
+        {
+          "date": "11/24/2018",
+          "title": "DevFest Veneto - GDG Venice",
+          "description": "I partecipated to the DevFest organized by Google Developers Group Venice.",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
+        },
+        {
+          "date": "2018 - Today",
+          "title": "Coding Gym - Programmers in Padua",
+          "description": "I partecipated to some \"4-5\" Coding Gym. Coding Gym is an international format of programming laboratories open to any language and developed for continuous improvement.",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
+        },
+        {
+          "date": "2018 - Today",
+          "title": "Talks - Programmers in Padua",
+          "description": "I partecipated to some talks. Programmers in Padua is a little community, who work and passionate about programming, new technologies and startups. We meet once a month in an open and informal environment, where the participants propose themselves for the talks.",
           "detail": {
             "image": "",
             "description": ""
