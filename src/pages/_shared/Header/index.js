@@ -82,6 +82,11 @@ export class Header extends PureComponent {
               </div>
             </div>
           </div>
+          <div className="eu-regolation">
+            I authorize the processing of my personal data pursuant to
+            Legislative Decree 196/03 and the General Data Protection Regulation
+            (EU / 2016/679).
+          </div>
         </div>
       </header>
     )

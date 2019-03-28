@@ -4,35 +4,60 @@ import "./Paragraph.scss"
 export default class Paragraph extends PureComponent {
   state = {
     isLeft: undefined,
-    moreContent: false
+    moreContent: false,
+    sectionsElements: undefined
   }
 
   componentDidMount() {
-    this.setState({ isLeft: this.props.index % 2 === 0 })
+    const { sections } = this.props
+
+    //Create only one time all the sections
+    const sectionsElements = this.getSectionElements(sections)
+
+    this.setState({ isLeft: this.props.index % 2 === 0, sectionsElements })
   }
 
   //----------Functions-----------
+
+  //this fuction create all section components.
+  getSectionElements(sections) {
+    return sections.map((section, index) => {
+      return (
+        <div className="sectionContainer" key={index}>
+          <p className="sectionContent date">{section.date}</p>
+          <div className="sectionContent description">
+            <h3>{section.title} </h3>
+            <div dangerouslySetInnerHTML={{ __html: section.description }} />
+          </div>
+        </div>
+      )
+    })
+  }
+
+  //--------Render-Functions-------
+
   renderMoreContent = () => {
     const { moreSections } = this.props
+    const { moreContent } = this.state
     return (
-      <div className="sectionsContainer">
-        {moreSections.map((section, index) => {
-          return (
-            <div className="sectionContainer" key={index}>
-              <p className="sectionContent date">{section.date}</p>
-              <p className="sectionContent description">
-                {section.description}
-              </p>
-            </div>
-          )
-        })}
+      <div
+        className={
+          moreContent
+            ? "more-container more-container-visible"
+            : "more-container"
+        }
+      >
+        <div className="rightLine" />
+        <div className="sectionsContainer">
+          {moreContent && this.getSectionElements(moreSections)}
+        </div>
       </div>
     )
   }
 
   renderParagraphContent = () => {
-    const { title, image, sections } = this.props
-    const { isLeft, moreContent } = this.state
+    const { title, image } = this.props
+    const { isLeft, sectionsElements } = this.state
 
     return (
       <div className="paragraph">
@@ -62,36 +87,18 @@ export default class Paragraph extends PureComponent {
               : "paragraphContainer rightParagraph"
           }
         >
-          <div className="sectionsContainer">
-            {sections.map((section, index) => {
-              return (
-                <div className="sectionContainer" key={index}>
-                  <p className="sectionContent date">{section.date}</p>
-                  <div className="sectionContent description">
-                    <h3>{section.title} </h3>
-                    <div
-                      dangerouslySetInnerHTML={{ __html: section.description }}
-                    />
-                  </div>
-                </div>
-              )
-            })}
-          </div>
+          <div className="sectionsContainer">{sectionsElements}</div>
         </div>
-        {moreContent && this.renderMoreContent()}
+        {this.renderMoreContent()}
       </div>
     )
   }
 
-  //------------Render--------------
-
-  render() {
-    const { id, moreSections } = this.props
-    const { isLeft, moreContent } = this.state
+  renderMoreLessButton = () => {
+    const { moreSections } = this.props
+    const { moreContent } = this.state
     return (
-      <div id={id} style={{ paddingTop: "3rem" }}>
-        <div className={isLeft ? "leftLine" : "rightLine"} />
-        {this.renderParagraphContent()}
+      <>
         {moreSections && moreSections.length >= 1 ? (
           <p
             className="more-paragraph"
@@ -102,6 +109,20 @@ export default class Paragraph extends PureComponent {
         ) : (
           ""
         )}
+      </>
+    )
+  }
+
+  //------------Render--------------
+
+  render() {
+    const { id } = this.props
+    const { isLeft } = this.state
+    return (
+      <div id={id} style={{ paddingTop: "3rem" }}>
+        <div className={isLeft ? "leftLine" : "rightLine"} />
+        {this.renderParagraphContent()}
+        {this.renderMoreLessButton()}
       </div>
     )
   }
