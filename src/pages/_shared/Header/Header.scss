@@ -2,14 +2,8 @@
 
 .open-header {
   margin-left: 0px;
-  height: 100vh;
-  border-radius: 0;
+  height: auto;
   opacity: 100;
-  .header-information {
-    @media screen and (max-width: $mobile-max-width) {
-      border-radius: 0;
-    }
-  }
 }
 
 header {
@@ -22,15 +16,16 @@ header {
   border-right-color: white;
   background-color: #3b62b1;
   @media screen and (max-width: $mobile-max-width) {
-    position: sticky;
+    position: fixed;
     top: 0;
     opacity: 0;
     width: 100vw;
+    max-height: 100vh;
     height: 0;
     z-index: 10;
     margin-left: -100vw;
-    transition: all 0.3s;
-    border-radius: 100vw;
+    transition: all 0.4s;
+    overflow-y: scroll;
   }
 
   .header-blue {
@@ -49,7 +44,6 @@ header {
     background-color: #313131;
     @media screen and (max-width: $mobile-max-width) {
       max-width: 18rem;
-      border-radius: 100vw;
     }
   }
 
@@ -125,6 +119,7 @@ header {
     font-size: 10px;
     margin-right: 10%;
     margin-left: 10%;
+    padding-bottom: 1rem;
   }
 }
 
