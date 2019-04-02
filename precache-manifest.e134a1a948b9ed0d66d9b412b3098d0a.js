@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "42bbe4eefcde1297b11dc4b6491e9746",
-    "url": "/my_portfolio/static/media/Roboto-Italic.42bbe4ee.ttf"
+    "revision": "1eb7a893589ddce89d81cdb22a356660",
+    "url": "/my_portfolio/static/media/Roboto-BoldItalic.1eb7a893.ttf"
   },
   {
-    "revision": "5def21c805abe25df2ea",
-    "url": "/my_portfolio/static/css/main.07828dd9.chunk.css"
+    "revision": "b7fae624307c32d52aa4",
+    "url": "/my_portfolio/static/css/main.c64f0a8f.chunk.css"
   },
   {
-    "revision": "e81c8be92e7c161b18df",
-    "url": "/my_portfolio/static/js/1.e81c8be9.chunk.js"
+    "revision": "f4e0835a9f15902d0882",
+    "url": "/my_portfolio/static/js/runtime~main.bc1dbe82.js"
   },
   {
-    "revision": "dcf3931afee046ce6d05",
-    "url": "/my_portfolio/static/js/runtime~main.dcf3931a.js"
+    "revision": "83319c065304f55805ca",
+    "url": "/my_portfolio/static/js/2.4efacecc.chunk.js"
   },
   {
     "revision": "9194db0cf9735d0334f5c41de95688b4",
@@ -24,40 +24,40 @@ self.__precacheManifest = [
     "url": "/my_portfolio/static/media/Roboto-Bold.ee7b96fa.ttf"
   },
   {
-    "revision": "3e1af3ef546b9e6ecef9f3ba197bf7d2",
-    "url": "/my_portfolio/static/media/Roboto-Regular.3e1af3ef.ttf"
-  },
-  {
     "revision": "89e2666c24d37055bcb60e9d2d9f7e35",
     "url": "/my_portfolio/static/media/Roboto-Thin.89e2666c.ttf"
+  },
+  {
+    "revision": "3e1af3ef546b9e6ecef9f3ba197bf7d2",
+    "url": "/my_portfolio/static/media/Roboto-Regular.3e1af3ef.ttf"
   },
   {
     "revision": "fc84e998bc29b297ea20321e4c90b6ed",
     "url": "/my_portfolio/static/media/Roboto-Light.fc84e998.ttf"
   },
   {
-    "revision": "1eb7a893589ddce89d81cdb22a356660",
-    "url": "/my_portfolio/static/media/Roboto-BoldItalic.1eb7a893.ttf"
+    "revision": "42bbe4eefcde1297b11dc4b6491e9746",
+    "url": "/my_portfolio/static/media/Roboto-Italic.42bbe4ee.ttf"
   },
   {
-    "revision": "5def21c805abe25df2ea",
-    "url": "/my_portfolio/static/js/main.5def21c8.chunk.js"
-  },
-  {
-    "revision": "d08840599e05db7345652d3d417574a9",
-    "url": "/my_portfolio/static/media/Roboto-Medium.d0884059.ttf"
+    "revision": "b7fae624307c32d52aa4",
+    "url": "/my_portfolio/static/js/main.b7ef1b32.chunk.js"
   },
   {
     "revision": "0fc25386220a58203994ce45fb4ae570",
     "url": "/my_portfolio/static/media/Roboto-ThinItalic.0fc25386.ttf"
   },
   {
-    "revision": "d1efcd4d126837fe0dcf9b6cf3a00d64",
-    "url": "/my_portfolio/static/media/Roboto-LightItalic.d1efcd4d.ttf"
+    "revision": "d08840599e05db7345652d3d417574a9",
+    "url": "/my_portfolio/static/media/Roboto-Medium.d0884059.ttf"
   },
   {
     "revision": "bd19ad60600a1537c00d3b4923a5e5de",
     "url": "/my_portfolio/static/media/Roboto-MediumItalic.bd19ad60.ttf"
+  },
+  {
+    "revision": "d1efcd4d126837fe0dcf9b6cf3a00d64",
+    "url": "/my_portfolio/static/media/Roboto-LightItalic.d1efcd4d.ttf"
   },
   {
     "revision": "80ca91f647162861c759f202803bbb93",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/my_portfolio/static/media/work.a1edc6c2.png"
   },
   {
-    "revision": "21212b6a45cf2c671f7ff4ed2cdad4b2",
+    "revision": "15491779bd1248dcd639165eaac0a1b6",
     "url": "/my_portfolio/index.html"
   }
 ];
