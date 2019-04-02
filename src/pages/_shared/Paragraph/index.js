@@ -17,39 +17,49 @@ export default class Paragraph extends PureComponent {
     this.setState({ isLeft: this.props.index % 2 === 0, sectionsElements })
   }
 
+  moreContent = React.createRef()
+
   //----------Functions-----------
 
   //this fuction create all section components.
   getSectionElements(sections) {
-    return sections.map((section, index) => {
-      return (
-        <div className="sectionContainer" key={index}>
-          <p className="sectionContent date">{section.date}</p>
-          <div className="sectionContent description">
-            <h3>{section.title} </h3>
-            <div dangerouslySetInnerHTML={{ __html: section.description }} />
+    return (
+      sections &&
+      sections.map((section, index) => {
+        return (
+          <div className="sectionContainer" key={index}>
+            <p className="sectionContent date">{section.date}</p>
+            <div className="sectionContent description">
+              <h3>{section.title} </h3>
+              <div dangerouslySetInnerHTML={{ __html: section.description }} />
+            </div>
           </div>
-        </div>
-      )
-    })
+        )
+      })
+    )
+  }
+
+  handleMoreContent = () => {
+    const { moreContent } = this.state
+    if (!moreContent) {
+      this.moreContent.current.style.height =
+        this.moreContent.current.scrollHeight + "px"
+    } else {
+      this.moreContent.current.style.height = "0px"
+    }
+
+    this.setState({ moreContent: !moreContent })
   }
 
   //--------Render-Functions-------
 
   renderMoreContent = () => {
     const { moreSections } = this.props
-    const { moreContent } = this.state
     return (
-      <div
-        className={
-          moreContent
-            ? "more-container more-container-visible"
-            : "more-container"
-        }
-      >
+      <div ref={this.moreContent} className="more-container">
         <div className="rightLine" />
         <div className="sectionsContainer">
-          {moreContent && this.getSectionElements(moreSections)}
+          {this.getSectionElements(moreSections)}
         </div>
       </div>
     )
@@ -100,10 +110,7 @@ export default class Paragraph extends PureComponent {
     return (
       <>
         {moreSections && moreSections.length >= 1 ? (
-          <p
-            className="more-paragraph"
-            onClick={() => this.setState({ moreContent: !moreContent })}
-          >
+          <p className="more-paragraph" onClick={this.handleMoreContent}>
             {!moreContent ? "more" : "less"}
           </p>
         ) : (
