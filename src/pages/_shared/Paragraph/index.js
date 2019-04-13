@@ -18,10 +18,11 @@ export default class Paragraph extends PureComponent {
   }
 
   UNSAFE_componentWillReceiveProps(newProps) {
-    if(newProps.sections != this.state.sectionsElements){
-    const sectionsElements = this.getSectionElements(newProps.sections)
+    if (newProps.sections != this.state.sectionsElements) {
+      const sectionsElements = this.getSectionElements(newProps.sections)
 
-    this.setState({ sectionsElements })}
+      this.setState({ sectionsElements })
+    }
   }
 
   moreContent = React.createRef()
