@@ -17,6 +17,13 @@ export default class Paragraph extends PureComponent {
     this.setState({ isLeft: this.props.index % 2 === 0, sectionsElements })
   }
 
+  UNSAFE_componentWillReceiveProps(newProps) {
+    if(newProps.sections != this.state.sectionsElements){
+    const sectionsElements = this.getSectionElements(newProps.sections)
+
+    this.setState({ sectionsElements })}
+  }
+
   moreContent = React.createRef()
 
   //----------Functions-----------

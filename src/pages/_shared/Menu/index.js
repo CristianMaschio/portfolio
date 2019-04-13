@@ -5,6 +5,28 @@ import whiteInfo from "./whiteInfo.png"
 import AppState from "../../../gState/context"
 
 export class Menu extends PureComponent {
+  renderLanguageSelector() {
+    const { language, changeLanguage } = this.props.context
+    const isEn = language === "En"
+
+    return (
+      <div className="language-container">
+        <p
+          className={isEn ? "selected-language" : ""}
+          onClick={() => !isEn && changeLanguage("En")}
+        >
+          En
+        </p>
+        <p>-</p>
+        <p
+          className={!isEn ? "selected-language" : ""}
+          onClick={() => isEn && changeLanguage("It")}
+        >
+          It
+        </p>
+      </div>
+    )
+  }
   render() {
     const { setRenderInformation } = this.props.context
     return (
@@ -28,7 +50,8 @@ export class Menu extends PureComponent {
           <li>
             <a href="#personal-experiences">Personal experiences</a>
           </li>
-        </ul>
+        </ul>{" "}
+        {this.renderLanguageSelector()}
       </div>
     )
   }

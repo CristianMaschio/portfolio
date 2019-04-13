@@ -2,5 +2,7 @@ import React from "react"
 
 export default React.createContext({
   setRenderInformation: newLocale => {},
-  headerClass: ""
+  headerClass: "",
+  language: "En",
+  changeLanguage: newLocale => {}
 })

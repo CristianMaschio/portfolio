@@ -1,0 +1,152 @@
+{
+  "paragraphs": [
+    {
+      "id": "professional",
+      "title": "Esperienze professionali",
+      "image": "work.png",
+      "sections": [
+        {
+          "date": "01/10/2018 - 02/04/2019",
+          "title": "Full Stack Developer",
+          "description": "In questo periodo ho lavorato principalmente con le seguenti tecnologie React-Native, ReactJS e con i servizi AWS. Ed ho realizzato piccoli task utilizzando Swift.",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "title": "Formazione",
+      "image": "education.png",
+      "sections": [
+        {
+          "date": "2015 - Today",
+          "title": "Università di Padova - Infomatica",
+          "description": "Attualmente mi mancano ancora gli ultimi 3 esami.",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
+        },
+        {
+          "date": "2008 - 2015",
+          "title": "Servizi commerciali",
+          "description": "Istituto professionale dei servizi commerciali Carlo Rosselli, Castelfranco Veneto (Italy).",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
+        }
+      ],
+      "more": []
+    },
+    {
+      "id": "passions",
+      "title": "Passioni",
+      "image": "passions.png",
+      "sections": [
+        {
+          "date": "-",
+          "title": "Programmare",
+          "description": "Mi piace programmare, creando codice pulito e performante. Mi piace lavorare con tecnologie innovative, principalmente con tecnologie web e mobile. Attualmente sono preso da React e React-Native.",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
+        },
+        {
+          "date": "-",
+          "title": "Orto e acquari",
+          "description": "Queste due mie passioni mi permettono di sporcarmi le mani, liberarmi la mente e apprezzare ciò che ha da offrirci la natura.",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "personal-experiences",
+      "title": "Esperienze personali",
+      "image": "experiences.png",
+      "sections": [
+        {
+          "date": "21/03/2019",
+          "title": "{Codemotion} Roma",
+          "description": "(Presente) Codemotion è la più grande conferenza tecnologica in Italia e una delle più importanti in Europa.",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
+        },
+        {
+          "date": "29/11/2018",
+          "title": "{Codemotion} Milan",
+          "description": "(Presente) Codemotion è la più grande conferenza tecnologica in Italia e una delle più importanti in Europa.",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
+        },
+        {
+          "date": "26/05/2018",
+          "title": "Hackathon",
+          "description": "Vinto il primo premi all'hackathon di Castelfranco Veneto grazie alla realizzazione di un applicazione web grazie l'utilizzo della libreria <b>React</b> e le <b>Google Maps API.</b>",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
+        },
+        {
+          "date": "2018",
+          "title": "Progetto universitario",
+          "description": "Realizzazione di un applicazione web utilizzando le seguenti tecnologie <b>NodeJS, MongoDB and ReactJS.</b> In questo progetto ho lavorato principalmente nel lato front-end utilizzando la libreria di React.",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
+        },
+        {
+          "date": "2018",
+          "title": "Progetto universitario",
+          "description": "Realizzazione di un progetto universitario su mia libera scelta nel corso di <b>Mobile Programming and Multimedia</b>, il quale mi ha permesso di sviluppare un app con l'utilizzo di <b>React Native</b>.",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
+        }
+      ],
+      "more": [
+        {
+          "date": "24/11/2018",
+          "title": "DevFest Veneto - GDG Venezia",
+          "description": "Ho partecipato al DevFest realizzato da Google Developers Group Venice.",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
+        },
+        {
+          "date": "2018 - Today",
+          "title": "Coding Gym - Programmers in Padua",
+          "description": "Ho partecipato ad alcuni \"4-5\" Coding Gym. Coding Gym è un format internazionale di programmazione il quale serve per migliorarsi e coltivare le proprie passioni.",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
+        },
+        {
+          "date": "2018 - Today",
+          "title": "Talks - Programmers in Padua",
+          "description": "Ho partecipato ad alcuni talks. Programmers in Padua è una piccola comunità di programmatori, che lavorano e sono appasionati alla programmazione. Ci incontriamo una volta al mese in un ambiente aperto e informale, dove sono i parteciparti a proporsi per i talk.",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
+        }
+      ]
+    }
+  ]
+}
