@@ -29,7 +29,7 @@ header {
   }
 
   .header-blue {
-    width: 1em;
+    width: 0.5em;
     background-color: #3b62b1;
     height: 100%;
     @media screen and (max-width: $mobile-max-width) {
@@ -47,38 +47,34 @@ header {
     }
   }
 
-  .menuContainer {
+  .menu-container {
     color: white;
     margin-top: 1rem;
+    h2 {
+      margin: 0.8rem;
+      margin-left: 1rem;
+      font-weight: 500;
+    }
   }
 
-  .menuContainer h2 {
-    margin: 0.8rem;
+  .menu-content {
     margin-left: 1rem;
-    font-weight: 500;
-  }
-
-  .menuContent {
-    margin-left: 1rem;
-  }
-
-  .menuContentContainer {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .menuContentContainer p {
-    color: white;
-    flex: 1;
-    margin: 0.5rem;
-    margin-left: 1rem;
-  }
-
-  .menuContent a {
-    color: white;
-    margin: 1rem;
-    font-size: 1.5rem;
-    flex: 1;
+    a {
+      color: white;
+      margin: 1rem;
+      font-size: 1.5rem;
+      flex: 1;
+    }
+    .container {
+      display: flex;
+      flex-direction: row;
+      p {
+        color: white;
+        flex: 1;
+        margin: 0.5rem;
+        margin-left: 1rem;
+      }
+    }
   }
 
   .line {

@@ -3,7 +3,6 @@ import React, { useContext } from "react"
 import Icon from "antd/lib/icon"
 
 import ImageProfile from "../ImageProfile"
-
 import AppState from "../../../gState/context"
 
 function HeaderContent(props) {
@@ -11,9 +10,9 @@ function HeaderContent(props) {
     <div>
       {props.personalData.map(content => {
         return (
-          <div key={content.key} className="menuContent">
+          <div key={content.key} className="menu-content">
             <div className="line" />
-            <div className="menuContentContainer">
+            <div className="container">
               <p>{content.key}:</p>
               <p>{content.text}</p>
             </div>
@@ -26,9 +25,9 @@ function HeaderContent(props) {
 
 function HeaderContacts() {
   return (
-    <div className="menuContent">
+    <div className="menu-content">
       <div className="line" />
-      <div className="menuContentContainer">
+      <div className="container">
         <a href="tel:345-273-6368" target="_blank" rel="noopener noreferrer">
           <Icon type="phone" />
         </a>
@@ -68,12 +67,12 @@ export default function Header() {
       <div className="header-blue" />
       <div className="header-information">
         <ImageProfile size={200} />
-        <div className="menuContainer">
+        <div className="menu-container">
           <div className="line" />
           <h2>{headerContent.header.personal}</h2>
           <HeaderContent personalData={headerContent.header.personalData} />
         </div>
-        <div className="menuContainer">
+        <div className="menu-container">
           <div className="line" />
           <h2>{headerContent.header.contacts}</h2>
           <HeaderContacts />
