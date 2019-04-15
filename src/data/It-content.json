@@ -1,0 +1,19 @@
+{
+  "header": {
+    "personal": "Dati personali",
+    "contacts": "Contatti",
+    "personalData": [
+      { "key": "Nome", "text": "Cristian" },
+      { "key": "Cognome", "text": "Maschio" },
+      { "key": "Nato il", "text": "31/05/1994" },
+      { "key": "Nazionalità", "text": "Italiana" }
+    ]
+  },
+  "menu": {
+    "professional": "E. Professionali",
+    "education": "Formazione",
+    "passions": "Passioni",
+    "experiences": "E. Personali"
+  },
+  "privacyTerms": "Autorizzo il trattamento dei miei dati personali ai sensi del D.Lgs. 196/03 e del Regolamento Generale sulla Protezione dei Dati (UE/2016/679)."
+}

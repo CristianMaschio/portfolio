@@ -28,7 +28,8 @@ export class Menu extends PureComponent {
     )
   }
   render() {
-    const { setRenderInformation } = this.props.context
+    const { setRenderInformation, language } = this.props.context
+    const menuLink = require(`../../../data/${language}-content.json`).menu
     return (
       <div className="menu">
         <img
@@ -39,16 +40,16 @@ export class Menu extends PureComponent {
         <p onClick={setRenderInformation}>Cristian Maschio</p>
         <ul>
           <li>
-            <a href="#professional">Professional</a>
+            <a href="#professional">{menuLink.professional} </a>
           </li>
           <li>
-            <a href="#education">Education</a>
+            <a href="#education">{menuLink.education}</a>
           </li>
           <li>
-            <a href="#passions">Passions</a>
+            <a href="#passions">{menuLink.passions}</a>
           </li>
           <li>
-            <a href="#personal-experiences">Personal experiences</a>
+            <a href="#personal-experiences">{menuLink.experiences}</a>
           </li>
         </ul>{" "}
         {this.renderLanguageSelector()}

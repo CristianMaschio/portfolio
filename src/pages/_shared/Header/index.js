@@ -6,17 +6,10 @@ import ImageProfile from "../ImageProfile"
 
 import AppState from "../../../gState/context"
 
-const personalData = [
-  { key: "Name", text: "Cristian" },
-  { key: "Surname", text: "Maschio" },
-  { key: "Birthday", text: "05/31/1994" },
-  { key: "Nationality", text: "Italy" }
-]
-
-function HeaderContent() {
+function HeaderContent(props) {
   return (
     <div>
-      {personalData.map(content => {
+      {props.personalData.map(content => {
         return (
           <div key={content.key} className="menuContent">
             <div className="line" />
@@ -66,7 +59,8 @@ function HeaderContacts() {
 }
 
 export default function Header() {
-  const { headerClass, setRenderInformation } = useContext(AppState)
+  const { headerClass, setRenderInformation, language } = useContext(AppState)
+  const headerContent = require(`../../../data/${language}-content.json`)
 
   return (
     <header className={headerClass}>
@@ -76,19 +70,15 @@ export default function Header() {
         <ImageProfile size={200} />
         <div className="menuContainer">
           <div className="line" />
-          <h2>Personal</h2>
-          <HeaderContent />
+          <h2>{headerContent.header.personal}</h2>
+          <HeaderContent personalData={headerContent.header.personalData} />
         </div>
         <div className="menuContainer">
           <div className="line" />
-          <h2>Contacts</h2>
+          <h2>{headerContent.header.contacts}</h2>
           <HeaderContacts />
         </div>
-        <div className="eu-regolation">
-          I authorize the processing of my personal data pursuant to Legislative
-          Decree 196/03 and the General Data Protection Regulation (EU /
-          2016/679).
-        </div>
+        <div className="eu-regolation">{headerContent.privacyTerms}</div>
       </div>
     </header>
   )

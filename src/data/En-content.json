@@ -1,0 +1,19 @@
+{
+  "header": {
+    "personal": "Personal",
+    "contacts": "Contacts",
+    "personalData": [
+      { "key": "Name", "text": "Cristian" },
+      { "key": "Surname", "text": "Maschio" },
+      { "key": "Birthday", "text": "05/31/1994" },
+      { "key": "Nationality", "text": "Italy" }
+    ]
+  },
+  "menu": {
+    "professional": "Professional",
+    "education": "Education",
+    "passions": "Passions",
+    "experiences": "Experiences"
+  },
+  "privacyTerms": "I authorize the processing of my personal data pursuant to Legislative Decree 196/03 and the General Data Protection Regulation (EU / 2016/679)."
+}
