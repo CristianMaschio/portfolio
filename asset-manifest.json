@@ -1,5 +1,5 @@
 {
-  "main.css": "/my_portfolio/static/css/main.0a4fb3a7.chunk.css",
+  "main.css": "/my_portfolio/static/css/main.704649fa.chunk.css",
   "main.js": "/my_portfolio/static/js/main.0f680e4b.chunk.js",
   "main.js.map": "/my_portfolio/static/js/main.0f680e4b.chunk.js.map",
   "runtime~main.js": "/my_portfolio/static/js/runtime~main.bc1dbe82.js",
@@ -7,9 +7,9 @@
   "static/js/2.033f542e.chunk.js": "/my_portfolio/static/js/2.033f542e.chunk.js",
   "static/js/2.033f542e.chunk.js.map": "/my_portfolio/static/js/2.033f542e.chunk.js.map",
   "index.html": "/my_portfolio/index.html",
-  "precache-manifest.fa4048a2df50700ce621e0b63d921034.js": "/my_portfolio/precache-manifest.fa4048a2df50700ce621e0b63d921034.js",
+  "precache-manifest.e188af35be6c0bd30d4ce30c66f0e588.js": "/my_portfolio/precache-manifest.e188af35be6c0bd30d4ce30c66f0e588.js",
   "service-worker.js": "/my_portfolio/service-worker.js",
-  "static/css/main.0a4fb3a7.chunk.css.map": "/my_portfolio/static/css/main.0a4fb3a7.chunk.css.map",
+  "static/css/main.704649fa.chunk.css.map": "/my_portfolio/static/css/main.704649fa.chunk.css.map",
   "static/media/roboto.css": "/my_portfolio/static/media/Roboto-ThinItalic.0fc25386.ttf",
   "static/media/education.png": "/my_portfolio/static/media/education.6fd6dae4.png",
   "static/media/experiences.png": "/my_portfolio/static/media/experiences.fecea210.png",
