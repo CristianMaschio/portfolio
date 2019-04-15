@@ -10,9 +10,9 @@ function HeaderContent(props) {
     <div>
       {props.personalData.map(content => {
         return (
-          <div key={content.key} className="menu-content">
+          <div key={content.key} className="header-content">
             <div className="line" />
-            <div className="container">
+            <div className="row-content">
               <p>{content.key}:</p>
               <p>{content.text}</p>
             </div>
@@ -25,9 +25,9 @@ function HeaderContent(props) {
 
 function HeaderContacts() {
   return (
-    <div className="menu-content">
+    <div className="header-content">
       <div className="line" />
-      <div className="container">
+      <div className="row-content">
         <a href="tel:345-273-6368" target="_blank" rel="noopener noreferrer">
           <Icon type="phone" />
         </a>
@@ -67,12 +67,12 @@ export default function Header() {
       <div className="header-blue" />
       <div className="header-information">
         <ImageProfile size={200} />
-        <div className="menu-container">
+        <div className="header-container">
           <div className="line" />
           <h2>{headerContent.header.personal}</h2>
           <HeaderContent personalData={headerContent.header.personalData} />
         </div>
-        <div className="menu-container">
+        <div className="header-container">
           <div className="line" />
           <h2>{headerContent.header.contacts}</h2>
           <HeaderContacts />

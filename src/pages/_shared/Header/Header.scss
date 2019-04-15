@@ -47,7 +47,7 @@ header {
     }
   }
 
-  .menu-container {
+  .header-container {
     color: white;
     margin-top: 1rem;
     h2 {
@@ -57,7 +57,7 @@ header {
     }
   }
 
-  .menu-content {
+  .header-content {
     margin-left: 1rem;
     a {
       color: white;
@@ -65,7 +65,7 @@ header {
       font-size: 1.5rem;
       flex: 1;
     }
-    .container {
+    .row-content {
       display: flex;
       flex-direction: row;
       p {
