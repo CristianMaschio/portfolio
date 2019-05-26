@@ -6,8 +6,17 @@
       "image": "work.png",
       "sections": [
         {
-          "date": "10/01/2018 - 04/02/2019",
-          "title": "Full Stack Developer",
+          "date": "05/2019 - Today",
+          "title": "GestionaleAuto.com - Font End Developer",
+          "description": "Worked with Javascript, React, Redux, Redux-Form, Redux-Saga.",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
+        },
+        {
+          "date": "10/2018 - 04/2019",
+          "title": "Discontinuity - Full Stack Developer",
           "description": "Worked principally with React-Native, ReactJS and AWS. And worked in small tasks with Swift.",
           "detail": {
             "image": "",

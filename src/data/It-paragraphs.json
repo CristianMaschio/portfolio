@@ -6,8 +6,17 @@
       "image": "work.png",
       "sections": [
         {
-          "date": "01/10/2018 - 02/04/2019",
-          "title": "Full Stack Developer",
+          "date": "05/2019 - Oggi",
+          "title": "GestionaleAuto.com - Font End Developer",
+          "description": "Tecnologie utilizzate: Javascript, React, Redux, Redux-Form, Redux-Saga.",
+          "detail": {
+            "image": "",
+            "description": ""
+          }
+        },
+        {
+          "date": "10/2018 - 04/2019",
+          "title": "Discontinuity - Full Stack Developer",
           "description": "In questo periodo ho lavorato principalmente con le seguenti tecnologie React-Native, ReactJS e con i servizi AWS. Ed ho realizzato piccoli task utilizzando Swift.",
           "detail": {
             "image": "",
