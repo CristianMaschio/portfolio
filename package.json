@@ -1,10 +1,10 @@
 {
-  "name": "my_portfolio",
-  "homepage": "https://cristianmaschio.github.io/my_portfolio/",
+  "name": "portfolio",
+  "homepage": "https://cristianmaschio.github.io/portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "antd": "^3.11.6",
+    "antd": "^3.19.3",
     "node-sass": "^4.11.0",
     "prop-types": "^15.6.2",
     "react": "^16.6.0",
