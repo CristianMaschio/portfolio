@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "d1efcd4d126837fe0dcf9b6cf3a00d64",
-    "url": "/my_portfolio/static/media/Roboto-LightItalic.d1efcd4d.ttf"
+    "revision": "1eb7a893589ddce89d81cdb22a356660",
+    "url": "/my_portfolio/static/media/Roboto-BoldItalic.1eb7a893.ttf"
   },
   {
     "revision": "ad319540506b01976784",
@@ -24,10 +24,6 @@ self.__precacheManifest = [
     "url": "/my_portfolio/static/media/Roboto-Regular.3e1af3ef.ttf"
   },
   {
-    "revision": "89e2666c24d37055bcb60e9d2d9f7e35",
-    "url": "/my_portfolio/static/media/Roboto-Thin.89e2666c.ttf"
-  },
-  {
     "revision": "fc84e998bc29b297ea20321e4c90b6ed",
     "url": "/my_portfolio/static/media/Roboto-Light.fc84e998.ttf"
   },
@@ -36,16 +32,24 @@ self.__precacheManifest = [
     "url": "/my_portfolio/static/media/Roboto-Bold.ee7b96fa.ttf"
   },
   {
-    "revision": "42bbe4eefcde1297b11dc4b6491e9746",
-    "url": "/my_portfolio/static/media/Roboto-Italic.42bbe4ee.ttf"
+    "revision": "89e2666c24d37055bcb60e9d2d9f7e35",
+    "url": "/my_portfolio/static/media/Roboto-Thin.89e2666c.ttf"
+  },
+  {
+    "revision": "d1efcd4d126837fe0dcf9b6cf3a00d64",
+    "url": "/my_portfolio/static/media/Roboto-LightItalic.d1efcd4d.ttf"
   },
   {
     "revision": "ad319540506b01976784",
     "url": "/my_portfolio/static/js/main.3ebb1cab.chunk.js"
   },
   {
-    "revision": "1eb7a893589ddce89d81cdb22a356660",
-    "url": "/my_portfolio/static/media/Roboto-BoldItalic.1eb7a893.ttf"
+    "revision": "42bbe4eefcde1297b11dc4b6491e9746",
+    "url": "/my_portfolio/static/media/Roboto-Italic.42bbe4ee.ttf"
+  },
+  {
+    "revision": "0fc25386220a58203994ce45fb4ae570",
+    "url": "/my_portfolio/static/media/Roboto-ThinItalic.0fc25386.ttf"
   },
   {
     "revision": "bd19ad60600a1537c00d3b4923a5e5de",
@@ -54,10 +58,6 @@ self.__precacheManifest = [
   {
     "revision": "d08840599e05db7345652d3d417574a9",
     "url": "/my_portfolio/static/media/Roboto-Medium.d0884059.ttf"
-  },
-  {
-    "revision": "0fc25386220a58203994ce45fb4ae570",
-    "url": "/my_portfolio/static/media/Roboto-ThinItalic.0fc25386.ttf"
   },
   {
     "revision": "80ca91f647162861c759f202803bbb93",
