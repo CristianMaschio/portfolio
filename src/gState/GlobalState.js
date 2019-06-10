@@ -13,9 +13,13 @@ export default class GlobalState extends Component {
   }
 
   setRenderInformation = (value = true) => {
-    this.setState({
-      headerClass: value ? "open-header" : ""
-    })
+    if (value) {
+      document.body.classList.add("noScroll")
+      this.setState({ headerClass: "open-header" })
+    } else {
+      document.body.classList.remove("noScroll")
+      this.setState({ headerClass: "" })
+    }
   }
 
   changeLanguage = (value = "En") => {
