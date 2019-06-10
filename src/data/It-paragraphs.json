@@ -7,7 +7,7 @@
       "sections": [
         {
           "date": "05/2019 - Oggi",
-          "title": "GestionaleAuto.com - Font End Developer",
+          "title": "GestionaleAuto.com - Font-End Developer",
           "description": "Tecnologie utilizzate: Javascript, React, Redux, Redux-Form, Redux-Saga.",
           "detail": {
             "image": "",
@@ -16,7 +16,7 @@
         },
         {
           "date": "10/2018 - 04/2019",
-          "title": "Discontinuity - Full Stack Developer",
+          "title": "Discontinuity - Full-Stack Developer",
           "description": "In questo periodo ho lavorato principalmente con le seguenti tecnologie React-Native, ReactJS e con i servizi AWS. Ed ho realizzato piccoli task utilizzando Swift.",
           "detail": {
             "image": "",
@@ -82,17 +82,8 @@
       "image": "experiences.png",
       "sections": [
         {
-          "date": "21/03/2019",
-          "title": "{Codemotion} Roma",
-          "description": "(Presente) Codemotion è la più grande conferenza tecnologica in Italia e una delle più importanti in Europa.",
-          "detail": {
-            "image": "",
-            "description": ""
-          }
-        },
-        {
-          "date": "29/11/2018",
-          "title": "{Codemotion} Milan",
+          "date": "21/03/2019 & 29/11/2018",
+          "title": "{Codemotion} Roma & {Codemotion} Milan",
           "description": "(Presente) Codemotion è la più grande conferenza tecnologica in Italia e una delle più importanti in Europa.",
           "detail": {
             "image": "",
@@ -125,9 +116,7 @@
             "image": "",
             "description": ""
           }
-        }
-      ],
-      "more": [
+        },
         {
           "date": "24/11/2018",
           "title": "DevFest Veneto - GDG Venezia",
@@ -136,7 +125,9 @@
             "image": "",
             "description": ""
           }
-        },
+        }
+      ],
+      "more": [
         {
           "date": "2018 - Today",
           "title": "Coding Gym - Programmers in Padua",

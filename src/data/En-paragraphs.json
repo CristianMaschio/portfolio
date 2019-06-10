@@ -6,8 +6,8 @@
       "image": "work.png",
       "sections": [
         {
-          "date": "05/2019 - Today",
-          "title": "GestionaleAuto.com - Font End Developer",
+          "date": "05/2019 - Current",
+          "title": "GestionaleAuto.com - Font-End Developer",
           "description": "Worked with Javascript, React, Redux, Redux-Form, Redux-Saga.",
           "detail": {
             "image": "",
@@ -16,7 +16,7 @@
         },
         {
           "date": "10/2018 - 04/2019",
-          "title": "Discontinuity - Full Stack Developer",
+          "title": "Discontinuity - Full-Stack Developer",
           "description": "Worked principally with React-Native, ReactJS and AWS. And worked in small tasks with Swift.",
           "detail": {
             "image": "",
@@ -31,9 +31,9 @@
       "image": "education.png",
       "sections": [
         {
-          "date": "2015 - Today",
+          "date": "2015 - Current",
           "title": "University of Padua - Data Science",
-          "description": "I am currently a student and i miss the last 3 exams.",
+          "description": "I hope to finish in September.",
           "detail": {
             "image": "",
             "description": ""
@@ -41,8 +41,8 @@
         },
         {
           "date": "2008 - 2015",
-          "title": "Commercial services",
-          "description": "Commercial vocational institute Carlo Rosselli, Castelfranco Veneto (Italy).",
+          "title": "Accountant",
+          "description": "Accountant institute Carlo Rosselli, Castelfranco Veneto (Italy).",
           "detail": {
             "image": "",
             "description": ""
@@ -59,7 +59,7 @@
         {
           "date": "-",
           "title": "Programming",
-          "description": "I love programming, thinking and using my mind to create more and more magic, clean and especially performed code. I like working with innovative technologies, mainly with web and mobile application. Currently i use a lot React and React-Native.",
+          "description": "I love programming, thinking and using my mind to create more and more clean and especially performed code. I like working with innovative technologies, mainly with web and mobile application. Currently I use a lot React and React-Native.",
           "detail": {
             "image": "",
             "description": ""
@@ -67,8 +67,8 @@
         },
         {
           "date": "-",
-          "title": "Vegetable garden and aquariums",
-          "description": "These two passions of mine allow me to get my hands dirty, free my mind and appreciate how much nature can give us.",
+          "title": "Vegetable garden",
+          "description": "These passion allow me to get my hands dirty, free my mind and appreciate how much nature can give us.",
           "detail": {
             "image": "",
             "description": ""
@@ -82,18 +82,9 @@
       "image": "experiences.png",
       "sections": [
         {
-          "date": "03/21/2019",
-          "title": "{Codemotion} Rome",
-          "description": "(Partecipated) Codemotion is the biggest tech conference in Italy and one of the most important in Europe.",
-          "detail": {
-            "image": "",
-            "description": ""
-          }
-        },
-        {
-          "date": "11/29/2018",
-          "title": "{Codemotion} Milan",
-          "description": "(Partecipated) Codemotion is the biggest tech conference in Italy and one of the most important in Europe.",
+          "date": "03/21/2019 & 11/29/2018",
+          "title": "{Codemotion} Rome & {Codemotion} Milan",
+          "description": "(Participated) Codemotion is the biggest tech conference in Italy and one of the most important in Europe.",
           "detail": {
             "image": "",
             "description": ""
@@ -125,9 +116,7 @@
             "image": "",
             "description": ""
           }
-        }
-      ],
-      "more": [
+        },
         {
           "date": "11/24/2018",
           "title": "DevFest Veneto - GDG Venice",
@@ -136,9 +125,11 @@
             "image": "",
             "description": ""
           }
-        },
+        }
+      ],
+      "more": [
         {
-          "date": "2018 - Today",
+          "date": "2018 - Current",
           "title": "Coding Gym - Programmers in Padua",
           "description": "I partecipated to some \"4-5\" Coding Gym. Coding Gym is an international format of programming laboratories open to any language and developed for continuous improvement.",
           "detail": {
@@ -147,7 +138,7 @@
           }
         },
         {
-          "date": "2018 - Today",
+          "date": "2018 - Current",
           "title": "Talks - Programmers in Padua",
           "description": "I partecipated to some talks. Programmers in Padua is a little community, who work and passionate about programming, new technologies and startups. We meet once a month in an open and informal environment, where the participants propose themselves for the talks.",
           "detail": {
