@@ -10,7 +10,6 @@ body {
 
 .noScroll {
   overflow: hidden;
-  position: fixed;
   width: 100%;
 }
 

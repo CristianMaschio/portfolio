@@ -62,7 +62,8 @@ export default function Header() {
 
   const headerContent = require(`../../../data/${language}-content.json`)
 
-  const closeHeaderInformation = () => {
+  const closeHeaderInformation = event => {
+    event.stopPropagation()
     setRenderInformation(false)
   }
 
