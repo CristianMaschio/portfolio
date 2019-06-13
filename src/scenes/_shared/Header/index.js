@@ -59,13 +59,22 @@ function HeaderContacts() {
 
 export default function Header() {
   const { headerClass, setRenderInformation, language } = useContext(AppState)
+
   const headerContent = require(`../../../data/${language}-content.json`)
 
+  const closeHeaderInformation = () => {
+    setRenderInformation(false)
+  }
+
+  const stopPropagation = event => {
+    event.stopPropagation()
+  }
+
   return (
-    <header className={headerClass}>
-      <div onClick={() => setRenderInformation(false)} className="close" />
+    <header className={headerClass} onClick={closeHeaderInformation}>
       <div className="header-blue" />
-      <div className="header-information">
+      <div className="header-information" onClick={stopPropagation}>
+        <div onClick={closeHeaderInformation} className="close" />
         <ImageProfile size={200} />
         <div className="header-container">
           <div className="line" />

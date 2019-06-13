@@ -2,7 +2,6 @@
 
 .open-header {
   margin-left: 0px;
-  height: 100%;
   opacity: 100;
 }
 
@@ -21,7 +20,7 @@ header {
     opacity: 0;
     width: 100vw;
     max-height: 100vh;
-    height: 0;
+    height: 100%;
     z-index: 10;
     margin-left: -100vw;
     transition: all 0.4s;
@@ -44,6 +43,7 @@ header {
     background-color: #313131;
     @media screen and (max-width: $mobile-max-width) {
       position: relative;
+      z-index: 11;
       max-width: 18rem;
       height: 100%;
       overflow: auto;
