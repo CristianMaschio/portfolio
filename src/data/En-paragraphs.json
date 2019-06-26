@@ -7,7 +7,7 @@
       "sections": [
         {
           "date": "05/2019 - Current",
-          "title": "GestionaleAuto.com - Font-End Developer",
+          "title": "GestionaleAuto.com - Front End Developer",
           "description": "Worked with Javascript, React, Redux, Redux-Form, Redux-Saga.",
           "detail": {
             "image": "",
@@ -16,8 +16,8 @@
         },
         {
           "date": "10/2018 - 04/2019",
-          "title": "Discontinuity - Full-Stack Developer",
-          "description": "Worked principally with React-Native, ReactJS and AWS. And worked in small tasks with Swift.",
+          "title": "Discontinuity - Full Stack Developer",
+          "description": "Worked principally with React-Native, ReactJS, AWS, GraphQL and Apollo Client. And worked in small tasks with Swift.",
           "detail": {
             "image": "",
             "description": ""
