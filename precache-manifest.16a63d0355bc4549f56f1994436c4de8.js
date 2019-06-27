@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Roboto-BoldItalic.1eb7a893.ttf"
   },
   {
-    "revision": "cb840e2d2761a8c572e5",
+    "revision": "f4ef17038d788fc5cf94",
     "url": "/portfolio/static/css/main.4d8e81cd.chunk.css"
   },
   {
@@ -24,28 +24,24 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Roboto-Regular.3e1af3ef.ttf"
   },
   {
-    "revision": "fc84e998bc29b297ea20321e4c90b6ed",
-    "url": "/portfolio/static/media/Roboto-Light.fc84e998.ttf"
+    "revision": "ee7b96fa85d8fdb8c126409326ac2d2b",
+    "url": "/portfolio/static/media/Roboto-Bold.ee7b96fa.ttf"
   },
   {
     "revision": "89e2666c24d37055bcb60e9d2d9f7e35",
     "url": "/portfolio/static/media/Roboto-Thin.89e2666c.ttf"
   },
   {
-    "revision": "ee7b96fa85d8fdb8c126409326ac2d2b",
-    "url": "/portfolio/static/media/Roboto-Bold.ee7b96fa.ttf"
+    "revision": "fc84e998bc29b297ea20321e4c90b6ed",
+    "url": "/portfolio/static/media/Roboto-Light.fc84e998.ttf"
   },
   {
     "revision": "42bbe4eefcde1297b11dc4b6491e9746",
     "url": "/portfolio/static/media/Roboto-Italic.42bbe4ee.ttf"
   },
   {
-    "revision": "cb840e2d2761a8c572e5",
-    "url": "/portfolio/static/js/main.8e9399e5.chunk.js"
-  },
-  {
-    "revision": "0fc25386220a58203994ce45fb4ae570",
-    "url": "/portfolio/static/media/Roboto-ThinItalic.0fc25386.ttf"
+    "revision": "f4ef17038d788fc5cf94",
+    "url": "/portfolio/static/js/main.b70c4fee.chunk.js"
   },
   {
     "revision": "d1efcd4d126837fe0dcf9b6cf3a00d64",
@@ -54,6 +50,10 @@ self.__precacheManifest = [
   {
     "revision": "d08840599e05db7345652d3d417574a9",
     "url": "/portfolio/static/media/Roboto-Medium.d0884059.ttf"
+  },
+  {
+    "revision": "0fc25386220a58203994ce45fb4ae570",
+    "url": "/portfolio/static/media/Roboto-ThinItalic.0fc25386.ttf"
   },
   {
     "revision": "bd19ad60600a1537c00d3b4923a5e5de",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/work.a1edc6c2.png"
   },
   {
-    "revision": "4668479cc685fe46cf119f48614218f0",
+    "revision": "2ab3e0eb770aa111976a22936a9ece17",
     "url": "/portfolio/index.html"
   }
 ];
