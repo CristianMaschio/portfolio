@@ -8,20 +8,12 @@
         {
           "date": "05/2019 - Current",
           "title": "GestionaleAuto.com - Front End Developer",
-          "description": "Worked with Javascript, React, Redux, Redux-Form, Redux-Saga.",
-          "detail": {
-            "image": "",
-            "description": ""
-          }
+          "description": "Worked with Javascript, React, Redux, Redux-Form, Redux-Saga."
         },
         {
           "date": "10/2018 - 04/2019",
           "title": "Discontinuity - Full Stack Developer",
-          "description": "Worked principally with React-Native, ReactJS, AWS, GraphQL and Apollo Client. And worked in small tasks with Swift.",
-          "detail": {
-            "image": "",
-            "description": ""
-          }
+          "description": "Worked principally with React-Native, ReactJS, AWS, GraphQL and Apollo Client. And worked in small tasks with Swift."
         }
       ]
     },
@@ -33,20 +25,12 @@
         {
           "date": "2015 - Current",
           "title": "University of Padua - Data Science",
-          "description": "I hope to finish in September.",
-          "detail": {
-            "image": "",
-            "description": ""
-          }
+          "description": "I hope to finish in September."
         },
         {
           "date": "2008 - 2015",
           "title": "Accountant",
-          "description": "Accountant institute Carlo Rosselli, Castelfranco Veneto (Italy).",
-          "detail": {
-            "image": "",
-            "description": ""
-          }
+          "description": "Accountant institute Carlo Rosselli, Castelfranco Veneto (Italy)."
         }
       ],
       "more": []
@@ -59,20 +43,12 @@
         {
           "date": "-",
           "title": "Programming",
-          "description": "I love programming, thinking and using my mind to create more and more clean and especially performed code. I like working with innovative technologies, mainly with web and mobile application. Currently I use a lot React and React-Native.",
-          "detail": {
-            "image": "",
-            "description": ""
-          }
+          "description": "I love programming, thinking and using my mind to create more and more clean and especially performed code. I like working with innovative technologies, mainly with web and mobile application. Currently I use a lot React and React-Native."
         },
         {
           "date": "-",
           "title": "Vegetable garden",
-          "description": "These passion allow me to get my hands dirty, free my mind and appreciate how much nature can give us.",
-          "detail": {
-            "image": "",
-            "description": ""
-          }
+          "description": "These passion allow me to get my hands dirty, free my mind and appreciate how much nature can give us."
         }
       ]
     },
@@ -84,67 +60,39 @@
         {
           "date": "03/21/2019 & 11/29/2018",
           "title": "{Codemotion} Rome & {Codemotion} Milan",
-          "description": "(Participated) Codemotion is the biggest tech conference in Italy and one of the most important in Europe.",
-          "detail": {
-            "image": "",
-            "description": ""
-          }
+          "description": "(Participated) Codemotion is the biggest tech conference in Italy and one of the most important in Europe."
         },
         {
           "date": "05/26/2018",
           "title": "Hackathon",
-          "description": "First prize winning with a web application developed with the use of the <b>React</b> library and the <b>Google Maps API.</b>",
-          "detail": {
-            "image": "",
-            "description": ""
-          }
+          "description": "First prize winning with a web application developed with the use of the <b>React</b> library and the <b>Google Maps API.</b>"
         },
         {
           "date": "2018",
           "title": "University project",
-          "description": "Implementation of a university project using the following <b>NodeJS, MongoDB and ReactJS technologies.</b> Mainly I worked in front end with the React library.",
-          "detail": {
-            "image": "",
-            "description": ""
-          }
+          "description": "Implementation of a university project using the following <b>NodeJS, MongoDB and ReactJS technologies.</b> Mainly I worked in front end with the React library."
         },
         {
           "date": "2018",
           "title": "University project",
-          "description": "Realization of a project on voluntary request for the <b>Mobile Programming and Multimedia course</b>, which allowed me to create a mobile application developed with the <b>React Native</b> framework.",
-          "detail": {
-            "image": "",
-            "description": ""
-          }
+          "description": "Realization of a project on voluntary request for the <b>Mobile Programming and Multimedia course</b>, which allowed me to create a mobile application developed with the <b>React Native</b> framework."
         },
         {
           "date": "11/24/2018",
           "title": "DevFest Veneto - GDG Venice",
-          "description": "I partecipated to the DevFest organized by Google Developers Group Venice.",
-          "detail": {
-            "image": "",
-            "description": ""
-          }
+          "description": "I partecipated to the DevFest organized by Google Developers Group Venice."
         }
       ],
       "more": [
         {
           "date": "2018 - Current",
           "title": "Coding Gym - Programmers in Padua",
-          "description": "I partecipated to some \"4-5\" Coding Gym. Coding Gym is an international format of programming laboratories open to any language and developed for continuous improvement.",
-          "detail": {
-            "image": "",
-            "description": ""
-          }
+          "description": "I partecipated to some \"4-5\" Coding Gym. Coding Gym is an international format of programming laboratories open to any language and developed for continuous improvement."
         },
         {
           "date": "2018 - Current",
           "title": "Talks - Programmers in Padua",
-          "description": "I partecipated to some talks. Programmers in Padua is a little community, who work and passionate about programming, new technologies and startups. We meet once a month in an open and informal environment, where the participants propose themselves for the talks.",
-          "detail": {
-            "image": "",
-            "description": ""
-          }
+          "description": "I partecipated to some talks. Programmers in Padua is a little community, who work and passionate about programming, new technologies and startups. We meet once a month in an open and informal environment, where the participants propose themselves for the talks."
         }
       ]
     }
