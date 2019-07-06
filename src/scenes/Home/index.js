@@ -10,8 +10,10 @@ class Home extends PureComponent {
     return (
       <div className="home">
         <div className="intro">
-          <h1>Cristian Maschio</h1>
-          <h2>{"<Front-End Developer/>"}</h2>
+          <div className="boingInUp">
+            <h1>Cristian Maschio</h1>
+            <h2>{"<Front-End Developer/>"}</h2>
+          </div>
         </div>
         <Menu />
         <div className="paragraphs">
