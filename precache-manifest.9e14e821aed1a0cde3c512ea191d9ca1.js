@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "1eb7a893589ddce89d81cdb22a356660",
-    "url": "/portfolio/static/media/Roboto-BoldItalic.1eb7a893.ttf"
+    "revision": "d1efcd4d126837fe0dcf9b6cf3a00d64",
+    "url": "/portfolio/static/media/Roboto-LightItalic.d1efcd4d.ttf"
   },
   {
-    "revision": "82aac05418efa0e64f0c",
+    "revision": "bff3b57c4364db92a2c0",
     "url": "/portfolio/static/css/main.42a90c49.chunk.css"
   },
   {
@@ -28,10 +28,6 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Roboto-Bold.ee7b96fa.ttf"
   },
   {
-    "revision": "89e2666c24d37055bcb60e9d2d9f7e35",
-    "url": "/portfolio/static/media/Roboto-Thin.89e2666c.ttf"
-  },
-  {
     "revision": "fc84e998bc29b297ea20321e4c90b6ed",
     "url": "/portfolio/static/media/Roboto-Light.fc84e998.ttf"
   },
@@ -40,24 +36,28 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Roboto-Italic.42bbe4ee.ttf"
   },
   {
-    "revision": "82aac05418efa0e64f0c",
-    "url": "/portfolio/static/js/main.d4367601.chunk.js"
-  },
-  {
     "revision": "0fc25386220a58203994ce45fb4ae570",
     "url": "/portfolio/static/media/Roboto-ThinItalic.0fc25386.ttf"
+  },
+  {
+    "revision": "bff3b57c4364db92a2c0",
+    "url": "/portfolio/static/js/main.a2a73a0c.chunk.js"
+  },
+  {
+    "revision": "1eb7a893589ddce89d81cdb22a356660",
+    "url": "/portfolio/static/media/Roboto-BoldItalic.1eb7a893.ttf"
   },
   {
     "revision": "bd19ad60600a1537c00d3b4923a5e5de",
     "url": "/portfolio/static/media/Roboto-MediumItalic.bd19ad60.ttf"
   },
   {
-    "revision": "d08840599e05db7345652d3d417574a9",
-    "url": "/portfolio/static/media/Roboto-Medium.d0884059.ttf"
+    "revision": "89e2666c24d37055bcb60e9d2d9f7e35",
+    "url": "/portfolio/static/media/Roboto-Thin.89e2666c.ttf"
   },
   {
-    "revision": "d1efcd4d126837fe0dcf9b6cf3a00d64",
-    "url": "/portfolio/static/media/Roboto-LightItalic.d1efcd4d.ttf"
+    "revision": "d08840599e05db7345652d3d417574a9",
+    "url": "/portfolio/static/media/Roboto-Medium.d0884059.ttf"
   },
   {
     "revision": "80ca91f647162861c759f202803bbb93",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/work.a1edc6c2.png"
   },
   {
-    "revision": "03823daf31266d59418c21aec28cb722",
+    "revision": "78f4b201c17a2ebcefe9864efe624d0b",
     "url": "/portfolio/index.html"
   }
 ];
