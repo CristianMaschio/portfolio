@@ -36,6 +36,7 @@ export class Menu extends PureComponent {
         <img
           onClick={setRenderInformation}
           src={whiteInfo}
+          alt="info click icon"
           className="info-menu"
         />
         <p onClick={setRenderInformation}>Cristian Maschio</p>

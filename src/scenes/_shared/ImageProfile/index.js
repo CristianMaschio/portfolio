@@ -5,7 +5,7 @@ import "./ImageProfile.scss"
 import imageProfile from "../../../data/images/imageProfile.jpg"
 
 export default class ImageProfile extends PureComponent {
-  propTypes = {
+  static propTypes = {
     size: PropTypes.number.isRequired
   }
 
