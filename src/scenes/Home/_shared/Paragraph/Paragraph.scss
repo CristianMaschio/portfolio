@@ -78,6 +78,21 @@
         text-align: left;
       }
     }
+    @media screen and (max-width: $mobile-max-width) {
+      .sub-section {
+        display: flex;
+        flex-direction: column;
+        margin: 0.5rem;
+        .sub-section-title {
+          font-weight: bold;
+          font-size: 0.8rem;
+          min-width: 6rem;
+        }
+        .sub-section-content {
+          text-align: center;
+        }
+      }
+    }
   }
 }
 
@@ -110,7 +125,6 @@
 .sectionContent.date {
   min-width: 10rem;
   max-width: 12rem;
-  align-self: center;
   text-align: center;
 
   @media screen and (max-width: $mobile-max-width) {
