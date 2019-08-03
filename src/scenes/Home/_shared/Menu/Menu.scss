@@ -1,8 +1,8 @@
-@import "../../../styles/colors";
+@import "../../../../data/styles/colors";
 
 .menu {
   position: sticky;
-  background-color: $dark-color;
+  background-color: $background-primary-color;
   top: 0;
   margin-left: 1px;
   color: white;

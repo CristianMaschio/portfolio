@@ -5,7 +5,7 @@ import AppState from "../../../gState/context"
 
 export default function Footer() {
   const { language } = useContext(AppState)
-  const privacyTerms = require(`../../../data/${language}-content.json`)
+  const privacyTerms = require(`../../../data/languages/${language}-content.json`)
     .privacyTerms
 
   return (

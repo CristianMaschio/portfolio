@@ -1,6 +1,6 @@
 import React, { PureComponent } from "react"
-import "./styles/global.scss"
-import "./fonts/roboto/roboto.css"
+import "./data/styles/global.scss"
+import "./data/fonts/roboto/roboto.css"
 import Home from "./scenes/Home"
 import Header from "./scenes/_shared/Header"
 import Footer from "./scenes/_shared/Footer"

@@ -2,7 +2,7 @@ import React, { PureComponent } from "react"
 import PropTypes from "prop-types"
 
 import "./ImageProfile.scss"
-import imageProfile from "./imageProfile.jpg"
+import imageProfile from "../../../data/images/imageProfile.jpg"
 
 export default class ImageProfile extends PureComponent {
   propTypes = {

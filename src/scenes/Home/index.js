@@ -2,24 +2,26 @@ import React, { PureComponent } from "react"
 import "./Home.scss"
 
 import AppState from "../../gState/context"
-import Paragraph from "../_shared/Paragraph"
-import Menu from "../_shared/Menu"
+import Paragraph from "./_shared/Paragraph"
+import Menu from "./_shared/Menu"
 
 class Home extends PureComponent {
   render() {
     return (
       <div className="home">
-        <div className="intro">
-          <div className="boingInUp">
-            <h1>Cristian Maschio</h1>
-            <h2>{"<Front-End Developer/>"}</h2>
+        <div className="intro intro-white-trasparence">
+          <div className="intro-white-trasparence">
+            <div className="foolishIn">
+              <h1>Cristian Maschio</h1>
+              <h2>{"<SoftwareEngineer />"}</h2>
+            </div>
           </div>
         </div>
         <Menu />
         <div className="paragraphs">
           <AppState.Consumer>
             {({ language }) => {
-              return require(`../../data/${language}-paragraphs.json`).paragraphs.map(
+              return require(`../../data/languages/${language}-paragraphs.json`).paragraphs.map(
                 (paragraph, index) => {
                   return (
                     <Paragraph

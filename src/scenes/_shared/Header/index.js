@@ -60,7 +60,7 @@ function HeaderContacts() {
 export default function Header() {
   const { headerClass, setRenderInformation, language } = useContext(AppState)
 
-  const headerContent = require(`../../../data/${language}-content.json`)
+  const headerContent = require(`../../../data/languages/${language}-content.json`)
 
   const closeHeaderInformation = event => {
     event.stopPropagation()
