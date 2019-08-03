@@ -5,7 +5,7 @@
     "personalData": [
       { "key": "Name", "text": "Cristian" },
       { "key": "Surname", "text": "Maschio" },
-      { "key": "Birthday", "text": "05/31/1994" },
+      { "key": "Birthday", "text": "31/05/1994" },
       { "key": "Nationality", "text": "Italian" }
     ]
   },

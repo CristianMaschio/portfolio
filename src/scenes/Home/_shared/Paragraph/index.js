@@ -39,7 +39,28 @@ export default class Paragraph extends PureComponent {
             <p className="sectionContent date">{section.date}</p>
             <div className="sectionContent description">
               <h3>{section.title} </h3>
-              <div dangerouslySetInnerHTML={{ __html: section.description }} />
+              {section.technologies ? (
+                <div className="multy-section">
+                  <div className="sub-section">
+                    <div className="sub-section-title">Technologies:</div>
+                    <div
+                      className="sub-section-content"
+                      dangerouslySetInnerHTML={{ __html: section.technologies }}
+                    />
+                  </div>
+                  <div className="sub-section">
+                    <div className="sub-section-title">Achieving:</div>
+                    <div
+                      className="sub-section-content"
+                      dangerouslySetInnerHTML={{ __html: section.achieving }}
+                    />
+                  </div>
+                </div>
+              ) : (
+                <div
+                  dangerouslySetInnerHTML={{ __html: section.description }}
+                />
+              )}
             </div>
           </div>
         )

@@ -8,11 +8,15 @@
         {
           "date": "05/2019 - Current",
           "title": "GestionaleAuto.com - Front End Developer",
+          "technologies": "React, Javascript, Redux, Redux-Form, Redux-Saga, Html & Css.",
+          "achieving": "Learned to working in Agile Scrum team: my daily tasks ranged from refactoring to develop new feature for a large project code base of a management software. In which I managed to improve the simplicity and performance of some components, making them 30-40% faster.",
           "description": "Worked with Javascript, React, Redux, Redux-Form, Redux-Saga in the development, maintenance and refactoring of a management software."
         },
         {
           "date": "10/2018 - 04/2019",
           "title": "Discontinuity - Full Stack Developer",
+          "technologies": "React Native, React, Javascript, Gatsby, AWS, DynamoDB, GraphQL, Html & Css.",
+          "achieving": "Working in Agile team, with maintaining and implementing applications and web sites from scratch",
           "description": "Worked principally with React-Native, ReactJS, GraphQL, Apollo and AWS in a social app and websites."
         }
       ]
@@ -25,6 +29,8 @@
         {
           "date": "2015 - Current",
           "title": "University of Padua - Computer Science",
+          "technologies": "",
+          "achieving": "",
           "description": "With optional course in Multimedia & Mobile Programming. (I miss the last 3 exams and I should get my degree in September)"
         },
         {
@@ -58,27 +64,27 @@
       "image": "experiences.png",
       "sections": [
         {
-          "date": "03/21/2019 & 11/29/2018",
+          "date": "21/03/2019 & 29/11/2018",
           "title": "{Codemotion} Rome & {Codemotion} Milan",
-          "description": "(Participated) Codemotion is the biggest tech conference in Italy and one of the most important in Europe."
+          "description": "(Participated) Codemotion is the biggest tech conference in Italy and one of the most important in Europe. Here I had the chance to meet new people who shared my passions and follow front-end and react talks which allowed me to improve the quality of my code and learn new things."
         },
         {
-          "date": "05/26/2018",
-          "title": "Hackathon",
+          "date": "26/05/2018",
+          "title": "Hackathon won",
           "description": "First prize winning with a web application developed with the use of the <b>React</b> library and the <b>Google Maps API.</b>"
         },
         {
-          "date": "2018",
-          "title": "University project",
-          "description": "Implementation of a university project using the following <b>NodeJS, MongoDB and ReactJS technologies.</b> Mainly I worked in front end with the React library."
+          "date": "10/2017 - 07/2018",
+          "title": "University project - Social web app (React + NodeJs)",
+          "description": "This project gave me the opportunity to collaborate with 6 other unknown people, including a freelancer who gave me a solid foundation of React."
         },
         {
           "date": "2018",
-          "title": "University project",
-          "description": "Realization of a project on voluntary request for the <b>Mobile Programming and Multimedia course</b>, which allowed me to create a mobile application developed with the <b>React Native</b> framework."
+          "title": "University project - Mobile app (React Native)",
+          "description": "Here on my voluntary request for the Mobile Programming and Multimedia course, I decided to create an application with React Native, to discover the mobile world with React and learning the basics of React Native."
         },
         {
-          "date": "11/24/2018",
+          "date": "24/11/2018",
           "title": "DevFest Veneto - GDG Venice",
           "description": "I partecipated to the DevFest organized by Google Developers Group Venice."
         }
