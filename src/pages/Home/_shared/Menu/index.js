@@ -1,6 +1,5 @@
 import React, { PureComponent } from "react"
-import "./Menu.scss"
-import whiteInfo from "../../../../data/images/whiteInfo.png"
+import whiteInfo from "../../../../assets/images/whiteInfo.png"
 
 import AppState from "../../../../gState/context"
 
@@ -29,7 +28,7 @@ export class Menu extends PureComponent {
   }
   render() {
     const { setRenderInformation, language } = this.props.context
-    const menuLink = require(`../../../../data/languages/${language}-content.json`)
+    const menuLink = require(`../../../../assets/languages/${language}-content.json`)
       .menu
     return (
       <div className="menu">

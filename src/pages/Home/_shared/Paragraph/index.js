@@ -1,5 +1,4 @@
 import React, { PureComponent } from "react"
-import "./Paragraph.scss"
 
 export default class Paragraph extends PureComponent {
   state = {
@@ -110,13 +109,13 @@ export default class Paragraph extends PureComponent {
           <img
             className="paragraphImage"
             alt="Universtity of Padua logo"
-            src={image && require("../../../../data/images/" + image)}
+            src={image && require("../../../../assets/images/" + image)}
           />
           <h2 className="paragraphTitle">{title}</h2>
           <img
             className="paragraphImage"
             alt="Universtity of Padua logo"
-            src={image && require("../../../../data/images/" + image)}
+            src={image && require("../../../../assets/images/" + image)}
           />
         </div>
         <div

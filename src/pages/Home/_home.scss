@@ -1,5 +1,3 @@
-@import "../../data/styles/colors";
-
 $text-shadow: 2px 4px 5px black;
 
 .home {
@@ -10,7 +8,7 @@ $text-shadow: 2px 4px 5px black;
   }
 
   .intro {
-    background-image: url("../../data/images/intro.jpg");
+    background-image: url("../../assets/images/intro.jpg");
     background-position: left;
     background-size: cover;
     height: 22rem;

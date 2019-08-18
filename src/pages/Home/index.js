@@ -1,5 +1,4 @@
 import React, { PureComponent } from "react"
-import "./Home.scss"
 
 import AppState from "../../gState/context"
 import Paragraph from "./_shared/Paragraph"
@@ -21,7 +20,7 @@ class Home extends PureComponent {
         <div className="paragraphs">
           <AppState.Consumer>
             {({ language }) => {
-              return require(`../../data/languages/${language}-paragraphs.json`).paragraphs.map(
+              return require(`../../assets/languages/${language}-paragraphs.json`).paragraphs.map(
                 (paragraph, index) => {
                   return (
                     <Paragraph

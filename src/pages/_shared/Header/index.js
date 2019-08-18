@@ -1,4 +1,3 @@
-import "./Header.scss"
 import React, { useContext } from "react"
 import Icon from "antd/lib/icon"
 
@@ -60,7 +59,7 @@ function HeaderContacts() {
 export default function Header() {
   const { headerClass, setRenderInformation, language } = useContext(AppState)
 
-  const headerContent = require(`../../../data/languages/${language}-content.json`)
+  const headerContent = require(`../../../assets/languages/${language}-content.json`)
 
   const closeHeaderInformation = event => {
     event.stopPropagation()
