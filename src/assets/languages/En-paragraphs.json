@@ -8,14 +8,14 @@
         {
           "date": "05/2019 - Current",
           "title": "GestionaleAuto.com - React Developer",
-          "technologies": "React, Javascript, Redux, Redux-Form, Redux-Saga, Html & Css.",
+          "technologies": "React, Javascript, Redux, Redux-Form, Redux-Saga, Html & Scss.",
           "achieving": "Learned to working in Agile Scrum team: my daily tasks ranged from refactoring to develop new feature for a large project code base of a management software. In which I managed to improve the simplicity and performance of some components, making them 30-40% faster.",
           "description": "Worked with Javascript, React, Redux, Redux-Form, Redux-Saga in the development, maintenance and refactoring of a management software."
         },
         {
           "date": "10/2018 - 04/2019",
           "title": "Discontinuity - Full Stack Developer",
-          "technologies": "React Native, React, Javascript, Gatsby, AWS, DynamoDB, GraphQL, Html & Css.",
+          "technologies": "React Native, React, Javascript, Gatsby, AWS, DynamoDB, GraphQL, Html & Scss.",
           "achieving": "Working in Agile team, with maintaining and implementing applications and web sites from scratch",
           "description": "Worked principally with React-Native, ReactJS, GraphQL, Apollo and AWS in a social app and websites."
         }
