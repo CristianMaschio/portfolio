@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "89e2666c24d37055bcb60e9d2d9f7e35",
-    "url": "/portfolio/static/media/Roboto-Thin.89e2666c.ttf"
+    "revision": "ee7b96fa85d8fdb8c126409326ac2d2b",
+    "url": "/portfolio/static/media/Roboto-Bold.ee7b96fa.ttf"
   },
   {
-    "revision": "52bd95e87acf7b1eeaaa",
-    "url": "/portfolio/static/css/main.a126d8f9.chunk.css"
+    "revision": "eaa4f2e800300a09e531",
+    "url": "/portfolio/static/css/main.7e5ff083.chunk.css"
   },
   {
     "revision": "53ebc025fca807d4dbea",
     "url": "/portfolio/static/js/runtime~main.f308c8e6.js"
   },
   {
-    "revision": "a5c56c8958637f3c5a6f",
-    "url": "/portfolio/static/js/2.c8a5bbcc.chunk.js"
+    "revision": "c54c8fa32ce953e80e65",
+    "url": "/portfolio/static/js/2.3e1e2327.chunk.js"
   },
   {
     "revision": "37b9aa7e35ddec62992b111b3ead0396",
@@ -24,16 +24,16 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/intro.b9df2c36.jpg"
   },
   {
+    "revision": "89e2666c24d37055bcb60e9d2d9f7e35",
+    "url": "/portfolio/static/media/Roboto-Thin.89e2666c.ttf"
+  },
+  {
     "revision": "3e1af3ef546b9e6ecef9f3ba197bf7d2",
     "url": "/portfolio/static/media/Roboto-Regular.3e1af3ef.ttf"
   },
   {
-    "revision": "ee7b96fa85d8fdb8c126409326ac2d2b",
-    "url": "/portfolio/static/media/Roboto-Bold.ee7b96fa.ttf"
-  },
-  {
-    "revision": "52bd95e87acf7b1eeaaa",
-    "url": "/portfolio/static/js/main.ab9bf676.chunk.js"
+    "revision": "eaa4f2e800300a09e531",
+    "url": "/portfolio/static/js/main.458fa8d8.chunk.js"
   },
   {
     "revision": "fc84e998bc29b297ea20321e4c90b6ed",
@@ -52,19 +52,19 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Roboto-BoldItalic.1eb7a893.ttf"
   },
   {
-    "revision": "d08840599e05db7345652d3d417574a9",
-    "url": "/portfolio/static/media/Roboto-Medium.d0884059.ttf"
-  },
-  {
     "revision": "d1efcd4d126837fe0dcf9b6cf3a00d64",
     "url": "/portfolio/static/media/Roboto-LightItalic.d1efcd4d.ttf"
+  },
+  {
+    "revision": "d08840599e05db7345652d3d417574a9",
+    "url": "/portfolio/static/media/Roboto-Medium.d0884059.ttf"
   },
   {
     "revision": "bd19ad60600a1537c00d3b4923a5e5de",
     "url": "/portfolio/static/media/Roboto-MediumItalic.bd19ad60.ttf"
   },
   {
-    "revision": "5da52616ae694ab8bcbb06e61abe361c",
+    "revision": "fc69a75dbc5c38d0c401c5397e7672c1",
     "url": "/portfolio/index.html"
   }
 ];
