@@ -86,6 +86,25 @@ export default function Header() {
           <h2>{headerContent.header.contacts}</h2>
           <HeaderContacts />
         </div>
+        <div className="header-container">
+          <div className="line" />
+          <h2>
+            <div className="download-cv">
+              <div className="title">Download CV</div>
+              <a
+                href="https://drive.google.com/uc?export=download&id=13QUIbdxs8iFl6CIviB5PvP5Yt4AP2E1_"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Icon type="download" />
+              </a>
+            </div>
+          </h2>
+          <div className="header-content">
+            <div className="line" />
+            <div className="row-content"></div>
+          </div>
+        </div>
         <div className="eu-regolation">{headerContent.privacyTerms}</div>
       </div>
     </header>
