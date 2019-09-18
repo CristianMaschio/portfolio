@@ -1,5 +1,9 @@
 .paragraph {
   margin: 1rem;
+
+  a {
+    color: $primary-color;
+  }
 }
 
 .leftLine {

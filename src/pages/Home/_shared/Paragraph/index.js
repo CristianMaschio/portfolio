@@ -60,6 +60,15 @@ export default class Paragraph extends PureComponent {
                   dangerouslySetInnerHTML={{ __html: section.description }}
                 />
               )}
+              {section.link && (
+                <a
+                  href={section.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Link
+                </a>
+              )}
             </div>
           </div>
         )

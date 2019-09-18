@@ -18,25 +18,21 @@ class Home extends PureComponent {
         </div>
         <Menu />
         <div className="paragraphs">
-          <AppState.Consumer>
-            {({ language }) => {
-              return require(`../../assets/languages/${language}-paragraphs.json`).paragraphs.map(
-                (paragraph, index) => {
-                  return (
-                    <Paragraph
-                      id={paragraph.id}
-                      key={index}
-                      index={index}
-                      title={paragraph.title}
-                      image={paragraph.image}
-                      sections={paragraph.sections}
-                      moreSections={paragraph.more}
-                    />
-                  )
-                }
+          {require(`../../assets/languages/En-paragraphs.json`).paragraphs.map(
+            (paragraph, index) => {
+              return (
+                <Paragraph
+                  id={paragraph.id}
+                  key={index}
+                  index={index}
+                  title={paragraph.title}
+                  image={paragraph.image}
+                  sections={paragraph.sections}
+                  moreSections={paragraph.more}
+                />
               )
-            }}
-          </AppState.Consumer>
+            }
+          )}
         </div>
       </div>
     )
