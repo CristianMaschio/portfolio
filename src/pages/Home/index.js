@@ -1,6 +1,5 @@
 import React, { PureComponent } from "react"
 
-import AppState from "../../gState/context"
 import Paragraph from "./_shared/Paragraph"
 import Menu from "./_shared/Menu"
 

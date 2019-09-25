@@ -1,6 +1,4 @@
-import React, { useContext } from "react"
-
-import AppState from "../../../gState/context"
+import React from "react"
 
 export default function Footer() {
   const privacyTerms = require(`../../../assets/languages/En-content.json`)
@@ -10,7 +8,11 @@ export default function Footer() {
     <footer>
       <ul>
         <li>
-          <a href="tel:345-273-6368" target="_blank" rel="noopener noreferrer">
+          <a
+            href="tel:+39345-273-6368"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             +39 3452736368
           </a>
         </li>
