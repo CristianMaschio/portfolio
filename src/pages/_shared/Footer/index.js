@@ -3,8 +3,7 @@ import React, { useContext } from "react"
 import AppState from "../../../gState/context"
 
 export default function Footer() {
-  const { language } = useContext(AppState)
-  const privacyTerms = require(`../../../assets/languages/${language}-content.json`)
+  const privacyTerms = require(`../../../assets/languages/En-content.json`)
     .privacyTerms
 
   return (

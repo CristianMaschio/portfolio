@@ -50,26 +50,4 @@
       display: inline;
     }
   }
-
-  .language-container {
-    width: 4rem;
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    color: white;
-    @media screen and (max-width: $mobile-max-width) {
-      flex: 1;
-      padding-right: 1rem;
-      justify-content: flex-end;
-    }
-    p {
-      display: inline;
-      margin: 0.2rem;
-      font-weight: 100;
-      cursor: pointer;
-    }
-    .selected-language {
-      font-weight: bold;
-    }
-  }
 }

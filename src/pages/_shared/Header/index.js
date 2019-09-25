@@ -57,9 +57,9 @@ function HeaderContacts() {
 }
 
 export default function Header() {
-  const { headerClass, setRenderInformation, language } = useContext(AppState)
+  const { headerClass, setRenderInformation } = useContext(AppState)
 
-  const headerContent = require(`../../../assets/languages/${language}-content.json`)
+  const headerContent = require(`../../../assets/languages/En-content.json`)
 
   const closeHeaderInformation = event => {
     event.stopPropagation()
@@ -92,7 +92,7 @@ export default function Header() {
             <div className="download-cv">
               <div className="title">Download CV</div>
               <a
-                href="https://drive.google.com/uc?export=download&id=13QUIbdxs8iFl6CIviB5PvP5Yt4AP2E1_"
+                href="https://drive.google.com/uc?export=download&id=1lB-ySL7IN_8K1UNJVK8TWG9OqxAvVtdG"
                 target="_blank"
                 rel="noopener noreferrer"
               >

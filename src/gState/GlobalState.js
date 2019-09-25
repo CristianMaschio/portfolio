@@ -8,8 +8,7 @@ export default class GlobalState extends Component {
   }
 
   state = {
-    headerClass: "",
-    language: "En"
+    headerClass: ""
   }
 
   setRenderInformation = (value = true) => {
@@ -22,19 +21,13 @@ export default class GlobalState extends Component {
     }
   }
 
-  changeLanguage = (value = "En") => {
-    this.setState({ language: value })
-  }
-
   render() {
-    const { headerClass, language } = this.state
+    const { headerClass } = this.state
     return (
       <AppState.Provider
         value={{
           setRenderInformation: this.setRenderInformation,
           headerClass,
-          language,
-          changeLanguage: this.changeLanguage
         }}
       >
         {this.props.children}
