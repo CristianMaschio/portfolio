@@ -6,7 +6,8 @@
       { "key": "Name", "text": "Cristian" },
       { "key": "Surname", "text": "Maschio" },
       { "key": "Birthday", "text": "31/05/1994" },
-      { "key": "Nationality", "text": "Italian" }
+      { "key": "Nationality", "text": "Italian" },
+      { "key": "Location", "text": " North London" }
     ]
   },
   "menu": {
