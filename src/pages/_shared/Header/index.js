@@ -102,7 +102,7 @@ export default function Header() {
           </h2>
           <div className="header-content">
             <div className="line" />
-            <div className="row-content"></div>
+            <div className="row-content"/>
           </div>
         </div>
         <div className="eu-regolation">{headerContent.privacyTerms}</div>

@@ -1,6 +1,22 @@
 import React, { PureComponent } from "react"
+import PropTypes from "prop-types"
 
 export default class Paragraph extends PureComponent {
+  static propTypes = {
+    id: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
+    index: PropTypes.number.isRequired,
+    title: PropTypes.string.isRequired,
+    image: PropTypes.string,
+    sections: PropTypes.array.isRequired,
+    moreSections: PropTypes.array
+  }
+
+  static defaultPropTypes = {
+    index: 0,
+    image: "",
+    moreSections: []
+  }
+
   state = {
     isLeft: undefined,
     moreContent: false,
@@ -14,14 +30,6 @@ export default class Paragraph extends PureComponent {
     const sectionsElements = this.getSectionElements(sections)
 
     this.setState({ isLeft: this.props.index % 2 === 0, sectionsElements })
-  }
-
-  UNSAFE_componentWillReceiveProps(newProps) {
-    if (newProps.sections !== this.state.sectionsElements) {
-      const sectionsElements = this.getSectionElements(newProps.sections)
-
-      this.setState({ sectionsElements })
-    }
   }
 
   moreContent = React.createRef()
@@ -141,11 +149,15 @@ export default class Paragraph extends PureComponent {
     )
   }
 
-  renderMoreLessButton = () => {
-    const { moreSections } = this.props
-    const { moreContent } = this.state
+  //------------Render--------------
+
+  render() {
+    const { id, moreSections } = this.props
+    const { isLeft, moreContent } = this.state
     return (
-      <>
+      <div id={id} style={{ paddingTop: "3rem" }}>
+        <div className={isLeft ? "leftLine" : "rightLine"} />
+        {this.renderParagraphContent()}
         {moreSections && moreSections.length >= 1 ? (
           <p className="more-paragraph" onClick={this.handleMoreContent}>
             {!moreContent ? "more" : "less"}
@@ -153,20 +165,6 @@ export default class Paragraph extends PureComponent {
         ) : (
           ""
         )}
-      </>
-    )
-  }
-
-  //------------Render--------------
-
-  render() {
-    const { id } = this.props
-    const { isLeft } = this.state
-    return (
-      <div id={id} style={{ paddingTop: "3rem" }}>
-        <div className={isLeft ? "leftLine" : "rightLine"} />
-        {this.renderParagraphContent()}
-        {this.renderMoreLessButton()}
       </div>
     )
   }
