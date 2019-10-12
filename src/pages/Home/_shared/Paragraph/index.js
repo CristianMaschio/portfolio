@@ -45,7 +45,18 @@ export default class Paragraph extends PureComponent {
           <div className="sectionContainer" key={index}>
             <p className="sectionContent date">{section.date}</p>
             <div className="sectionContent description">
-              <h3>{section.title} </h3>
+              <h3>
+                {section.title}{" "}
+                {section.link && (
+                  <a
+                    href={section.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Link
+                  </a>
+                )}
+              </h3>
               {section.technologies ? (
                 <div className="multy-section">
                   <div className="sub-section">
@@ -68,15 +79,6 @@ export default class Paragraph extends PureComponent {
                   dangerouslySetInnerHTML={{ __html: section.description }}
                 />
               )}
-              {section.link && (
-                <a
-                  href={section.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Link
-                </a>
-              )}
             </div>
           </div>
         )
@@ -97,21 +99,8 @@ export default class Paragraph extends PureComponent {
   }
 
   //--------Render-Functions-------
-
-  renderMoreContent = () => {
-    const { moreSections } = this.props
-    return (
-      <div ref={this.moreContent} className="more-container">
-        <div className="rightLine" />
-        <div className="sectionsContainer">
-          {this.getSectionElements(moreSections)}
-        </div>
-      </div>
-    )
-  }
-
   renderParagraphContent = () => {
-    const { title, image } = this.props
+    const { title, image, moreSections } = this.props
     const { isLeft, sectionsElements } = this.state
 
     return (
@@ -142,9 +131,13 @@ export default class Paragraph extends PureComponent {
               : "paragraphContainer rightParagraph"
           }
         >
-          <div className="sectionsContainer">{sectionsElements}</div>
+          <div className="sectionsContainer">
+            {sectionsElements}
+            <div ref={this.moreContent} className="more-container">
+              {this.getSectionElements(moreSections)}
+            </div>
+          </div>
         </div>
-        {this.renderMoreContent()}
       </div>
     )
   }

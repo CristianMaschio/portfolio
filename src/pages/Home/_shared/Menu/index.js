@@ -30,6 +30,9 @@ export class Menu extends PureComponent {
           <li>
             <a href="#personal-experiences">{menuLink.experiences}</a>
           </li>
+          <li>
+            <a href="#code">{menuLink.code}</a>
+          </li>
         </ul>
       </div>
     )

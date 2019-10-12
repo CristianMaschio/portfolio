@@ -6,7 +6,7 @@
       "image": "work.png",
       "sections": [
         {
-          "date": "05/2019 - 09/2019",
+          "date": "05/2019 - 30/09/2019",
           "title": "GestionaleAuto.com - React Developer",
           "technologies": "React, Javascript, Redux, Redux-Form, Redux-Saga, Html & Scss.",
           "achieving": "Learned to working in Agile Scrum team: my daily tasks ranged from refactoring to develop new feature for a large project code base of a management software. In which I managed to improve the simplicity and performance of some components, making them 30-40% faster."
@@ -97,6 +97,25 @@
           "title": "Talks - Programmers in Padua",
           "description": "I partecipated to some talks. Programmers in Padua is a little community, who work and passionate about programming, new technologies and startups. We meet once a month in an open and informal environment, where the participants propose themselves for the talks.",
           "link": "https://www.programmersinpadua.it/"
+        }
+      ]
+    },
+    {
+      "id": "code",
+      "title": "Code test",
+      "image": "work.png",
+      "sections": [
+        {
+          "date": "10/2019",
+          "title": "Dynamic form - (React + Jest)",
+          "description": "Using React, create a simple one page application with a dynamic form that takes its structure from the JSON...",
+          "link": "https://codesandbox.io/embed/proud-sun-bs4lc?fontsize=14"
+        },
+        {
+          "date": "10/2019",
+          "title": "Manage large data - (React)",
+          "description": "Using React, manage a larger sets of data using a pre-defined list of Employees. </br> For every Employee the rendered list shows 'firstname', 'lastname', 'company' and an icon with Employee's initials. </br> User can search Employees by 'firstname', 'lastname' and 'company'. ",
+          "link": "https://codesandbox.io/embed/funny-feynman-ejc7b?fontsize=14"
         }
       ]
     }
