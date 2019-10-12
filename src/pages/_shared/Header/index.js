@@ -27,7 +27,7 @@ function HeaderContacts() {
     <div className="header-content">
       <div className="line" />
       <div className="row-content">
-        <a href="tel:+39345-273-6368" target="_blank" rel="noopener noreferrer">
+        <a href="tel:07716547743" target="_blank" rel="noopener noreferrer">
           <Icon type="phone" />
         </a>
         <a
@@ -102,7 +102,7 @@ export default function Header() {
           </h2>
           <div className="header-content">
             <div className="line" />
-            <div className="row-content"></div>
+            <div className="row-content" />
           </div>
         </div>
         <div className="eu-regolation">{headerContent.privacyTerms}</div>

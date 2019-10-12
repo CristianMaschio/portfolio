@@ -1,6 +1,22 @@
 import React, { PureComponent } from "react"
+import PropTypes from "prop-types"
 
 export default class Paragraph extends PureComponent {
+  static propTypes = {
+    id: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
+    index: PropTypes.number.isRequired,
+    title: PropTypes.string.isRequired,
+    image: PropTypes.string,
+    sections: PropTypes.array.isRequired,
+    moreSections: PropTypes.array
+  }
+
+  static defaultPropTypes = {
+    index: 0,
+    image: "",
+    moreSections: []
+  }
+
   state = {
     isLeft: undefined,
     moreContent: false,
@@ -16,14 +32,6 @@ export default class Paragraph extends PureComponent {
     this.setState({ isLeft: this.props.index % 2 === 0, sectionsElements })
   }
 
-  UNSAFE_componentWillReceiveProps(newProps) {
-    if (newProps.sections !== this.state.sectionsElements) {
-      const sectionsElements = this.getSectionElements(newProps.sections)
-
-      this.setState({ sectionsElements })
-    }
-  }
-
   moreContent = React.createRef()
 
   //----------Functions-----------
@@ -37,7 +45,18 @@ export default class Paragraph extends PureComponent {
           <div className="sectionContainer" key={index}>
             <p className="sectionContent date">{section.date}</p>
             <div className="sectionContent description">
-              <h3>{section.title} </h3>
+              <h3>
+                {section.title}{" "}
+                {section.link && (
+                  <a
+                    href={section.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Link
+                  </a>
+                )}
+              </h3>
               {section.technologies ? (
                 <div className="multy-section">
                   <div className="sub-section">
@@ -60,15 +79,6 @@ export default class Paragraph extends PureComponent {
                   dangerouslySetInnerHTML={{ __html: section.description }}
                 />
               )}
-              {section.link && (
-                <a
-                  href={section.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Link
-                </a>
-              )}
             </div>
           </div>
         )
@@ -89,21 +99,8 @@ export default class Paragraph extends PureComponent {
   }
 
   //--------Render-Functions-------
-
-  renderMoreContent = () => {
-    const { moreSections } = this.props
-    return (
-      <div ref={this.moreContent} className="more-container">
-        <div className="rightLine" />
-        <div className="sectionsContainer">
-          {this.getSectionElements(moreSections)}
-        </div>
-      </div>
-    )
-  }
-
   renderParagraphContent = () => {
-    const { title, image } = this.props
+    const { title, image, moreSections } = this.props
     const { isLeft, sectionsElements } = this.state
 
     return (
@@ -134,18 +131,26 @@ export default class Paragraph extends PureComponent {
               : "paragraphContainer rightParagraph"
           }
         >
-          <div className="sectionsContainer">{sectionsElements}</div>
+          <div className="sectionsContainer">
+            {sectionsElements}
+            <div ref={this.moreContent} className="more-container">
+              {this.getSectionElements(moreSections)}
+            </div>
+          </div>
         </div>
-        {this.renderMoreContent()}
       </div>
     )
   }
 
-  renderMoreLessButton = () => {
-    const { moreSections } = this.props
-    const { moreContent } = this.state
+  //------------Render--------------
+
+  render() {
+    const { id, moreSections } = this.props
+    const { isLeft, moreContent } = this.state
     return (
-      <>
+      <div id={id} style={{ paddingTop: "3rem" }}>
+        <div className={isLeft ? "leftLine" : "rightLine"} />
+        {this.renderParagraphContent()}
         {moreSections && moreSections.length >= 1 ? (
           <p className="more-paragraph" onClick={this.handleMoreContent}>
             {!moreContent ? "more" : "less"}
@@ -153,20 +158,6 @@ export default class Paragraph extends PureComponent {
         ) : (
           ""
         )}
-      </>
-    )
-  }
-
-  //------------Render--------------
-
-  render() {
-    const { id } = this.props
-    const { isLeft } = this.state
-    return (
-      <div id={id} style={{ paddingTop: "3rem" }}>
-        <div className={isLeft ? "leftLine" : "rightLine"} />
-        {this.renderParagraphContent()}
-        {this.renderMoreLessButton()}
       </div>
     )
   }

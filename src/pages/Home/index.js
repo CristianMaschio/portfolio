@@ -1,5 +1,4 @@
 import React, { PureComponent } from "react"
-
 import Paragraph from "./_shared/Paragraph"
 import Menu from "./_shared/Menu"
 

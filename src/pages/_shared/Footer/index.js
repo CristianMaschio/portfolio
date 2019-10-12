@@ -8,12 +8,8 @@ export default function Footer() {
     <footer>
       <ul>
         <li>
-          <a
-            href="tel:+39345-273-6368"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            +39 3452736368
+          <a href="tel:07716547743" target="_blank" rel="noopener noreferrer">
+            07716547743
           </a>
         </li>
         <li>
@@ -43,7 +39,6 @@ export default function Footer() {
             https://github.com/CristianMaschio
           </a>
         </li>
-        <li>{privacyTerms}</li>
       </ul>
     </footer>
   )
