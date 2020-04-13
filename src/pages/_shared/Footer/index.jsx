@@ -1,17 +1,9 @@
 import React from "react"
 
 export default function Footer() {
-  const privacyTerms = require(`../../../assets/languages/En-content.json`)
-    .privacyTerms
-
   return (
     <footer>
       <ul>
-        <li>
-          <a href="tel:07716547743" target="_blank" rel="noopener noreferrer">
-            07716547743
-          </a>
-        </li>
         <li>
           <a
             href="mailto:cristianmaschio@hotmail.it"
@@ -43,3 +35,4 @@ export default function Footer() {
     </footer>
   )
 }
+

@@ -1,8 +1,8 @@
-import React, { useContext } from "react"
-import Icon from "antd/lib/icon"
+import React, { useContext } from 'react'
+import Icon from 'antd/lib/icon'
 
-import ImageProfile from "../ImageProfile"
-import AppState from "../../../gState/context"
+import ImageProfile from '../ImageProfile'
+import AppState from '../../../gState/context'
 
 function HeaderContent(props) {
   return (
@@ -27,9 +27,6 @@ function HeaderContacts() {
     <div className="header-content">
       <div className="line" />
       <div className="row-content">
-        <a href="tel:07716547743" target="_blank" rel="noopener noreferrer">
-          <Icon type="phone" />
-        </a>
         <a
           href="mailto:cristianmaschio@hotmail.it"
           target="_blank"
@@ -79,7 +76,9 @@ export default function Header() {
         <div className="header-container">
           <div className="line" />
           <h2>{headerContent.header.personal}</h2>
-          <HeaderContent personalData={headerContent.header.personalData} />
+          <HeaderContent
+            personalData={headerContent.header.personalData}
+          />
         </div>
         <div className="header-container">
           <div className="line" />
@@ -105,8 +104,11 @@ export default function Header() {
             <div className="row-content" />
           </div>
         </div>
-        <div className="eu-regolation">{headerContent.privacyTerms}</div>
+        <div className="eu-regolation">
+          {headerContent.privacyTerms}
+        </div>
       </div>
     </header>
   )
 }
+
