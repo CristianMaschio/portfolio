@@ -1,13 +1,9 @@
-import React, { PureComponent } from "react"
-import PropTypes from "prop-types"
+import React, { PureComponent } from 'react'
+import PropTypes from 'prop-types'
 
-import imageProfile from "../../../assets/images/imageProfile.jpg"
+import imageProfile from '../../../assets/images/imageProfile.jpg'
 
 export default class ImageProfile extends PureComponent {
-  static propTypes = {
-    size: PropTypes.number.isRequired
-  }
-
   render() {
     const { size } = this.props
     const cSize = size + size / 20
@@ -28,3 +24,8 @@ export default class ImageProfile extends PureComponent {
     )
   }
 }
+
+ImageProfile.propTypes = {
+  size: PropTypes.number.isRequired,
+}
+

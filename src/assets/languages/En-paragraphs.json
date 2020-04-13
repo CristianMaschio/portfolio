@@ -6,6 +6,12 @@
       "image": "work.png",
       "sections": [
         {
+          "date": "12/2019 - Current",
+          "title": "Rehab - Full Stack Developer",
+          "technologies": "React, Javascript, Redux, Html, Scss, Python & Django.",
+          "achieving": "Working in projects with short deadlines, integrating new features in large platforms and learned to better manage Git flow"
+        },
+        {
           "date": "05/2019 - 30/09/2019",
           "title": "GestionaleAuto.com - React Developer",
           "technologies": "React, Javascript, Redux, Redux-Form, Redux-Saga, Html & Scss.",
@@ -55,6 +61,12 @@
       "title": "Personal experiences",
       "image": "experiences.png",
       "sections": [
+        {
+          "date": "11/2019 - Current",
+          "title": "Volunteer help organizer - (GDG) Cloud London",
+          "description": "<b>Google Developer Group</b> Cloud London is the most active developer group on the meetup platform in the world! </br> We organise hacks several times a week every week. We have a general talk once a month. And we usually have several workshops once a month. </br>  We strive to learn and share knowledge about challenging topics in a casual friendly respectful atmosphere.",
+          "link": "https://www.meetup.com/it-IT/gdgcloud/"
+        },
         {
           "date": "21/03/2019 & 29/11/2018",
           "title": "{Codemotion} Rome & {Codemotion} Milan",
