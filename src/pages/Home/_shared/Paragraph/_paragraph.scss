@@ -4,6 +4,10 @@
   a {
     color: $primary-color;
   }
+
+  @media screen and (max-width: $mobile-max-width) {
+    margin: 1rem 0;
+  }
 }
 
 .leftLine {
@@ -70,7 +74,7 @@
     .sub-section {
       display: flex;
       flex-direction: row;
-      margin: 0.5rem;
+      margin-top: 1rem;
       .sub-section-title {
         font-weight: bold;
         font-size: 0.8rem;
@@ -84,12 +88,6 @@
       .sub-section {
         display: flex;
         flex-direction: column;
-        margin: 0.5rem;
-        .sub-section-title {
-          font-weight: bold;
-          font-size: 0.8rem;
-          min-width: 6rem;
-        }
         .sub-section-content {
           text-align: center;
         }
@@ -108,28 +106,35 @@
 }
 
 .sectionContent {
+  max-width: 40rem;
+  border-radius: 8px;
+  margin: 1rem;
   padding: 1rem;
-  padding-top: 0px;
-  max-width: 35rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
   h3 {
-    margin: 0;
-    margin-bottom: 0.3rem;
+    margin: 1.2rem 0 1rem 0;
     padding: 0;
     text-align: left;
     font-size: 1.2rem;
     @media screen and (max-width: $mobile-max-width) {
       text-align: center;
-      margin: 0.3rem;
     }
+  }
+  @media screen and (max-width: $mobile-max-width) {
+    margin: 1rem 0.3rem;
+    padding: 1rem 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.05);
   }
 }
 
-.sectionContent.date {
+.date {
   min-width: 10rem;
-  max-width: 12rem;
-  text-align: center;
-
+  margin: 0;
+  text-align: right;
+  font-size: 0.8rem;
+  height: 0px;
   @media screen and (max-width: $mobile-max-width) {
+    text-align: center;
     padding-bottom: 0;
     margin-bottom: 0;
   }

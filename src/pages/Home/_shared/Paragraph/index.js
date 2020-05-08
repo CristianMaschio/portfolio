@@ -8,20 +8,20 @@ export default class Paragraph extends PureComponent {
     title: PropTypes.string.isRequired,
     image: PropTypes.string,
     sections: PropTypes.array.isRequired,
-    moreSections: PropTypes.array
-  }
+    moreSections: PropTypes.array,
+  };
 
   static defaultPropTypes = {
     index: 0,
     image: "",
-    moreSections: []
-  }
+    moreSections: [],
+  };
 
   state = {
     isLeft: undefined,
     moreContent: false,
-    sectionsElements: undefined
-  }
+    sectionsElements: undefined,
+  };
 
   componentDidMount() {
     const { sections } = this.props
@@ -32,7 +32,7 @@ export default class Paragraph extends PureComponent {
     this.setState({ isLeft: this.props.index % 2 === 0, sectionsElements })
   }
 
-  moreContent = React.createRef()
+  moreContent = React.createRef();
 
   //----------Functions-----------
 
@@ -43,8 +43,8 @@ export default class Paragraph extends PureComponent {
       sections.map((section, index) => {
         return (
           <div className="sectionContainer" key={index}>
-            <p className="sectionContent date">{section.date}</p>
             <div className="sectionContent description">
+              <p className="date">{section.date}</p>
               <h3>
                 {section.title}{" "}
                 {section.link && (
@@ -96,7 +96,7 @@ export default class Paragraph extends PureComponent {
     }
 
     this.setState({ moreContent: !moreContent })
-  }
+  };
 
   //--------Render-Functions-------
   renderParagraphContent = () => {
@@ -106,11 +106,11 @@ export default class Paragraph extends PureComponent {
     return (
       <div className="paragraph">
         <div
-          className={
-            isLeft
-              ? "paragraphContainer leftParagraph"
-              : "paragraphContainer rightParagraph"
-          }
+          className={`paragraphContainer 
+            ${
+              isLeft ? "leftParagraph" : "rightParagraph"
+            }
+          `}
         >
           <img
             className="paragraphImage"
@@ -140,7 +140,7 @@ export default class Paragraph extends PureComponent {
         </div>
       </div>
     )
-  }
+  };
 
   //------------Render--------------
 
