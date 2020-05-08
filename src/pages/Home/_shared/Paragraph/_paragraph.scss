@@ -1,6 +1,4 @@
 .paragraph {
-  margin: 1rem;
-
   a {
     color: $primary-color;
   }
@@ -42,16 +40,6 @@
 .paragraphContainer {
   display: flex;
   justify-content: center;
-}
-
-.paragraphContainer.leftParagraph {
-  flex-direction: row;
-  flex-wrap: wrap-reverse;
-}
-
-.paragraphContainer.rightParagraph {
-  flex-direction: row-reverse;
-  flex-wrap: wrap-reverse;
 }
 
 .paragraphImage {

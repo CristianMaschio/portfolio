@@ -29,7 +29,7 @@ export default class Paragraph extends PureComponent {
     //Create only one time all the sections
     const sectionsElements = this.getSectionElements(sections)
 
-    this.setState({ isLeft: this.props.index % 2 === 0, sectionsElements })
+    this.setState({ sectionsElements })
   }
 
   moreContent = React.createRef();
@@ -101,16 +101,13 @@ export default class Paragraph extends PureComponent {
   //--------Render-Functions-------
   renderParagraphContent = () => {
     const { title, image, moreSections } = this.props
-    const { isLeft, sectionsElements } = this.state
+    const { sectionsElements } = this.state
 
     return (
       <div className="paragraph">
+      <div className="rightLine" />
         <div
-          className={`paragraphContainer 
-            ${
-              isLeft ? "leftParagraph" : "rightParagraph"
-            }
-          `}
+          className="paragraphContainer"
         >
           <img
             className="paragraphImage"
@@ -125,11 +122,7 @@ export default class Paragraph extends PureComponent {
           />
         </div>
         <div
-          className={
-            isLeft
-              ? "paragraphContainer leftParagraph"
-              : "paragraphContainer rightParagraph"
-          }
+          className="paragraphContainer"
         >
           <div className="sectionsContainer">
             {sectionsElements}
@@ -146,10 +139,9 @@ export default class Paragraph extends PureComponent {
 
   render() {
     const { id, moreSections } = this.props
-    const { isLeft, moreContent } = this.state
+    const { moreContent } = this.state
     return (
       <div id={id} style={{ paddingTop: "3rem" }}>
-        <div className={isLeft ? "leftLine" : "rightLine"} />
         {this.renderParagraphContent()}
         {moreSections && moreSections.length >= 1 ? (
           <p className="more-paragraph" onClick={this.handleMoreContent}>
