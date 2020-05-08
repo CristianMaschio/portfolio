@@ -44,6 +44,11 @@ export default class Paragraph extends PureComponent {
         return (
           <div className="sectionContainer" key={index}>
             <div className="sectionContent description">
+              {section.img && (
+                <div className="section-image">
+                  <img alt={`${section.title}`} src={section.img} />
+                </div>
+              )}
               <p className="date">{section.date}</p>
               <h3>
                 {section.title}{" "}
@@ -105,10 +110,8 @@ export default class Paragraph extends PureComponent {
 
     return (
       <div className="paragraph">
-      <div className="rightLine" />
-        <div
-          className="paragraphContainer"
-        >
+        <div className="rightLine" />
+        <div className="paragraphContainer">
           <img
             className="paragraphImage"
             alt="Universtity of Padua logo"
@@ -121,9 +124,7 @@ export default class Paragraph extends PureComponent {
             src={image && require("../../../../assets/images/" + image)}
           />
         </div>
-        <div
-          className="paragraphContainer"
-        >
+        <div className="paragraphContainer">
           <div className="sectionsContainer">
             {sectionsElements}
             <div ref={this.moreContent} className="more-container">

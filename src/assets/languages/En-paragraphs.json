@@ -6,22 +6,28 @@
       "image": "work.png",
       "sections": [
         {
+          "img": "https://uploads-ssl.webflow.com/5cb1c94b2da2ada2a553ab3f/5cb1ca2a46fa449c04bd168b_all%20light.svg",
           "date": "12/2019 - Current",
           "title": "Rehab - Full Stack Developer",
           "technologies": "React, Javascript, Redux, Html, Scss, Python & Django.",
-          "achieving": "Working in projects with short deadlines, integrating new features in large platforms and learned to better manage Git flow"
+          "achieving": "Working in projects with short deadlines, integrating new features in large platforms and learned to better manage Git flow",
+          "link": "https://www.rehabagency.ai/"
         },
         {
+          "img": "https://gestionaleauto.com/images/logo-footer.png",
           "date": "05/2019 - 30/09/2019",
           "title": "GestionaleAuto.com - React Developer",
           "technologies": "React, Javascript, Redux, Redux-Form, Redux-Saga, Html & Scss.",
-          "achieving": "Learned to working in Agile Scrum team: my daily tasks ranged from refactoring to develop new feature for a large project code base of a management software. In which I managed to improve the simplicity and performance of some components, making them 30-40% faster."
+          "achieving": "Learned to working in Agile Scrum team: my daily tasks ranged from refactoring to develop new feature for a large project code base of a management software. In which I managed to improve the simplicity and performance of some components, making them 30-40% faster.",
+          "link": "https://gestionaleauto.com/"
         },
         {
+          "img": "http://discontinuity.eu/logo.png",
           "date": "10/2018 - 04/2019",
           "title": "Discontinuity - Full Stack Developer",
           "technologies": "React Native, React, Javascript, Gatsby, AWS, DynamoDB, GraphQL, Html & Scss.",
-          "achieving": "Working in Agile team, with maintaining and implementing applications and web sites from scratch"
+          "achieving": "Working in Agile team, with maintaining and implementing applications and web sites from scratch",
+          "link": "http://discontinuity.eu/"
         }
       ]
     },
