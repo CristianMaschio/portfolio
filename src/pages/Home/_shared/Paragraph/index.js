@@ -142,7 +142,7 @@ export default class Paragraph extends PureComponent {
     const { id, moreSections } = this.props
     const { moreContent } = this.state
     return (
-      <div id={id} style={{ paddingTop: "3rem" }}>
+      <div id={id}>
         {this.renderParagraphContent()}
         {moreSections && moreSections.length >= 1 ? (
           <p className="more-paragraph" onClick={this.handleMoreContent}>
