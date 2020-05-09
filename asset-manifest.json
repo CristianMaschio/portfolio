@@ -1,5 +1,5 @@
 {
-  "main.css": "/portfolio/static/css/main.b0406f17.chunk.css",
+  "main.css": "/portfolio/static/css/main.a1046f63.chunk.css",
   "main.js": "/portfolio/static/js/main.c4ec2512.chunk.js",
   "main.js.map": "/portfolio/static/js/main.c4ec2512.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
@@ -7,9 +7,9 @@
   "static/js/2.a5ad9383.chunk.js": "/portfolio/static/js/2.a5ad9383.chunk.js",
   "static/js/2.a5ad9383.chunk.js.map": "/portfolio/static/js/2.a5ad9383.chunk.js.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.73e49c88ca539934e0bdeae8bce86e2d.js": "/portfolio/precache-manifest.73e49c88ca539934e0bdeae8bce86e2d.js",
+  "precache-manifest.e8cce897f2b70d8c80934dcce8757378.js": "/portfolio/precache-manifest.e8cce897f2b70d8c80934dcce8757378.js",
   "service-worker.js": "/portfolio/service-worker.js",
-  "static/css/main.b0406f17.chunk.css.map": "/portfolio/static/css/main.b0406f17.chunk.css.map",
+  "static/css/main.a1046f63.chunk.css.map": "/portfolio/static/css/main.a1046f63.chunk.css.map",
   "static/media/roboto.css": "/portfolio/static/media/Roboto-ThinItalic.0fc25386.ttf",
   "static/media/imageProfile.jpg": "/portfolio/static/media/imageProfile.37b9aa7e.jpg",
   "static/media/intro.jpg": "/portfolio/static/media/intro.b9df2c36.jpg"
