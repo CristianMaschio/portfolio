@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import Icon from 'antd/lib/icon'
 
 import ImageProfile from '../ImageProfile'
-import AppState from '../../../gState/context'
+import Context from '../../../Context'
 
 function HeaderContent(props) {
   return (
@@ -54,7 +54,7 @@ function HeaderContacts() {
 }
 
 export default function Header() {
-  const { headerClass, setRenderInformation } = useContext(AppState)
+  const { headerClass, setRenderInformation } = useContext(Context)
 
   const headerContent = require(`../../../assets/languages/En-content.json`)
 
