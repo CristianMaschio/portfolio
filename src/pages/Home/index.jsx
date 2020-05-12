@@ -1,6 +1,6 @@
 import React, { PureComponent } from "react"
-import Paragraph from "./_shared/Paragraph"
-import Menu from "./_shared/Menu"
+import Paragraph from "./Paragraph"
+import Menu from "./Menu"
 
 class Home extends PureComponent {
   render() {

@@ -1,8 +1,8 @@
 import React, { useContext } from "react"
-import Context from "../../../../Context"
+import Context from "../../../Context"
 
 import whiteInfo from "../../../../assets/images/whiteInfo.png"
-const menuLink = require(`../../../../assets/languages/En-content.json`).menu
+const menuLink = require(`../../../assets/languages/En-content.json`).menu
   
 export default function Menu() {
   const { setRenderInformation } = useContext(Context)
