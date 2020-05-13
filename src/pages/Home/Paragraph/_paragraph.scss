@@ -1,180 +1,187 @@
 .paragraph {
   margin-top: 2rem;
-  a {
+
+  .leftLine {
+    background-image: $primary-left-linear-gradient;
+    height: 0.8px;
+  }
+
+  .rightLine {
+    background-image: $primary-right-linear-gradient;
+    height: 0.8px;
+  }
+
+  .paragraphTitle {
+    flex: 1;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 2.4rem;
+    letter-spacing: -0.5px;
     color: $primary-color;
-  }
-}
-
-.leftLine {
-  background-image: $primary-left-linear-gradient;
-  height: 0.8px;
-}
-
-.rightLine {
-  background-image: $primary-right-linear-gradient;
-  height: 0.8px;
-}
-
-.paragraphTitle {
-  flex: 1;
-  font-family: Roboto;
-  font-weight: 300;
-  font-size: 2.4rem;
-  letter-spacing: -0.5px;
-  color: $primary-color;
-  mix-blend-mode: normal;
-  text-align: center;
-  @media screen and (max-width: $mobile-max-width) {
-    font-size: 1.9rem;
-  }
-}
-
-.leftTitle {
-  text-align: left;
-}
-
-.rightTitle {
-  text-align: right;
-}
-
-.paragraphContainer {
-  display: flex;
-  justify-content: center;
-}
-
-.paragraphImage {
-  height: 5rem;
-  align-self: center;
-  @media screen and (max-width: $mobile-max-width) {
-    height: 3rem;
-  }
-}
-
-.sectionsContainer {
-  flex: 1;
-  align-self: center;
-  font-family: Roboto;
-  font-size: 0.8rem;
-  letter-spacing: 0.5px;
-  background-color: #fff;
-  z-index: 1;
-  .multy-section {
-    .sub-section {
-      display: flex;
-      flex-direction: row;
-      margin-top: 1rem;
-      .sub-section-title {
-        font-weight: bold;
-        font-size: 0.8rem;
-        min-width: 6rem;
-      }
-      .sub-section-content {
-        text-align: left;
-      }
-    }
+    mix-blend-mode: normal;
+    text-align: center;
     @media screen and (max-width: $mobile-max-width) {
+      font-size: 1.9rem;
+    }
+  }
+
+  .leftTitle {
+    text-align: left;
+  }
+
+  .rightTitle {
+    text-align: right;
+  }
+
+  .paragraphContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .paragraphImage {
+    height: 5rem;
+    align-self: center;
+    @media screen and (max-width: $mobile-max-width) {
+      height: 3rem;
+    }
+  }
+
+  .sectionsContainer {
+    flex: 1;
+    align-self: center;
+    font-family: Roboto;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+    background-color: #fff;
+    z-index: 1;
+    .multy-section {
       .sub-section {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        margin-top: 1rem;
+        .sub-section-title {
+          font-weight: bold;
+          font-size: 0.8rem;
+          min-width: 6rem;
+        }
         .sub-section-content {
-          text-align: center;
+          text-align: left;
+        }
+      }
+      @media screen and (max-width: $mobile-max-width) {
+        .sub-section {
+          display: flex;
+          flex-direction: column;
+          .sub-section-content {
+            text-align: center;
+          }
         }
       }
     }
   }
-}
 
-.sectionContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  @media screen and (max-width: $mobile-max-width) {
-    flex-wrap: wrap;
-    margin: 0 8px;
-  }
-}
-
-.sectionContent {
-  max-width: 40rem;
-  border-radius: 8px;
-  margin: 1rem;
-  padding: 1rem;
-  box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
-  h3 {
-    margin: 1.2rem 0 1rem 0;
-    padding: 0;
-    text-align: left;
-    font-size: 1.2rem;
+  .sectionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     @media screen and (max-width: $mobile-max-width) {
+      flex-wrap: wrap;
+      margin: 0 8px;
+    }
+  }
+
+  .sectionContent {
+    max-width: 40rem;
+    border-radius: 8px;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.1),
+      0 6px 20px 0 rgba(0, 0, 0, 0.05);
+    h3 {
+      margin: 1.2rem 0 1rem 0;
+      padding: 0;
+      text-align: left;
+      font-size: 1.2rem;
+      @media screen and (max-width: $mobile-max-width) {
+        text-align: center;
+      }
+    }
+    @media screen and (max-width: $mobile-max-width) {
+      margin: 1rem 0.3rem;
+      padding: 1rem 0;
+    }
+  }
+
+  .section-image {
+    display: flex;
+    border-radius: 8px 8px 0 0;
+    margin: -1rem -1rem 0.5rem -1rem;
+    width: 100%;
+    height: 3rem;
+    padding: 0 1rem;
+    background-color: rgba(59, 98, 196, 0.2);
+    justify-content: center;
+    img {
+      width: auto;
+      max-height: 2rem;
+      margin: 0.5rem 0;
+    }
+    @media screen and (max-width: $mobile-max-width) {
+      margin: -1rem 0 0.5rem 0;
+      padding: 0;
+    }
+  }
+
+  .date {
+    min-width: 10rem;
+    margin: 0;
+    text-align: right;
+    font-size: 0.8rem;
+    height: 0px;
+    @media screen and (max-width: $mobile-max-width) {
+      text-align: center;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  .sectionContent.description {
+    min-width: 25rem;
+    font-size: 1rem;
+    flex: 1;
+    text-align: left;
+    @media screen and (max-width: $mobile-max-width) {
+      min-width: 100%;
       text-align: center;
     }
   }
-  @media screen and (max-width: $mobile-max-width) {
-    margin: 1rem 0.3rem;
-    padding: 1rem 0;
-  }
-}
 
-.section-image {
-  display: flex;
-  border-radius: 8px 8px 0 0;
-  margin: -1rem -1rem 0.5rem -1rem;
-  width: 100%;
-  height: 3rem;
-  padding: 0 1rem;
-  background-color: rgba(59, 98, 196, 0.2);
-  justify-content: center;
-  img{
-    width: auto;
-    max-height: 2rem;
-    margin: 0.5rem 0;
-  }
-  @media screen and (max-width: $mobile-max-width) {
-    margin: -1rem 0 0.5rem 0;
-    padding: 0;
-  }
-}
-
-.date {
-  min-width: 10rem;
-  margin: 0;
-  text-align: right;
-  font-size: 0.8rem;
-  height: 0px;
-  @media screen and (max-width: $mobile-max-width) {
+  .more-paragraph {
     text-align: center;
-    padding-bottom: 0;
-    margin-bottom: 0;
+    cursor: pointer;
+    color: $primary-color;
   }
-}
 
-.sectionContent.description {
-  min-width: 25rem;
-  font-size: 1rem;
-  flex: 1;
-  text-align: left;
-  @media screen and (max-width: $mobile-max-width) {
-    min-width: 100%;
-    text-align: center;
+  .more-container {
+    height: 0px;
+    overflow: hidden;
+    width: 100%;
+    z-index: -1;
+    transition: all 0.5s;
+    .leftLine {
+      margin-bottom: 0.7rem;
+    }
+    .rightLine {
+      margin-bottom: 0.7rem;
+    }
   }
-}
 
-.more-paragraph {
-  text-align: center;
-  cursor: pointer;
-  color: $primary-color;
-}
-
-.more-container {
-  height: 0px;
-  overflow: hidden;
-  width: 100%;
-  z-index: -1;
-  transition: all 0.5s;
-  .leftLine {
-    margin-bottom: 0.7rem;
-  }
-  .rightLine {
-    margin-bottom: 0.7rem;
+  .link-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.3rem;
+    a {
+      color: $primary-color;
+    }
   }
 }

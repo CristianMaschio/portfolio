@@ -51,16 +51,7 @@ export default class Paragraph extends PureComponent {
               )}
               <p className="date">{section.date}</p>
               <h3>
-                {section.title}{" "}
-                {section.link && (
-                  <a
-                    href={section.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Link
-                  </a>
-                )}
+                {section.title}
               </h3>
               {section.technologies ? (
                 <div className="multy-section">
@@ -84,6 +75,17 @@ export default class Paragraph extends PureComponent {
                   dangerouslySetInnerHTML={{ __html: section.description }}
                 />
               )}
+              {section.link && (
+                <div className="link-container">
+                  <a
+                    href={section.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Go to page >>
+                  </a>
+                  </div>
+                )}
             </div>
           </div>
         )
