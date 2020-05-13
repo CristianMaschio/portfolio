@@ -1,20 +1,15 @@
 import React, { useContext } from "react"
 import Context from "../../../Context"
+import { InfoCircleFilled } from "@ant-design/icons"
 
-import whiteInfo from "../../../assets/images/whiteInfo.png"
 const menuLink = require(`../../../assets/languages/En-content.json`).menu
-  
+
 export default function Menu() {
   const { setRenderInformation } = useContext(Context)
-  
+
   return (
     <div className="menu">
-      <img
-        onClick={setRenderInformation}
-        src={whiteInfo}
-        alt="info click icon"
-        className="info-menu"
-      />
+      <InfoCircleFilled className="info-menu" onClick={setRenderInformation} />
       <p onClick={setRenderInformation}>Cristian Maschio</p>
       <ul>
         <li>
