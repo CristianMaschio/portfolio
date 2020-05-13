@@ -1,16 +1,25 @@
 {
-  "main.css": "/portfolio/static/css/main.48ce63a1.chunk.css",
-  "main.js": "/portfolio/static/js/main.0f6a81fe.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.0f6a81fe.chunk.js.map",
-  "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
-  "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
-  "static/js/2.a5ad9383.chunk.js": "/portfolio/static/js/2.a5ad9383.chunk.js",
-  "static/js/2.a5ad9383.chunk.js.map": "/portfolio/static/js/2.a5ad9383.chunk.js.map",
-  "index.html": "/portfolio/index.html",
-  "precache-manifest.d36a70808cd28c989dbf4f2db3d58175.js": "/portfolio/precache-manifest.d36a70808cd28c989dbf4f2db3d58175.js",
-  "service-worker.js": "/portfolio/service-worker.js",
-  "static/css/main.48ce63a1.chunk.css.map": "/portfolio/static/css/main.48ce63a1.chunk.css.map",
-  "static/media/roboto.css": "/portfolio/static/media/Roboto-ThinItalic.0fc25386.ttf",
-  "static/media/imageProfile.jpg": "/portfolio/static/media/imageProfile.37b9aa7e.jpg",
-  "static/media/intro.jpg": "/portfolio/static/media/intro.b9df2c36.jpg"
+  "files": {
+    "main.css": "/portfolio/static/css/main.5ddf6f1b.chunk.css",
+    "main.js": "/portfolio/static/js/main.1bad67cd.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1bad67cd.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.f4f2abbf.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.f4f2abbf.js.map",
+    "static/js/2.13617694.chunk.js": "/portfolio/static/js/2.13617694.chunk.js",
+    "static/js/2.13617694.chunk.js.map": "/portfolio/static/js/2.13617694.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.b586e4e8d64b8e0289c2cc4e2ef0651d.js": "/portfolio/precache-manifest.b586e4e8d64b8e0289c2cc4e2ef0651d.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.5ddf6f1b.chunk.css.map": "/portfolio/static/css/main.5ddf6f1b.chunk.css.map",
+    "static/js/2.13617694.chunk.js.LICENSE.txt": "/portfolio/static/js/2.13617694.chunk.js.LICENSE.txt",
+    "static/media/roboto.css": "/portfolio/static/media/Roboto-ThinItalic.0fc25386.ttf",
+    "static/media/imageProfile.jpg": "/portfolio/static/media/imageProfile.37b9aa7e.jpg",
+    "static/media/intro.jpg": "/portfolio/static/media/intro.b9df2c36.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4f2abbf.js",
+    "static/js/2.13617694.chunk.js",
+    "static/css/main.5ddf6f1b.chunk.css",
+    "static/js/main.1bad67cd.chunk.js"
+  ]
 }
