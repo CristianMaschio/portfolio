@@ -185,3 +185,23 @@
     }
   }
 }
+
+.more-paragraph {
+  text-align: center;
+  cursor: pointer;
+  color: $primary-color;
+}
+
+.more-container {
+  height: 0px;
+  overflow: hidden;
+  width: 100%;
+  z-index: -1;
+  transition: all 0.5s;
+  .leftLine {
+    margin-bottom: 0.7rem;
+  }
+  .rightLine {
+    margin-bottom: 0.7rem;
+  }
+}
