@@ -6,7 +6,7 @@
       "image": "work.png",
       "sections": [
         {
-          "img": "https://uploads-ssl.webflow.com/5cb1c94b2da2ada2a553ab3f/5cb1ca2a46fa449c04bd168b_all%20light.svg",
+          "img": "rehab.svg",
           "date": "12/2019 - Current",
           "title": "Rehab - Full Stack Developer",
           "technologies": "React, Javascript, Redux, Html, Scss, Python & Django.",
@@ -14,7 +14,7 @@
           "link": "https://www.rehabagency.ai/"
         },
         {
-          "img": "https://gestionaleauto.com/images/logo-footer.png",
+          "img": "gestionaleauto.png",
           "date": "05/2019 - 30/09/2019",
           "title": "GestionaleAuto.com - React Developer",
           "technologies": "React, Javascript, Redux, Redux-Form, Redux-Saga, Html & Scss.",
@@ -22,7 +22,7 @@
           "link": "https://gestionaleauto.com/"
         },
         {
-          "img": "http://discontinuity.eu/logo.png",
+          "img": "discontinuity.png",
           "date": "10/2018 - 04/2019",
           "title": "Discontinuity - Full Stack Developer",
           "technologies": "React Native, React, Javascript, Gatsby, AWS, DynamoDB, GraphQL, Html & Scss.",

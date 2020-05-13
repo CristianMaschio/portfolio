@@ -46,7 +46,7 @@ export default class Paragraph extends PureComponent {
             <div className="sectionContent description">
               {section.img && (
                 <div className="section-image">
-                  <img alt={`${section.title}`} src={section.img} />
+                  <img alt={`${section.title}`} src={ require("../../../assets/images/" +section.img)} />
                 </div>
               )}
               <p className="date">{section.date}</p>
