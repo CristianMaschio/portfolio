@@ -1,13 +1,18 @@
-import React, { useContext } from 'react'
-import Icon from 'antd/lib/icon'
+import React, { useContext } from "react"
+import {
+  LinkedinFilled,
+  MailFilled,
+  GithubFilled,
+  CloudDownloadOutlined,
+} from "@ant-design/icons"
 
-import ImageProfile from '../ImageProfile'
-import Context from '../../../Context'
+import ImageProfile from "../ImageProfile"
+import Context from "../../../Context"
 
 function HeaderContent(props) {
   return (
     <div>
-      {props.personalData.map(content => {
+      {props.personalData.map((content) => {
         return (
           <div key={content.key} className="header-content">
             <div className="line" />
@@ -32,21 +37,21 @@ function HeaderContacts() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Icon type="mail" />
+          <MailFilled />
         </a>
         <a
           href="https://github.com/CristianMaschio"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Icon type="github" />
+          <GithubFilled />
         </a>
         <a
           href="https://www.linkedin.com/in/cristian-maschio-37004a146"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Icon type="linkedin" />
+          <LinkedinFilled />
         </a>
       </div>
     </div>
@@ -58,12 +63,12 @@ export default function Header() {
 
   const headerContent = require(`../../../assets/languages/En-content.json`)
 
-  const closeHeaderInformation = event => {
+  const closeHeaderInformation = (event) => {
     event.stopPropagation()
     setRenderInformation(false)
   }
 
-  const stopPropagation = event => {
+  const stopPropagation = (event) => {
     event.stopPropagation()
   }
 
@@ -76,9 +81,7 @@ export default function Header() {
         <div className="header-container">
           <div className="line" />
           <h2>{headerContent.header.personal}</h2>
-          <HeaderContent
-            personalData={headerContent.header.personalData}
-          />
+          <HeaderContent personalData={headerContent.header.personalData} />
         </div>
         <div className="header-container">
           <div className="line" />
@@ -95,7 +98,7 @@ export default function Header() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Icon type="download" />
+                <CloudDownloadOutlined />
               </a>
             </div>
           </h2>
@@ -104,11 +107,8 @@ export default function Header() {
             <div className="row-content" />
           </div>
         </div>
-        <div className="eu-regolation">
-          {headerContent.privacyTerms}
-        </div>
+        <div className="eu-regolation">{headerContent.privacyTerms}</div>
       </div>
     </header>
   )
 }
-

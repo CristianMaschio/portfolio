@@ -6,7 +6,12 @@
 @import "../../pages/_shared/Header/_header";
 @import "../../pages/_shared/ImageProfile/_imageProfile";
 
-// Pages
+// Pages - Home
+@import "../../pages/Home/_home";
+@import "../../pages/Home/Menu/_menu";
+@import "../../pages/Home/Paragraph/_paragraph";
+
+// Pages - Covid
 @import "../../pages/Home/_home";
 @import "../../pages/Home/Menu/_menu";
 @import "../../pages/Home/Paragraph/_paragraph";
