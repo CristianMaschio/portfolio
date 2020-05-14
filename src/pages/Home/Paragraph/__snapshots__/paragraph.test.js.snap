@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Paragraph: render correctly 1`] = `
+<div
+  id="test"
+>
+  <div
+    className="paragraph"
+  >
+    <div
+      className="rightLine"
+    />
+    <div
+      className="paragraphContainer"
+    >
+      <img
+        alt="Universtity of Padua logo"
+        className="paragraphImage"
+      />
+      <h2
+        className="paragraphTitle"
+      >
+        test
+      </h2>
+      <img
+        alt="Universtity of Padua logo"
+        className="paragraphImage"
+      />
+    </div>
+    <div
+      className="paragraphContainer"
+    >
+      <div
+        className="sectionsContainer"
+      >
+        <div
+          className="sectionContainer"
+        >
+          <div
+            className="sectionContent description"
+          >
+            <div
+              className="section-image"
+            >
+              <img
+                alt="GestionaleAuto.com - React Developer"
+                src="gestionaleauto.png"
+              />
+            </div>
+            <p
+              className="date"
+            >
+              05/2019 - 30/09/2019
+            </p>
+            <h3>
+              GestionaleAuto.com - React Developer
+            </h3>
+            <div
+              className="multy-section"
+            >
+              <div
+                className="sub-section"
+              >
+                <div
+                  className="sub-section-title"
+                >
+                  Technologies:
+                </div>
+                <div
+                  className="sub-section-content"
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "React, Javascript, Redux, Redux-Form, Redux-Saga, Html & Scss.",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="sub-section"
+              >
+                <div
+                  className="sub-section-title"
+                >
+                  Achieving:
+                </div>
+                <div
+                  className="sub-section-content"
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "Learned to working in Agile Scrum team: my daily tasks ranged from refactoring to develop new feature for a large project code base of a management software. In which I managed to improve the simplicity and performance of some components, making them 30-40% faster.",
+                    }
+                  }
+                />
+              </div>
+            </div>
+            <div
+              className="link-container"
+            >
+              <a
+                href="https://gestionaleauto.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Go to page &gt;&gt;
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="sectionContainer"
+        >
+          <div
+            className="sectionContent description"
+          >
+            <div
+              className="section-image"
+            >
+              <img
+                alt="Discontinuity - Full Stack Developer"
+                src="discontinuity.png"
+              />
+            </div>
+            <p
+              className="date"
+            >
+              10/2018 - 04/2019
+            </p>
+            <h3>
+              Discontinuity - Full Stack Developer
+            </h3>
+            <div
+              className="multy-section"
+            >
+              <div
+                className="sub-section"
+              >
+                <div
+                  className="sub-section-title"
+                >
+                  Technologies:
+                </div>
+                <div
+                  className="sub-section-content"
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "React Native, React, Javascript, Gatsby, AWS, DynamoDB, GraphQL, Html & Scss.",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="sub-section"
+              >
+                <div
+                  className="sub-section-title"
+                >
+                  Achieving:
+                </div>
+                <div
+                  className="sub-section-content"
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "Working in Agile team, with maintaining and implementing applications and web sites from scratch",
+                    }
+                  }
+                />
+              </div>
+            </div>
+            <div
+              className="link-container"
+            >
+              <a
+                href="http://discontinuity.eu/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Go to page &gt;&gt;
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="more-container"
+        />
+      </div>
+    </div>
+  </div>
+  
+</div>
+`;

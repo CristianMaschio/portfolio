@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer: render correctly 1`] = `
+<footer>
+  <ul>
+    <li>
+      <a
+        href="mailto:cristianmaschio@hotmail.it"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        CristianMaschio@hotmail.it
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://www.linkedin.com/in/cristian-maschio-37004a146"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        https://www.linkedin.com/in/cristian-maschio-37004a146
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://github.com/CristianMaschio"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        https://github.com/CristianMaschio
+      </a>
+    </li>
+  </ul>
+</footer>
+`;

@@ -29,6 +29,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@types/jest": "^25.2.2",
     "babel-eslint": "^10.1.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",

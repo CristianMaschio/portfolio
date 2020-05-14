@@ -1,0 +1,971 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home: render correctly 1`] = `
+<div
+  className="home"
+>
+  <div
+    className="intro intro-white-trasparence"
+  >
+    <div
+      className="intro-white-trasparence"
+    >
+      <div
+        className="foolishIn"
+      >
+        <h1>
+          Cristian Maschio
+        </h1>
+        <h2>
+          &lt;SoftwareEngineer /&gt;
+        </h2>
+      </div>
+    </div>
+  </div>
+  <div
+    className="menu"
+  >
+    <span
+      aria-label="info-circle"
+      className="anticon anticon-info-circle info-menu"
+      onClick={[Function]}
+      role="img"
+      tabIndex={-1}
+    >
+      <svg
+        aria-hidden="true"
+        className=""
+        data-icon="info-circle"
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        viewBox="64 64 896 896"
+        width="1em"
+      >
+        <path
+          d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm32 664c0 4.4-3.6 8-8 8h-48c-4.4 0-8-3.6-8-8V456c0-4.4 3.6-8 8-8h48c4.4 0 8 3.6 8 8v272zm-32-344a48.01 48.01 0 010-96 48.01 48.01 0 010 96z"
+        />
+      </svg>
+    </span>
+    <p
+      onClick={[Function]}
+    >
+      Cristian Maschio
+    </p>
+    <ul>
+      <li>
+        <a
+          href="#professional"
+        >
+          Professional
+        </a>
+      </li>
+      <li>
+        <a
+          href="#education"
+        >
+          Education
+        </a>
+      </li>
+      <li>
+        <a
+          href="#passion"
+        >
+          Passion
+        </a>
+      </li>
+      <li>
+        <a
+          href="#experience"
+        >
+          Experience
+        </a>
+      </li>
+      <li>
+        <a
+          href="#code"
+        >
+          Code
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div
+    className="paragraphs"
+  >
+    <div
+      id="professional"
+    >
+      <div
+        className="paragraph"
+      >
+        <div
+          className="rightLine"
+        />
+        <div
+          className="paragraphContainer"
+        >
+          <img
+            alt="Universtity of Padua logo"
+            className="paragraphImage"
+            src="work.png"
+          />
+          <h2
+            className="paragraphTitle"
+          >
+            Professional
+          </h2>
+          <img
+            alt="Universtity of Padua logo"
+            className="paragraphImage"
+            src="work.png"
+          />
+        </div>
+        <div
+          className="paragraphContainer"
+        >
+          <div
+            className="sectionsContainer"
+          >
+            <div
+              className="sectionContainer"
+            >
+              <div
+                className="sectionContent description"
+              >
+                <div
+                  className="section-image"
+                >
+                  <img
+                    alt="Rehab - Full Stack Developer"
+                    src={
+                      Object {
+                        "ReactComponent": Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "render": [Function],
+                        },
+                        "__esModule": true,
+                        "default": "rehab.svg",
+                      }
+                    }
+                  />
+                </div>
+                <p
+                  className="date"
+                >
+                  12/2019 - Current
+                </p>
+                <h3>
+                  Rehab - Full Stack Developer
+                </h3>
+                <div
+                  className="multy-section"
+                >
+                  <div
+                    className="sub-section"
+                  >
+                    <div
+                      className="sub-section-title"
+                    >
+                      Technologies:
+                    </div>
+                    <div
+                      className="sub-section-content"
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "React, Javascript, Redux, Html, Scss, Python & Django.",
+                        }
+                      }
+                    />
+                  </div>
+                  <div
+                    className="sub-section"
+                  >
+                    <div
+                      className="sub-section-title"
+                    >
+                      Achieving:
+                    </div>
+                    <div
+                      className="sub-section-content"
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "Working in projects with short deadlines, integrating new features in large platforms and learned to better manage Git flow",
+                        }
+                      }
+                    />
+                  </div>
+                </div>
+                <div
+                  className="link-container"
+                >
+                  <a
+                    href="https://www.rehabagency.ai/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Go to page &gt;&gt;
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              className="sectionContainer"
+            >
+              <div
+                className="sectionContent description"
+              >
+                <div
+                  className="section-image"
+                >
+                  <img
+                    alt="GestionaleAuto.com - React Developer"
+                    src="gestionaleauto.png"
+                  />
+                </div>
+                <p
+                  className="date"
+                >
+                  05/2019 - 30/09/2019
+                </p>
+                <h3>
+                  GestionaleAuto.com - React Developer
+                </h3>
+                <div
+                  className="multy-section"
+                >
+                  <div
+                    className="sub-section"
+                  >
+                    <div
+                      className="sub-section-title"
+                    >
+                      Technologies:
+                    </div>
+                    <div
+                      className="sub-section-content"
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "React, Javascript, Redux, Redux-Form, Redux-Saga, Html & Scss.",
+                        }
+                      }
+                    />
+                  </div>
+                  <div
+                    className="sub-section"
+                  >
+                    <div
+                      className="sub-section-title"
+                    >
+                      Achieving:
+                    </div>
+                    <div
+                      className="sub-section-content"
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "Learned to working in Agile Scrum team: my daily tasks ranged from refactoring to develop new feature for a large project code base of a management software. In which I managed to improve the simplicity and performance of some components, making them 30-40% faster.",
+                        }
+                      }
+                    />
+                  </div>
+                </div>
+                <div
+                  className="link-container"
+                >
+                  <a
+                    href="https://gestionaleauto.com/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Go to page &gt;&gt;
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              className="sectionContainer"
+            >
+              <div
+                className="sectionContent description"
+              >
+                <div
+                  className="section-image"
+                >
+                  <img
+                    alt="Discontinuity - Full Stack Developer"
+                    src="discontinuity.png"
+                  />
+                </div>
+                <p
+                  className="date"
+                >
+                  10/2018 - 04/2019
+                </p>
+                <h3>
+                  Discontinuity - Full Stack Developer
+                </h3>
+                <div
+                  className="multy-section"
+                >
+                  <div
+                    className="sub-section"
+                  >
+                    <div
+                      className="sub-section-title"
+                    >
+                      Technologies:
+                    </div>
+                    <div
+                      className="sub-section-content"
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "React Native, React, Javascript, Gatsby, AWS, DynamoDB, GraphQL, Html & Scss.",
+                        }
+                      }
+                    />
+                  </div>
+                  <div
+                    className="sub-section"
+                  >
+                    <div
+                      className="sub-section-title"
+                    >
+                      Achieving:
+                    </div>
+                    <div
+                      className="sub-section-content"
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "Working in Agile team, with maintaining and implementing applications and web sites from scratch",
+                        }
+                      }
+                    />
+                  </div>
+                </div>
+                <div
+                  className="link-container"
+                >
+                  <a
+                    href="http://discontinuity.eu/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Go to page &gt;&gt;
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              className="more-container"
+            />
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div
+      id="education"
+    >
+      <div
+        className="paragraph"
+      >
+        <div
+          className="rightLine"
+        />
+        <div
+          className="paragraphContainer"
+        >
+          <img
+            alt="Universtity of Padua logo"
+            className="paragraphImage"
+            src="education.png"
+          />
+          <h2
+            className="paragraphTitle"
+          >
+            Education
+          </h2>
+          <img
+            alt="Universtity of Padua logo"
+            className="paragraphImage"
+            src="education.png"
+          />
+        </div>
+        <div
+          className="paragraphContainer"
+        >
+          <div
+            className="sectionsContainer"
+          >
+            <div
+              className="sectionContainer"
+            >
+              <div
+                className="sectionContent description"
+              >
+                <p
+                  className="date"
+                >
+                  2015 - 2019
+                </p>
+                <h3>
+                  University of Padua - Computer Science
+                </h3>
+                <div
+                  className="multy-section"
+                >
+                  <div
+                    className="sub-section"
+                  >
+                    <div
+                      className="sub-section-title"
+                    >
+                      Technologies:
+                    </div>
+                    <div
+                      className="sub-section-content"
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "C++, SQL, Java, Javascript, Php, html, css, React Native & React.",
+                        }
+                      }
+                    />
+                  </div>
+                  <div
+                    className="sub-section"
+                  >
+                    <div
+                      className="sub-section-title"
+                    >
+                      Achieving:
+                    </div>
+                    <div
+                      className="sub-section-content"
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "It gave me the mental flexibility to learn new programming languages quickly, handle pointers, object-oriented and concurrent programming.",
+                        }
+                      }
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="more-container"
+            />
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div
+      id="passion"
+    >
+      <div
+        className="paragraph"
+      >
+        <div
+          className="rightLine"
+        />
+        <div
+          className="paragraphContainer"
+        >
+          <img
+            alt="Universtity of Padua logo"
+            className="paragraphImage"
+            src="passions.png"
+          />
+          <h2
+            className="paragraphTitle"
+          >
+            Passion
+          </h2>
+          <img
+            alt="Universtity of Padua logo"
+            className="paragraphImage"
+            src="passions.png"
+          />
+        </div>
+        <div
+          className="paragraphContainer"
+        >
+          <div
+            className="sectionsContainer"
+          >
+            <div
+              className="sectionContainer"
+            >
+              <div
+                className="sectionContent description"
+              >
+                <p
+                  className="date"
+                >
+                  -
+                </p>
+                <h3>
+                  Programming
+                </h3>
+                <div
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "I love programming, thinking and using my mind to create more and more clean and especially performed code. I like working with innovative technologies, mainly with web and mobile application. Currently I use a lot React and React-Native.",
+                    }
+                  }
+                />
+              </div>
+            </div>
+            <div
+              className="sectionContainer"
+            >
+              <div
+                className="sectionContent description"
+              >
+                <p
+                  className="date"
+                >
+                  -
+                </p>
+                <h3>
+                  Vegetable garden
+                </h3>
+                <div
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "These passion allow me to get my hands dirty, free my mind and appreciate how much nature can give us.",
+                    }
+                  }
+                />
+              </div>
+            </div>
+            <div
+              className="more-container"
+            />
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div
+      id="experience"
+    >
+      <div
+        className="paragraph"
+      >
+        <div
+          className="rightLine"
+        />
+        <div
+          className="paragraphContainer"
+        >
+          <img
+            alt="Universtity of Padua logo"
+            className="paragraphImage"
+            src="experiences.png"
+          />
+          <h2
+            className="paragraphTitle"
+          >
+            Experience
+          </h2>
+          <img
+            alt="Universtity of Padua logo"
+            className="paragraphImage"
+            src="experiences.png"
+          />
+        </div>
+        <div
+          className="paragraphContainer"
+        >
+          <div
+            className="sectionsContainer"
+          >
+            <div
+              className="sectionContainer"
+            >
+              <div
+                className="sectionContent description"
+              >
+                <p
+                  className="date"
+                >
+                  11/2019 - Current
+                </p>
+                <h3>
+                  Volunteer help organizer - (GDG) Cloud London
+                </h3>
+                <div
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<b>Google Developer Group</b> Cloud London is the most active developer group on the meetup platform in the world! </br> We organise hacks several times a week every week. We have a general talk once a month. And we usually have several workshops once a month. </br>  We strive to learn and share knowledge about challenging topics in a casual friendly respectful atmosphere.",
+                    }
+                  }
+                />
+                <div
+                  className="link-container"
+                >
+                  <a
+                    href="https://www.meetup.com/it-IT/gdgcloud/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Go to page &gt;&gt;
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              className="sectionContainer"
+            >
+              <div
+                className="sectionContent description"
+              >
+                <p
+                  className="date"
+                >
+                  21/03/2019 & 29/11/2018
+                </p>
+                <h3>
+                  {Codemotion} Rome & {Codemotion} Milan
+                </h3>
+                <div
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "(Participated) Codemotion is the biggest tech conference in Italy and one of the most important in Europe. Here I had the chance to meet new people who shared my passions and follow front-end and react talks which allowed me to improve the quality of my code and learn new things.",
+                    }
+                  }
+                />
+                <div
+                  className="link-container"
+                >
+                  <a
+                    href="https://about.codemotion.com/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Go to page &gt;&gt;
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              className="sectionContainer"
+            >
+              <div
+                className="sectionContent description"
+              >
+                <p
+                  className="date"
+                >
+                  26/05/2018
+                </p>
+                <h3>
+                  Hackathon won (React + Typescript)
+                </h3>
+                <div
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "First prize winning with a web application developed with the use of the <b>React</b> library and the <b>Google Maps API.</b>",
+                    }
+                  }
+                />
+                <div
+                  className="link-container"
+                >
+                  <a
+                    href="https://github.com/CristianMaschio/FE-ProgettoCastelfrancoVeneto"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Go to page &gt;&gt;
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              className="sectionContainer"
+            >
+              <div
+                className="sectionContent description"
+              >
+                <p
+                  className="date"
+                >
+                  10/2017 - 07/2018
+                </p>
+                <h3>
+                  University project - Social web app (Typescript + React + NodeJs + Jest + CircleCi)
+                </h3>
+                <div
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "This project gave me the opportunity to collaborate with 6 other unknown people, including a freelancer who gave me a solid foundation of React.",
+                    }
+                  }
+                />
+              </div>
+            </div>
+            <div
+              className="sectionContainer"
+            >
+              <div
+                className="sectionContent description"
+              >
+                <p
+                  className="date"
+                >
+                  2018
+                </p>
+                <h3>
+                  University project - Mobile app (React Native)
+                </h3>
+                <div
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "Here on my voluntary request for the Mobile Programming and Multimedia course, I decided to create an application with React Native, to discover the mobile world with React and learning the basics of React Native.",
+                    }
+                  }
+                />
+                <div
+                  className="link-container"
+                >
+                  <a
+                    href="https://github.com/CristianMaschio/Progetto_MPM_React_Native"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Go to page &gt;&gt;
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              className="sectionContainer"
+            >
+              <div
+                className="sectionContent description"
+              >
+                <p
+                  className="date"
+                >
+                  24/11/2018
+                </p>
+                <h3>
+                  DevFest Veneto - GDG Venice
+                </h3>
+                <div
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "I partecipated to the DevFest organized by Google Developers Group Venice.",
+                    }
+                  }
+                />
+                <div
+                  className="link-container"
+                >
+                  <a
+                    href="https://gdg-venezia.github.io/devfest-veneto-18/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Go to page &gt;&gt;
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              className="more-container"
+            >
+              <div
+                className="sectionContainer"
+              >
+                <div
+                  className="sectionContent description"
+                >
+                  <p
+                    className="date"
+                  >
+                    2018 - Current
+                  </p>
+                  <h3>
+                    Coding Gym - Programmers in Padua
+                  </h3>
+                  <div
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "I partecipated to some \\"4-5\\" Coding Gym. Coding Gym is an international format of programming laboratories open to any language and developed for continuous improvement.",
+                      }
+                    }
+                  />
+                  <div
+                    className="link-container"
+                  >
+                    <a
+                      href="https://www.programmersinpadua.it/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Go to page &gt;&gt;
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="sectionContainer"
+              >
+                <div
+                  className="sectionContent description"
+                >
+                  <p
+                    className="date"
+                  >
+                    2018 - Current
+                  </p>
+                  <h3>
+                    Talks - Programmers in Padua
+                  </h3>
+                  <div
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "I partecipated to some talks. Programmers in Padua is a little community, who work and passionate about programming, new technologies and startups. We meet once a month in an open and informal environment, where the participants propose themselves for the talks.",
+                      }
+                    }
+                  />
+                  <div
+                    className="link-container"
+                  >
+                    <a
+                      href="https://www.programmersinpadua.it/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Go to page &gt;&gt;
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p
+        className="more-paragraph"
+        onClick={[Function]}
+      >
+        more
+      </p>
+    </div>
+    <div
+      id="code"
+    >
+      <div
+        className="paragraph"
+      >
+        <div
+          className="rightLine"
+        />
+        <div
+          className="paragraphContainer"
+        >
+          <img
+            alt="Universtity of Padua logo"
+            className="paragraphImage"
+            src="work.png"
+          />
+          <h2
+            className="paragraphTitle"
+          >
+            Code
+          </h2>
+          <img
+            alt="Universtity of Padua logo"
+            className="paragraphImage"
+            src="work.png"
+          />
+        </div>
+        <div
+          className="paragraphContainer"
+        >
+          <div
+            className="sectionsContainer"
+          >
+            <div
+              className="sectionContainer"
+            >
+              <div
+                className="sectionContent description"
+              >
+                <p
+                  className="date"
+                >
+                  10/2019
+                </p>
+                <h3>
+                  Dynamic form - (React + Jest)
+                </h3>
+                <div
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "Using React, create a simple one page application with a dynamic form that takes its structure from the JSON...",
+                    }
+                  }
+                />
+                <div
+                  className="link-container"
+                >
+                  <a
+                    href="https://codesandbox.io/embed/proud-sun-bs4lc?fontsize=14"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Go to page &gt;&gt;
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              className="sectionContainer"
+            >
+              <div
+                className="sectionContent description"
+              >
+                <p
+                  className="date"
+                >
+                  10/2019
+                </p>
+                <h3>
+                  Manage large data - (React)
+                </h3>
+                <div
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "Using React, manage a larger sets of data using a pre-defined list of Employees. </br> For every Employee the rendered list shows 'firstname', 'lastname', 'company' and an icon with Employee's initials. </br> User can search Employees by 'firstname', 'lastname' and 'company'. ",
+                    }
+                  }
+                />
+                <div
+                  className="link-container"
+                >
+                  <a
+                    href="https://codesandbox.io/embed/funny-feynman-ejc7b?fontsize=14"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Go to page &gt;&gt;
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              className="more-container"
+            />
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+`;

@@ -11,12 +11,6 @@ export default class Paragraph extends PureComponent {
     moreSections: PropTypes.array,
   };
 
-  static defaultPropTypes = {
-    index: 0,
-    image: "",
-    moreSections: [],
-  };
-
   state = {
     isLeft: undefined,
     moreContent: false,
@@ -32,6 +26,12 @@ export default class Paragraph extends PureComponent {
     this.setState({ sectionsElements })
   }
 
+  static defaultPropTypes = {
+    index: 0,
+    image: "",
+    moreSections: [],
+  };
+
   moreContent = React.createRef();
 
   //----------Functions-----------
@@ -46,13 +46,14 @@ export default class Paragraph extends PureComponent {
             <div className="sectionContent description">
               {section.img && (
                 <div className="section-image">
-                  <img alt={`${section.title}`} src={ require("../../../assets/images/" +section.img)} />
+                  <img
+                    alt={`${section.title}`}
+                    src={require("../../../assets/images/" + section.img)}
+                  />
                 </div>
               )}
               <p className="date">{section.date}</p>
-              <h3>
-                {section.title}
-              </h3>
+              <h3>{section.title}</h3>
               {section.technologies ? (
                 <div className="multy-section">
                   <div className="sub-section">
@@ -84,8 +85,8 @@ export default class Paragraph extends PureComponent {
                   >
                     Go to page >>
                   </a>
-                  </div>
-                )}
+                </div>
+              )}
             </div>
           </div>
         )

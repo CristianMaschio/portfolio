@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageProfile: render correctly 1`] = `
+<div
+  className="image-container"
+>
+  <div
+    className="image-background-animation"
+    style={
+      Object {
+        "height": 21,
+        "width": 21,
+      }
+    }
+  />
+  <img
+    alt="profile"
+    className="image-profile"
+    src="imageProfile.jpg"
+    style={
+      Object {
+        "height": 20,
+        "width": 20,
+      }
+    }
+  />
+</div>
+`;
