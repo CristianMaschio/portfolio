@@ -34,6 +34,7 @@
     "enzyme-adapter-react-16": "^1.15.2",
     "eslint": "6.6.0",
     "eslint-plugin-react": "^7.20.0",
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^2.2.0",
+    "react-test-renderer": "^16.13.1"
   }
 }
