@@ -46,8 +46,8 @@
       "more": []
     },
     {
-      "id": "passions",
-      "title": "Passions",
+      "id": "passion",
+      "title": "Passion",
       "image": "passions.png",
       "sections": [
         {
@@ -63,8 +63,8 @@
       ]
     },
     {
-      "id": "personal-experiences",
-      "title": "Personal experiences",
+      "id": "experience",
+      "title": "Experience",
       "image": "experiences.png",
       "sections": [
         {

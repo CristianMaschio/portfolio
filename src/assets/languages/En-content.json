@@ -9,12 +9,5 @@
       { "key": "Location", "text": "North London" }
     ]
   },
-  "menu": {
-    "professional": "Professional",
-    "education": "Education",
-    "passions": "Passions",
-    "experiences": "Experiences",
-    "code": "Code"
-  },
   "privacyTerms": "I authorize the processing of my personal data pursuant to Legislative Decree 196/03 and the General Data Protection Regulation (EU / 2016/679)."
 }

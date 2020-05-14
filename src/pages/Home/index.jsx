@@ -3,6 +3,14 @@ import Paragraph from "./Paragraph"
 import Menu from "./Menu"
 
 class Home extends PureComponent {
+  state = {
+    paragraphs: undefined
+  }
+
+  componentDidMount () {
+    this.setState({paragraphs: require(`../../assets/languages/En-paragraphs.json`).paragraphs})
+  }
+
   render() {
     return (
       <div className="home">
@@ -14,9 +22,9 @@ class Home extends PureComponent {
             </div>
           </div>
         </div>
-        <Menu />
+        <Menu paragraphs={this.state.paragraphs} />
         <div className="paragraphs">
-          {require(`../../assets/languages/En-paragraphs.json`).paragraphs.map(
+          {this.state.paragraphs?.map(
             (paragraph, index) => {
               return (
                 <Paragraph
