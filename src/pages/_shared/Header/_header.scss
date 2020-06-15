@@ -12,6 +12,7 @@ header {
   border-right-width: 0.5px;
   border-right-color: white;
   background-color: $background-primary-color;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   @media screen and (max-width: $mobile-max-width) {
     position: fixed;
     top: 0;
