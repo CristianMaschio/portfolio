@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3def69f2.chunk.css",
-    "main.js": "/portfolio/static/js/main.7e79cd17.chunk.js",
+    "main.css": "/portfolio/static/css/main.ca803619.chunk.css",
+    "main.js": "/portfolio/static/js/main.a114d57e.chunk.js",
     "runtime-main.js": "/portfolio/static/js/runtime-main.8fed2963.js",
-    "static/js/2.bb79fb8e.chunk.js": "/portfolio/static/js/2.bb79fb8e.chunk.js",
+    "static/js/2.29526adf.chunk.js": "/portfolio/static/js/2.29526adf.chunk.js",
     "index.html": "/portfolio/index.html",
-    "static/js/2.bb79fb8e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.bb79fb8e.chunk.js.LICENSE.txt",
+    "static/js/2.29526adf.chunk.js.LICENSE.txt": "/portfolio/static/js/2.29526adf.chunk.js.LICENSE.txt",
     "static/media/roboto.css": "/portfolio/static/media/Roboto-ThinItalic.e08c15f1.ttf",
     "static/media/imageProfile.jpg": "/portfolio/static/media/imageProfile.c74a745d.jpg",
     "static/media/intro.jpg": "/portfolio/static/media/intro.cba5c710.jpg",
@@ -13,8 +13,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8fed2963.js",
-    "static/js/2.bb79fb8e.chunk.js",
-    "static/css/main.3def69f2.chunk.css",
-    "static/js/main.7e79cd17.chunk.js"
+    "static/js/2.29526adf.chunk.js",
+    "static/css/main.ca803619.chunk.css",
+    "static/js/main.a114d57e.chunk.js"
   ]
 }
