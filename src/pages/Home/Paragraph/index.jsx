@@ -43,17 +43,15 @@ export default class Paragraph extends PureComponent {
       sections.map((section, index) => {
         return (
           <div className="sectionContainer" key={index}>
+            {section.img && (
+              <div className="section-image">
+                <img
+                  alt={`${section.title}`}
+                  src={require("../../../assets/images/" + section.img).default}
+                />
+              </div>
+            )}
             <div className="sectionContent description">
-              {section.img && (
-                <div className="section-image">
-                  <img
-                    alt={`${section.title}`}
-                    src={
-                      require("../../../assets/images/" + section.img).default
-                    }
-                  />
-                </div>
-              )}
               <p className="date">{section.date}</p>
               <h3>{section.title}</h3>
               {section.technologies ? (
@@ -100,7 +98,7 @@ export default class Paragraph extends PureComponent {
     const { moreContent } = this.state;
     if (!moreContent) {
       this.moreContent.current.style.height =
-        this.moreContent.current.scrollHeight + "px";
+        this.moreContent.current.scrollHeight + 20 + "px";
     } else {
       this.moreContent.current.style.height = "0px";
     }
