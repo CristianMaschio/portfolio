@@ -1,5 +1,5 @@
-import React, { PureComponent } from "react"
-import PropTypes from "prop-types"
+import React, { PureComponent } from "react";
+import PropTypes from "prop-types";
 
 export default class Paragraph extends PureComponent {
   static propTypes = {
@@ -18,12 +18,12 @@ export default class Paragraph extends PureComponent {
   };
 
   componentDidMount() {
-    const { sections } = this.props
+    const { sections } = this.props;
 
     //Create only one time all the sections
-    const sectionsElements = this.getSectionElements(sections)
+    const sectionsElements = this.getSectionElements(sections);
 
-    this.setState({ sectionsElements })
+    this.setState({ sectionsElements });
   }
 
   static defaultPropTypes = {
@@ -48,7 +48,9 @@ export default class Paragraph extends PureComponent {
                 <div className="section-image">
                   <img
                     alt={`${section.title}`}
-                    src={require("../../../assets/images/" + section.img)}
+                    src={
+                      require("../../../assets/images/" + section.img).default
+                    }
                   />
                 </div>
               )}
@@ -83,33 +85,33 @@ export default class Paragraph extends PureComponent {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Go to page >>
+                    {"Go to page >>"}
                   </a>
                 </div>
               )}
             </div>
           </div>
-        )
+        );
       })
-    )
+    );
   }
 
   handleMoreContent = () => {
-    const { moreContent } = this.state
+    const { moreContent } = this.state;
     if (!moreContent) {
       this.moreContent.current.style.height =
-        this.moreContent.current.scrollHeight + "px"
+        this.moreContent.current.scrollHeight + "px";
     } else {
-      this.moreContent.current.style.height = "0px"
+      this.moreContent.current.style.height = "0px";
     }
 
-    this.setState({ moreContent: !moreContent })
+    this.setState({ moreContent: !moreContent });
   };
 
   //--------Render-Functions-------
   renderParagraphContent = () => {
-    const { title, image, moreSections } = this.props
-    const { sectionsElements } = this.state
+    const { title, image, moreSections } = this.props;
+    const { sectionsElements } = this.state;
 
     return (
       <div className="paragraph">
@@ -118,13 +120,13 @@ export default class Paragraph extends PureComponent {
           <img
             className="paragraphImage"
             alt="Universtity of Padua logo"
-            src={image && require("../../../assets/images/" + image)}
+            src={image && require("../../../assets/images/" + image).default}
           />
           <h2 className="paragraphTitle">{title}</h2>
           <img
             className="paragraphImage"
             alt="Universtity of Padua logo"
-            src={image && require("../../../assets/images/" + image)}
+            src={image && require("../../../assets/images/" + image).default}
           />
         </div>
         <div className="paragraphContainer">
@@ -136,14 +138,14 @@ export default class Paragraph extends PureComponent {
           </div>
         </div>
       </div>
-    )
+    );
   };
 
   //------------Render--------------
 
   render() {
-    const { id, moreSections } = this.props
-    const { moreContent } = this.state
+    const { id, moreSections } = this.props;
+    const { moreContent } = this.state;
     return (
       <div id={id}>
         {this.renderParagraphContent()}
@@ -155,6 +157,6 @@ export default class Paragraph extends PureComponent {
           ""
         )}
       </div>
-    )
+    );
   }
 }
