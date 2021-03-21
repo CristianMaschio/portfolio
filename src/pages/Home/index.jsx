@@ -1,14 +1,21 @@
-import React, { PureComponent } from "react"
-import Paragraph from "./Paragraph"
-import Menu from "./Menu"
+import React, { PureComponent } from "react";
+import Paragraph from "./Paragraph";
+import Menu from "./Menu";
+import Rellax from "rellax";
 
 class Home extends PureComponent {
   state = {
-    paragraphs: undefined
-  }
+    paragraphs: undefined,
+  };
 
-  componentDidMount () {
-    this.setState({paragraphs: require(`../../assets/languages/En-paragraphs.json`).paragraphs})
+  componentDidMount() {
+    this.setState({
+      paragraphs: require(`../../assets/languages/En-paragraphs.json`)
+        .paragraphs,
+    });
+    new Rellax(".animate", {
+      speed: -3,
+    });
   }
 
   render() {
@@ -16,7 +23,7 @@ class Home extends PureComponent {
       <div className="home">
         <div className="intro intro-white-trasparence">
           <div className="intro-white-trasparence">
-            <div className="foolishIn">
+            <div className="foolishIn animate">
               <h1>Cristian Maschio</h1>
               <h2>{"<SoftwareEngineer />"}</h2>
             </div>
@@ -24,25 +31,23 @@ class Home extends PureComponent {
         </div>
         <Menu paragraphs={this.state.paragraphs} />
         <div className="paragraphs">
-          {this.state.paragraphs?.map(
-            (paragraph, index) => {
-              return (
-                <Paragraph
-                  id={paragraph.id}
-                  key={index}
-                  index={index}
-                  title={paragraph.title}
-                  image={paragraph.image}
-                  sections={paragraph.sections}
-                  moreSections={paragraph.more}
-                />
-              )
-            }
-          )}
+          {this.state.paragraphs?.map((paragraph, index) => {
+            return (
+              <Paragraph
+                id={paragraph.id}
+                key={index}
+                index={index}
+                title={paragraph.title}
+                image={paragraph.image}
+                sections={paragraph.sections}
+                moreSections={paragraph.more}
+              />
+            );
+          })}
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default Home
+export default Home;
