@@ -1,16 +1,6 @@
 .paragraph {
   margin-top: 2rem;
 
-  .leftLine {
-    background-image: $primary-left-linear-gradient;
-    height: 1px;
-  }
-
-  .rightLine {
-    background-image: $primary-right-linear-gradient;
-    height: 1px;
-  }
-
   .paragraphTitle {
     flex: 1;
     font-family: Roboto;
@@ -52,10 +42,11 @@
     font-family: Roboto;
     font-size: 0.8rem;
     letter-spacing: 0.5px;
-    background-color: #fff;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 0.5rem;
     .multy-section {
       .sub-section {
         display: flex;
@@ -92,11 +83,10 @@
     margin: 1rem;
     box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.1),
       0 6px 20px 0 rgba(0, 0, 0, 0.05);
+    background-color: white;
     @media screen and (max-width: $mobile-max-width) {
       flex-wrap: wrap;
-      margin: 0 8px;
-      width: auto;
-      margin: 1rem 0.5rem;
+      margin: 1rem 0;
     }
   }
 
@@ -182,10 +172,4 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  .leftLine {
-    margin-bottom: 0.7rem;
-  }
-  .rightLine {
-    margin-bottom: 0.7rem;
-  }
 }

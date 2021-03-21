@@ -12,7 +12,6 @@ export default class Paragraph extends PureComponent {
   };
 
   state = {
-    isLeft: undefined,
     moreContent: false,
     sectionsElements: undefined,
   };
@@ -113,7 +112,6 @@ export default class Paragraph extends PureComponent {
 
     return (
       <div className="paragraph">
-        <div className="rightLine" />
         <div className="paragraphContainer">
           <img
             className="paragraphImage"
