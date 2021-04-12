@@ -8,9 +8,9 @@
         {
           "img": "rehab.svg",
           "date": "12/2019 - Current",
-          "title": "Rehab - Full Stack Developer",
-          "technologies": "React, Javascript, Redux, Html, Scss, Python & Django.",
-          "achieving": "Working in projects with short deadlines, integrating new features in large platforms and learned to better manage Git flow",
+          "title": "Rehab - Full Stack Engineer",
+          "technologies": "React, Javascript, CI/CD, Python, Django, Redux, Redux-Form, Redux-Saga, Docker, NextJS, TDD, NodeJS, Firebase, Git, W3C, Html & Css.",
+          "achieving": "Working on amazing projects for global clients which include Nike, Google, WarnerMedia, Estée Lauder and many others, fixing and adding new features in our large internal platform (React and NodeJS).",
           "link": "https://www.rehabagency.ai/"
         },
         {
@@ -18,7 +18,7 @@
           "date": "03/2020 - 06/2020",
           "title": "Open Source - COVID Symptom Study - ZOE",
           "technologies": "React Native, Typescript, Formik, svg, i18n, TDD & Redux.",
-          "achieving": "It was a great experience that gave great satisfaction.",
+          "achieving": "Created custom components, updated app style and fixed key accessibility issues.",
           "link": "https://github.com/zoe/covid-tracker-react-native"
         },
         {
@@ -61,7 +61,7 @@
         {
           "date": "-",
           "title": "Programming",
-          "description": "I love programming, thinking and using my mind to create more and more clean and especially performed code. I like working with innovative technologies, mainly with web and mobile application. Currently I use a lot React and React-Native."
+          "description": "I love programming, thinking and using my mind to create more and more clean and especially performed code and applications. I like working with innovative technologies, mainly with web and mobile applications."
         },
         {
           "date": "-",

@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 export default function Footer() {
   return (
@@ -6,11 +6,11 @@ export default function Footer() {
       <ul>
         <li>
           <a
-            href="mailto:cristianmaschio@hotmail.it"
+            href="mailto:cristianmaschio@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            CristianMaschio@hotmail.it
+            CristianMaschio@gmail.com
           </a>
         </li>
         <li>
@@ -33,6 +33,5 @@ export default function Footer() {
         </li>
       </ul>
     </footer>
-  )
+  );
 }
-

@@ -1,13 +1,13 @@
-import React, { useContext } from "react"
+import React, { useContext } from "react";
 import {
   LinkedinFilled,
   MailFilled,
   GithubFilled,
   CloudDownloadOutlined,
-} from "@ant-design/icons"
+} from "@ant-design/icons";
 
-import ImageProfile from "../ImageProfile"
-import Context from "../../../Context"
+import ImageProfile from "../ImageProfile";
+import Context from "../../../Context";
 
 function HeaderContent(props) {
   return (
@@ -21,10 +21,10 @@ function HeaderContent(props) {
               <p>{content.text}</p>
             </div>
           </div>
-        )
+        );
       })}
     </div>
-  )
+  );
 }
 
 function HeaderContacts() {
@@ -33,7 +33,7 @@ function HeaderContacts() {
       <div className="line" />
       <div className="row-content">
         <a
-          href="mailto:cristianmaschio@hotmail.it"
+          href="mailto:cristianmaschio@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -55,22 +55,22 @@ function HeaderContacts() {
         </a>
       </div>
     </div>
-  )
+  );
 }
 
 export default function Header() {
-  const { headerClass, setRenderInformation } = useContext(Context)
+  const { headerClass, setRenderInformation } = useContext(Context);
 
-  const headerContent = require(`../../../assets/languages/En-content.json`)
+  const headerContent = require(`../../../assets/languages/En-content.json`);
 
   const closeHeaderInformation = (event) => {
-    event.stopPropagation()
-    setRenderInformation(false)
-  }
+    event.stopPropagation();
+    setRenderInformation(false);
+  };
 
   const stopPropagation = (event) => {
-    event.stopPropagation()
-  }
+    event.stopPropagation();
+  };
 
   return (
     <header className={headerClass} onClick={closeHeaderInformation}>
@@ -110,5 +110,5 @@ export default function Header() {
         <div className="eu-regolation">{headerContent.privacyTerms}</div>
       </div>
     </header>
-  )
+  );
 }
