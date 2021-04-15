@@ -152,9 +152,9 @@
     display: flex;
     justify-content: flex-end;
     margin-top: 0.3rem;
-    a {
-      color: $primary-color;
-    }
+  }
+  a:link {
+    color: $primary-color;
   }
 }
 
