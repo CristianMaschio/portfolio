@@ -3,10 +3,18 @@
     "personal": "Personal",
     "contacts": "Contacts",
     "personalData": [
-      { "key": "Name", "text": "Cristian" },
-      { "key": "Surname", "text": "Maschio" },
-      { "key": "Birthday", "text": "31/05/1994" },
-      { "key": "Location", "text": "North London" }
+      {
+        "key": "Name",
+        "text": "Cristian"
+      },
+      {
+        "key": "Surname",
+        "text": "Maschio"
+      },
+      {
+        "key": "Location",
+        "text": "North London"
+      }
     ]
   },
   "privacyTerms": "I authorize the processing of my personal data pursuant to Legislative Decree 196/03 and the General Data Protection Regulation (EU / 2016/679)."

@@ -7,7 +7,7 @@
       "sections": [
         {
           "img": "rehab.svg",
-          "date": "12/2019 - Current",
+          "date": "12/2019 - 07/2021",
           "title": "Rehab - Full Stack Engineer",
           "technologies": "React, Javascript, CI/CD, Python, Django, Redux, Redux-Form, Redux-Saga, Docker, NextJS, TDD, NodeJS, Firebase, Git, W3C, Html & Css.",
           "achieving": "Working on amazing projects for global clients which include Nike, Google, WarnerMedia, Estée Lauder and many others, fixing and adding new features in our large internal platform (React and NodeJS).",
@@ -61,12 +61,12 @@
         {
           "date": "-",
           "title": "Programming",
-          "description": "I love programming, thinking and using my mind to create more and more clean and especially performed code and applications. I like working with innovative technologies, mainly with web and mobile applications."
+          "description": "I love programming, it allows me to create applications and websites that many people could benefit from them."
         },
         {
           "date": "-",
-          "title": "Vegetable garden",
-          "description": "These passion allow me to get my hands dirty, free my mind and appreciate how much nature can give us."
+          "title": "Permaculture and vegetable garden",
+          "description": "These two passions of mine allow me to get my hands dirty, free my mind and appreciate how much nature can give us."
         }
       ]
     },
@@ -76,7 +76,7 @@
       "image": "experiences.png",
       "sections": [
         {
-          "date": "11/2019 - Current",
+          "date": "11/2019 - 03/2020",
           "title": "Volunteer help organizer - (GDG) Cloud London",
           "description": "<b>Google Developer Group</b> Cloud London is the most active developer group on the meetup platform in the world! </br> We organise hacks several times a week every week. We have a general talk once a month. And we usually have several workshops once a month. </br>  We strive to learn and share knowledge about challenging topics in a casual friendly respectful atmosphere.",
           "link": "https://www.meetup.com/it-IT/gdgcloud/"
