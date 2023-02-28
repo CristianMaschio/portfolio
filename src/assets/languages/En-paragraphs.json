@@ -26,7 +26,7 @@
           "date": "03/2020 - 06/2020",
           "title": "Open Source - COVID Symptom Study - ZOE",
           "technologies": "React Native, Typescript, Formik, svg, i18n, TDD & Redux.",
-          "achieving": "Created custom components, updated app style and fixed key accessibility issues. <a href='https://github.com/zoe/covid-tracker-react-native/pull/417' target='_blank'>Pull request - 1</a> <a href='https://github.com/zoe/covid-tracker-react-native/issues/230' target='_blank'>Fixed issue</a> <a href='https://github.com/zoe/covid-tracker-react-native/pull/279' target='_blank'>Pull request - 2</a>",
+          "achieving": "Created custom components, updated app style and fixed key accessibility issues.",
           "link": "https://github.com/zoe/covid-tracker-react-native"
         },
         {

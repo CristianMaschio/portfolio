@@ -82,7 +82,7 @@ export default class Paragraph extends PureComponent {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {"Go to page >>"}
+                    {"View"}
                   </a>
                 </div>
               )}

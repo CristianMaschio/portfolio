@@ -153,8 +153,28 @@
     justify-content: flex-end;
     margin-top: 0.3rem;
   }
-  a:link {
-    color: $primary-color;
+
+  a {
+    &:link {
+      color: white;
+      background: $button-primary-color;
+      padding: 0.3rem 1rem;
+      border-radius: 1rem;
+      text-decoration: none;
+      box-shadow: 0 4px 8px 3px $background-primary-light-color,
+        0 6px 20px 0 $background-primary-light-color;
+    }
+
+    &:hover {
+      background: $primary-color;
+      transition: all 200ms linear;
+      padding: 0.4rem 1.1rem;
+      margin: -0.1rem;
+    }
+
+    &:visited {
+      color: white;
+    }
   }
 }
 

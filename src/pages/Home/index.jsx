@@ -25,7 +25,7 @@ class Home extends PureComponent {
           <div className="intro-white-trasparence">
             <div className="foolishIn animate">
               <h1>Cristian Maschio</h1>
-              <h2>{"<SoftwareEngineer />"}</h2>
+              <h2>{"<SeniorFrontEndEngineer />"}</h2>
             </div>
           </div>
         </div>
