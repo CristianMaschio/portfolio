@@ -35,62 +35,57 @@ export default class Paragraph extends PureComponent {
 
   //----------Functions-----------
 
-  //this fuction create all section components.
+  //this function create all section components.
   getSectionElements(sections) {
-    return (
-      sections &&
-      sections.map((section, index) => {
-        return (
-          <div className="sectionContainer" key={index}>
-            {section.img && (
-              <div className="section-image">
-                <img
-                  alt={`${section.title}`}
-                  src={require("../../../assets/images/" + section.img).default}
-                />
+    return sections?.map((section, index) => {
+      return (
+        <div className="sectionContainer" key={index}>
+          {section.img && (
+            <div className="section-image">
+              <img
+                alt={`${section.title}`}
+                src={require("../../assets/images/" + section.img)}
+              />
+            </div>
+          )}
+          <div className="sectionContent description">
+            <p className="date">{section.date}</p>
+            <h3>{section.title}</h3>
+            {section.technologies ? (
+              <div className="multy-section">
+                <div className="sub-section">
+                  <div className="sub-section-title">Technologies:</div>
+                  <div
+                    className="sub-section-content"
+                    dangerouslySetInnerHTML={{ __html: section.technologies }}
+                  />
+                </div>
+                <div className="sub-section">
+                  <div className="sub-section-title">Achieving:</div>
+                  <div
+                    className="sub-section-content"
+                    dangerouslySetInnerHTML={{ __html: section.achieving }}
+                  />
+                </div>
+              </div>
+            ) : (
+              <div dangerouslySetInnerHTML={{ __html: section.description }} />
+            )}
+            {section.link && (
+              <div className="link-container">
+                <a
+                  href={section.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {"View"}
+                </a>
               </div>
             )}
-            <div className="sectionContent description">
-              <p className="date">{section.date}</p>
-              <h3>{section.title}</h3>
-              {section.technologies ? (
-                <div className="multy-section">
-                  <div className="sub-section">
-                    <div className="sub-section-title">Technologies:</div>
-                    <div
-                      className="sub-section-content"
-                      dangerouslySetInnerHTML={{ __html: section.technologies }}
-                    />
-                  </div>
-                  <div className="sub-section">
-                    <div className="sub-section-title">Achieving:</div>
-                    <div
-                      className="sub-section-content"
-                      dangerouslySetInnerHTML={{ __html: section.achieving }}
-                    />
-                  </div>
-                </div>
-              ) : (
-                <div
-                  dangerouslySetInnerHTML={{ __html: section.description }}
-                />
-              )}
-              {section.link && (
-                <div className="link-container">
-                  <a
-                    href={section.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {"View"}
-                  </a>
-                </div>
-              )}
-            </div>
           </div>
-        );
-      })
-    );
+        </div>
+      );
+    });
   }
 
   handleMoreContent = () => {
@@ -113,17 +108,7 @@ export default class Paragraph extends PureComponent {
     return (
       <div className="paragraph">
         <div className="paragraphContainer">
-          <img
-            className="paragraphImage"
-            alt="Universtity of Padua logo"
-            src={image && require("../../../assets/images/" + image).default}
-          />
           <h2 className="paragraphTitle">{title}</h2>
-          <img
-            className="paragraphImage"
-            alt="Universtity of Padua logo"
-            src={image && require("../../../assets/images/" + image).default}
-          />
         </div>
         <div className="paragraphContainer">
           <div className="sectionsContainer">
@@ -145,12 +130,10 @@ export default class Paragraph extends PureComponent {
     return (
       <div id={id}>
         {this.renderParagraphContent()}
-        {moreSections && moreSections.length >= 1 ? (
+        {moreSections && moreSections.length >= 1 && (
           <p className="more-paragraph" onClick={this.handleMoreContent}>
             {!moreContent ? "more" : "less"}
           </p>
-        ) : (
-          ""
         )}
       </div>
     );

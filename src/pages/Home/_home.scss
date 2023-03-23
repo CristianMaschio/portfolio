@@ -1,19 +1,35 @@
-$text-shadow: 2px 4px 5px black;
+$text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.7);
+
+.image-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100vh;
+  width: 100vw;
+  img {
+    min-height: 100vh;
+    min-width: 100vw;
+    object-fit: cover;
+  }
+  .image-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(44, 49, 60, 0.15);
+    height: 100vh;
+    width: 100vw;
+  }
+}
 
 .home {
-  margin-left: 18rem;
-
-  @media screen and (max-width: $mobile-max-width) {
-    margin-left: 0;
-  }
-
   .intro {
-    min-height: 100vh;
+    min-height: 70vh;
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    .intro-white-trasparence {
+    .intro-flex-center {
       height: 100%;
       display: flex;
       flex-direction: column;
@@ -27,6 +43,10 @@ $text-shadow: 2px 4px 5px black;
       text-shadow: $text-shadow;
       padding: 0;
       margin: 0;
+
+      @media screen and (max-width: $mobile-max-width) {
+        font-size: 2rem;
+      }
     }
     h2 {
       color: white;
@@ -36,116 +56,40 @@ $text-shadow: 2px 4px 5px black;
       text-shadow: $text-shadow;
       padding: 0;
       margin: 0;
+
+      @media screen and (max-width: $mobile-max-width) {
+        font-size: 1.5rem;
+      }
     }
   }
   .paragraphs {
+    position: relative;
     display: flex;
     flex-direction: column;
     margin-top: 0;
     background-color: $background-secondary-color;
-  }
-}
 
-.foolishIn {
-  animation-duration: 2s;
-  -webkit-animation-name: foolishIn;
-  animation-name: foolishIn;
-}
-@-webkit-keyframes foolishIn {
-  0% {
-    opacity: 0;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-    -webkit-transform: scale(0, 0) rotate(360deg);
-    transform: scale(0, 0) rotate(360deg);
-  }
+    .waves-top {
+      position: absolute;
+      top: -90px;
+      left: 0;
+      width: 100%;
+      z-index: 2;
+      height: 100px;
+      pointer-events: none;
 
-  20% {
-    opacity: 1;
-    -webkit-transform-origin: 0% 100%;
-    transform-origin: 0% 100%;
-    -webkit-transform: scale(0.5, 0.5) rotate(0deg);
-    transform: scale(0.5, 0.5) rotate(0deg);
-  }
+      svg {
+        height: 100px;
+        width: 100vw;
+        color: $background-secondary-color;
+      }
+      svg path:first-child {
+        opacity: 0.15;
+      }
 
-  40% {
-    opacity: 1;
-    -webkit-transform-origin: 100% 100%;
-    transform-origin: 100% 100%;
-    -webkit-transform: scale(0.5, 0.5) rotate(0deg);
-    transform: scale(0.5, 0.5) rotate(0deg);
-  }
-
-  60% {
-    opacity: 1;
-    -webkit-transform-origin: 0%;
-    transform-origin: 0%;
-    -webkit-transform: scale(0.5, 0.5) rotate(0deg);
-    transform: scale(0.5, 0.5) rotate(0deg);
-  }
-
-  80% {
-    opacity: 1;
-    -webkit-transform-origin: 0% 0%;
-    transform-origin: 0% 0%;
-    -webkit-transform: scale(0.5, 0.5) rotate(0deg);
-    transform: scale(0.5, 0.5) rotate(0deg);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-    -webkit-transform: scale(1, 1) rotate(0deg);
-    transform: scale(1, 1) rotate(0deg);
-  }
-}
-@keyframes foolishIn {
-  0% {
-    opacity: 0;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-    -webkit-transform: scale(0, 0) rotate(360deg);
-    transform: scale(0, 0) rotate(360deg);
-  }
-
-  20% {
-    opacity: 1;
-    -webkit-transform-origin: 0% 100%;
-    transform-origin: 0% 100%;
-    -webkit-transform: scale(0.5, 0.5) rotate(0deg);
-    transform: scale(0.5, 0.5) rotate(0deg);
-  }
-
-  40% {
-    opacity: 1;
-    -webkit-transform-origin: 100% 100%;
-    transform-origin: 100% 100%;
-    -webkit-transform: scale(0.5, 0.5) rotate(0deg);
-    transform: scale(0.5, 0.5) rotate(0deg);
-  }
-
-  60% {
-    opacity: 1;
-    -webkit-transform-origin: 0%;
-    transform-origin: 0%;
-    -webkit-transform: scale(0.5, 0.5) rotate(0deg);
-    transform: scale(0.5, 0.5) rotate(0deg);
-  }
-
-  80% {
-    opacity: 1;
-    -webkit-transform-origin: 0% 0%;
-    transform-origin: 0% 0%;
-    -webkit-transform: scale(0.5, 0.5) rotate(0deg);
-    transform: scale(0.5, 0.5) rotate(0deg);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-    -webkit-transform: scale(1, 1) rotate(0deg);
-    transform: scale(1, 1) rotate(0deg);
+      svg path:nth-child(2) {
+        opacity: 0.3;
+      }
+    }
   }
 }

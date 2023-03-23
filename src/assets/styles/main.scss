@@ -2,16 +2,11 @@
 @import "./_variables";
 
 // Components
-@import "../../pages/_shared/Footer/_footer";
-@import "../../pages/_shared/Header/_header";
-@import "../../pages/_shared/ImageProfile/_imageProfile";
+@import "../../components/Footer/_footer";
+@import "../../components/Header/_header";
+@import "../../components/ImageProfile/_imageProfile";
+@import "../../components/Menu/_menu";
+@import "../../components/Paragraph/_paragraph";
 
 // Pages - Home
 @import "../../pages/Home/_home";
-@import "../../pages/Home/Menu/_menu";
-@import "../../pages/Home/Paragraph/_paragraph";
-
-// Pages - Covid
-@import "../../pages/Home/_home";
-@import "../../pages/Home/Menu/_menu";
-@import "../../pages/Home/Paragraph/_paragraph";

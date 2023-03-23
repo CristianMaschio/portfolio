@@ -1,9 +1,9 @@
-import React, { useContext } from "react"
-import Context from "../../../Context"
-import { InfoCircleFilled } from "@ant-design/icons"
+import React, { useContext } from "react";
+import Context from "../../Context";
+import { InfoCircleFilled } from "@ant-design/icons";
 
 export default function Menu({ paragraphs }) {
-  const { setRenderInformation } = useContext(Context)
+  const { setRenderInformation } = useContext(Context);
 
   return (
     <div className="menu">
@@ -17,5 +17,5 @@ export default function Menu({ paragraphs }) {
         ))}
       </ul>
     </div>
-  )
+  );
 }

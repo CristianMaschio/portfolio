@@ -1,12 +1,9 @@
 import React, { PureComponent } from "react";
 import "./assets/styles/main.scss";
 import "./assets/fonts/roboto/roboto.css";
-import Home from "./pages/Home";
-import Header from "./pages/_shared/Header";
-import Footer from "./pages/_shared/Footer";
+import Home from "./pages/Home/Home";
+import Footer from "./components/Footer";
 import Context from "./Context";
-
-import imgBackground from "./assets/images/intro.jpg";
 
 class App extends PureComponent {
   state = {
@@ -32,14 +29,6 @@ class App extends PureComponent {
           headerClass,
         }}
       >
-        <img
-          className="image-background"
-          src={imgBackground}
-          alt="desktop setup"
-          height="100%"
-          width="100%"
-        />
-        <Header />
         <Home />
         <Footer />
       </Context.Provider>
