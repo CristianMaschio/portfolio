@@ -13,17 +13,7 @@ export default class Paragraph extends PureComponent {
 
   state = {
     moreContent: false,
-    sectionsElements: undefined,
   };
-
-  componentDidMount() {
-    const { sections } = this.props;
-
-    //Create only one time all the sections
-    const sectionsElements = this.getSectionElements(sections);
-
-    this.setState({ sectionsElements });
-  }
 
   static defaultPropTypes = {
     index: 0,
@@ -34,8 +24,6 @@ export default class Paragraph extends PureComponent {
   moreContent = React.createRef();
 
   //----------Functions-----------
-
-  //this function create all section components.
   getSectionElements(sections) {
     return sections?.map((section, index) => {
       return (
@@ -100,36 +88,25 @@ export default class Paragraph extends PureComponent {
     this.setState({ moreContent: !moreContent });
   };
 
-  //--------Render-Functions-------
-  renderParagraphContent = () => {
-    const { title, image, moreSections } = this.props;
-    const { sectionsElements } = this.state;
-
-    return (
-      <div className="paragraph">
-        <div className="paragraphContainer">
-          <h2 className="paragraphTitle">{title}</h2>
-        </div>
-        <div className="paragraphContainer">
-          <div className="sectionsContainer">
-            {sectionsElements}
-            <div ref={this.moreContent} className="more-container">
-              {this.getSectionElements(moreSections)}
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  };
-
   //------------Render--------------
-
   render() {
-    const { id, moreSections } = this.props;
+    const { id, title, moreSections, sections } = this.props;
     const { moreContent } = this.state;
     return (
       <div id={id}>
-        {this.renderParagraphContent()}
+        <div className="paragraph">
+          <div className="paragraphContainer">
+            <h2 className="paragraphTitle">{title}</h2>
+          </div>
+          <div className="paragraphContainer">
+            <div className="sectionsContainer">
+              {this.getSectionElements(sections)}
+              <div ref={this.moreContent} className="more-container">
+                {this.getSectionElements(moreSections)}
+              </div>
+            </div>
+          </div>
+        </div>
         {moreSections && moreSections.length >= 1 && (
           <p className="more-paragraph" onClick={this.handleMoreContent}>
             {!moreContent ? "more" : "less"}

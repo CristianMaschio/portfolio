@@ -1,6 +1,6 @@
 import React, { PureComponent } from "react";
+import Parallax from "react-rellax";
 import Paragraph from "../../components/Paragraph";
-import Rellax from "rellax";
 import ImageProfile from "components/ImageProfile";
 import imgBackground from "../../assets/images/intro.jpg";
 
@@ -13,9 +13,6 @@ class Home extends PureComponent {
     this.setState({
       paragraphs: require(`../../assets/languages/En-paragraphs.json`)
         .paragraphs,
-    });
-    new Rellax(".animate", {
-      speed: -3,
     });
   }
 
@@ -31,17 +28,19 @@ class Home extends PureComponent {
           />
           <div className="image-overlay" />
         </div>
-        <div className="intro intro-flex-center">
-          <div>
-            <ImageProfile size={200} />
-          </div>
-          <div className="intro-flex-center">
-            <div className="">
-              <h1>Cristian Maschio</h1>
-              <h2>{"<SeniorFrontEndEngineer />"}</h2>
+        <Parallax speed={-3}>
+          <div className="intro intro-flex-center">
+            <div>
+              <ImageProfile size={200} />
+            </div>
+            <div className="intro-flex-center">
+              <div className="">
+                <h1>Cristian Maschio</h1>
+                <h2>{"<SeniorFrontEndEngineer />"}</h2>
+              </div>
             </div>
           </div>
-        </div>
+        </Parallax>
         {/* <Menu paragraphs={this.state.paragraphs} /> */}
         <div className="paragraphs">
           <div className="waves-top">
