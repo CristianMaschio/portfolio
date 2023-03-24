@@ -155,6 +155,7 @@
   }
 
   a {
+    transition: all 120ms linear;
     &:link {
       color: white;
       background: $button-primary-color;
@@ -167,7 +168,6 @@
 
     &:hover {
       background: $primary-color;
-      transition: all 200ms linear;
       padding: 0.4rem 1.1rem;
       margin: -0.1rem;
     }

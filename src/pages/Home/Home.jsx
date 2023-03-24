@@ -3,6 +3,7 @@ import Parallax from "react-rellax";
 import Paragraph from "../../components/Paragraph";
 import ImageProfile from "components/ImageProfile";
 import imgBackground from "../../assets/images/intro.jpg";
+import { Fade } from "react-reveal";
 
 class Home extends PureComponent {
   state = {
@@ -30,22 +31,17 @@ class Home extends PureComponent {
         </div>
         <Parallax speed={-3}>
           <div className="intro intro-flex-center">
-            <div>
-              <ImageProfile size={200} />
-            </div>
+            <ImageProfile size={200} />
             <div className="intro-flex-center">
-              <div className="">
-                <h1>Cristian Maschio</h1>
-                <h2>{"<SeniorFrontEndEngineer />"}</h2>
-              </div>
+              <h1>Cristian Maschio</h1>
+              <h2>{"<SeniorFrontEndEngineer />"}</h2>
             </div>
           </div>
         </Parallax>
-        {/* <Menu paragraphs={this.state.paragraphs} /> */}
         <div className="paragraphs">
           <div className="waves-top">
             <svg
-              fill="#ffffff"
+              fill="rgba(255, 255, 255, 0.97)"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 1000 100"
               preserveAspectRatio="none"
@@ -55,7 +51,6 @@ class Home extends PureComponent {
               <path d="M 0 58 s 188.29 32 508 32 c 290 0 494 -35 494 -35 v 45 h -1002 z"></path>
             </svg>
           </div>
-
           {this.state.paragraphs?.map((paragraph, index) => {
             return (
               <Paragraph
