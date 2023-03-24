@@ -1,6 +1,5 @@
 footer {
   background-color: $background-primary-color;
-  margin-left: 18rem;
   display: flex;
   height: auto;
   color: white;
@@ -29,7 +28,6 @@ footer {
   }
 
   @media screen and (max-width: $mobile-max-width) {
-    margin-left: 0px;
     padding: 0;
   }
 }
