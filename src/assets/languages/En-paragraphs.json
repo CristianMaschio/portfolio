@@ -133,25 +133,6 @@
           "link": "https://www.programmersinpadua.it/"
         }
       ]
-    },
-    {
-      "id": "code",
-      "title": "Code",
-      "image": "work.png",
-      "sections": [
-        {
-          "date": "10/2019",
-          "title": "Dynamic form - (React + Jest)",
-          "description": "Using React, create a simple one page application with a dynamic form that takes its structure from the JSON...",
-          "link": "https://codesandbox.io/embed/proud-sun-bs4lc?fontsize=14"
-        },
-        {
-          "date": "10/2019",
-          "title": "Manage large data - (React)",
-          "description": "Using React, manage a larger sets of data using a pre-defined list of Employees. </br> For every Employee the rendered list shows 'firstname', 'lastname', 'company' and an icon with Employee's initials. </br> User can search Employees by 'firstname', 'lastname' and 'company'. ",
-          "link": "https://codesandbox.io/embed/funny-feynman-ejc7b?fontsize=14"
-        }
-      ]
     }
   ]
 }
