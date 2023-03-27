@@ -5,6 +5,12 @@ import { Fade } from "react-reveal";
 import TagsCanvas from "react-tags-canvas";
 import background from "../../utils/background";
 import json from "../../assets/languages/En-paragraphs.json";
+import {
+  LinkedinFilled,
+  MailFilled,
+  GithubFilled,
+  CloudDownloadOutlined,
+} from "@ant-design/icons";
 
 class Home extends PureComponent {
   componentDidMount() {
@@ -23,6 +29,7 @@ class Home extends PureComponent {
               <Fade bottom>
                 <h1>Cristian Maschio</h1>
                 <h2>{"<SeniorFrontEndEngineer />"}</h2>
+                <MailFilled />
               </Fade>
             </div>
           </div>
