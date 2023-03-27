@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2dd06846.chunk.css",
-    "main.js": "/portfolio/static/js/main.571e85bb.chunk.js",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.8fed2963.js",
-    "static/js/2.2685ad56.chunk.js": "/portfolio/static/js/2.2685ad56.chunk.js",
-    "index.html": "/portfolio/index.html",
-    "static/js/2.2685ad56.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2685ad56.chunk.js.LICENSE.txt",
-    "static/media/roboto.css": "/portfolio/static/media/Roboto-ThinItalic.e08c15f1.ttf",
-    "static/media/imageProfile.jpg": "/portfolio/static/media/imageProfile.c74a745d.jpg",
-    "static/media/intro.jpg": "/portfolio/static/media/intro.cba5c710.jpg",
-    "static/media/rehab.svg": "/portfolio/static/media/rehab.1642bd3d.svg"
+    "main.css": "/portfolio/static/css/main.00d57219.css",
+    "main.js": "/portfolio/static/js/main.d91a5d50.js",
+    "static/media/Roboto-MediumItalic.ttf": "/portfolio/static/media/Roboto-MediumItalic.102943405e853bda70b7.ttf",
+    "static/media/Roboto-LightItalic.ttf": "/portfolio/static/media/Roboto-LightItalic.2eeb30ebc5bee9ac3d42.ttf",
+    "static/media/Roboto-ThinItalic.ttf": "/portfolio/static/media/Roboto-ThinItalic.e08c15f16efebd23d007.ttf",
+    "static/media/Roboto-BoldItalic.ttf": "/portfolio/static/media/Roboto-BoldItalic.f10c8b462e89a98a712c.ttf",
+    "static/media/Roboto-Italic.ttf": "/portfolio/static/media/Roboto-Italic.dcb583d9def8308113fc.ttf",
+    "static/media/Roboto-Medium.ttf": "/portfolio/static/media/Roboto-Medium.0fcd45fbfc419c42c8b9.ttf",
+    "static/media/Roboto-Thin.ttf": "/portfolio/static/media/Roboto-Thin.2745c061dfc318ec57da.ttf",
+    "static/media/Roboto-Regular.ttf": "/portfolio/static/media/Roboto-Regular.6bede58e856278b0f8f1.ttf",
+    "static/media/Roboto-Bold.ttf": "/portfolio/static/media/Roboto-Bold.17451a4c1cd55e33ac57.ttf",
+    "static/media/Roboto-Light.ttf": "/portfolio/static/media/Roboto-Light.ce61b8b68994802f2e55.ttf",
+    "static/media/intro.jpg": "/portfolio/static/media/intro.cba5c710ef9cddf0712b.jpg",
+    "static/media/imageProfile.jpg": "/portfolio/static/media/imageProfile.c74a745d6e2b23254b31.jpg",
+    "static/media/rehab.svg": "/portfolio/static/media/rehab.1642bd3df085cacf2321.svg",
+    "index.html": "/portfolio/index.html"
   },
   "entrypoints": [
-    "static/js/runtime-main.8fed2963.js",
-    "static/js/2.2685ad56.chunk.js",
-    "static/css/main.2dd06846.chunk.css",
-    "static/js/main.571e85bb.chunk.js"
+    "static/css/main.00d57219.css",
+    "static/js/main.d91a5d50.js"
   ]
 }
