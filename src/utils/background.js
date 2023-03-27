@@ -55,7 +55,7 @@ export default function background() {
     this.orbitX = w / 2;
     this.orbitY = h / 2;
     this.timePassed = random(0, maxStars);
-    this.speed = random(this.orbitRadius) / 1000000;
+    this.speed = random(this.orbitRadius) / 700000;
     this.alpha = random(2, 10) / 10;
 
     count++;

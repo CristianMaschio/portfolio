@@ -1,7 +1,6 @@
 import React, { PureComponent } from "react";
 import Parallax from "react-rellax";
 import Paragraph from "../../components/Paragraph";
-import ImageProfile from "components/ImageProfile";
 import { Fade } from "react-reveal";
 import TagsCanvas from "react-tags-canvas";
 import background from "../../utils/background";
@@ -13,7 +12,6 @@ class Home extends PureComponent {
   }
 
   render() {
-    console.log(json);
     return (
       <div className="home">
         <div className="image-background">
@@ -21,10 +19,11 @@ class Home extends PureComponent {
         </div>
         <Parallax speed={-3}>
           <div className="intro intro-flex-center">
-            <ImageProfile size={200} />
             <div className="intro-flex-center">
-              <h1>Cristian Maschio</h1>
-              <h2>{"<SeniorFrontEndEngineer />"}</h2>
+              <Fade bottom>
+                <h1>Cristian Maschio</h1>
+                <h2>{"<SeniorFrontEndEngineer />"}</h2>
+              </Fade>
             </div>
           </div>
         </Parallax>
@@ -42,58 +41,66 @@ class Home extends PureComponent {
             </svg>
           </div>
           <div className="paragraph">
-            <h2 className="paragraphTitle">Quick overview</h2>
+            <Fade bottom>
+              <h2 className="paragraphTitle">Quick overview</h2>
+            </Fade>
             <div className="paragraph-row">
               <ul>
-                <li>
-                  <b>5+ years of working experience</b> building web-apps for
-                  clients like TransportForLondon, Google, Spotify, Roche, Nike
-                  in London.
-                </li>
-                <li>
-                  <b>University degree in Computer Science.</b>
-                </li>
-                <li>
-                  <b>Worked in a wide range of projects</b> from existing big,
-                  complex projects to build scalable projects from scratch used
-                  by millions of users.
-                </li>
-                <li>
-                  Worked and collaborated directly with stakeholders, designers,
-                  team and multiple teams to deliver projects and new features.
-                </li>
-                <li>Clean, reusable and tested code.</li>
-                <li>Attention to details, user experience.</li>
+                <Fade bottom cascade>
+                  <li>
+                    <b>5+ years of working experience</b> building web-apps for
+                    clients like TransportForLondon, Google, Spotify, Roche,
+                    Nike in London.
+                  </li>
+                  <li>
+                    <b>University degree in Computer Science.</b>
+                  </li>
+                  <li>
+                    <b>Worked in a wide range of projects</b> from existing big,
+                    complex projects to build scalable projects from scratch
+                    used by millions of users.
+                  </li>
+                  <li>
+                    Worked and collaborated directly with stakeholders,
+                    designers, team and multiple teams to deliver projects and
+                    new features.
+                  </li>
+                  <li>Clean, reusable and tested code.</li>
+                  <li>Attention to details, user experience.</li>
+                </Fade>
               </ul>
-              <div className="tags-canvas">
-                <TagsCanvas
-                  textColour="rgba(59, 98, 196, 0.9)"
-                  maxSpeed={0.1}
-                  weightSize={0.45}
-                  shuffleTags
-                  shape="sphere"
-                  noSelect
-                  wheelZoom={false}
-                  tags={[
-                    { value: "React", weight: 50 },
-                    { value: "Javascript", weight: 30 },
-                    { value: "HTML5", weight: 20 },
-                    { value: "CSS3", weight: 20 },
-                    { value: "Typescript", weight: 35 },
-                    { value: "Git", weight: 20 },
-                    { value: "Redux", weight: 30 },
-                    { value: "Redux-Saga", weight: 20 },
-                    { value: "NodeJS", weight: 20 },
-                    { value: "NextJS", weight: 20 },
-                    { value: "Docker", weight: 15 },
-                    { value: "React-Native", weight: 20 },
-                    { value: "Firebase", weight: 20 },
-                    { value: "AWS", weight: 20 },
-                    { value: "Gatsby", weight: 20 },
-                    { value: "GraphQL", weight: 20 },
-                  ]}
-                />
-              </div>
+              <Fade bottom>
+                <div className="tags-canvas">
+                  <TagsCanvas
+                    textColour="rgba(59, 98, 196, 0.9)"
+                    maxSpeed={0.1}
+                    weightSize={0.45}
+                    shuffleTags
+                    shape="sphere"
+                    noSelect
+                    wheelZoom={false}
+                    initial={[0.1, -0.1]}
+                    tags={[
+                      { value: "React", weight: 50 },
+                      { value: "Javascript", weight: 30 },
+                      { value: "HTML5", weight: 20 },
+                      { value: "CSS3", weight: 20 },
+                      { value: "Typescript", weight: 35 },
+                      { value: "Git", weight: 20 },
+                      { value: "Redux", weight: 30 },
+                      { value: "Redux-Saga", weight: 20 },
+                      { value: "NodeJS", weight: 20 },
+                      { value: "NextJS", weight: 20 },
+                      { value: "Docker", weight: 15 },
+                      { value: "React-Native", weight: 20 },
+                      { value: "Firebase", weight: 20 },
+                      { value: "AWS", weight: 20 },
+                      { value: "Gatsby", weight: 20 },
+                      { value: "GraphQL", weight: 20 },
+                    ]}
+                  />
+                </div>
+              </Fade>
             </div>
           </div>
 
