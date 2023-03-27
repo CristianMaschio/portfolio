@@ -73,13 +73,13 @@ class Home extends PureComponent {
                 <div className="tags-canvas">
                   <TagsCanvas
                     textColour="rgba(59, 98, 196, 0.9)"
-                    maxSpeed={0.1}
+                    maxSpeed={0.05}
                     weightSize={0.45}
                     shuffleTags
                     shape="sphere"
                     noSelect
                     wheelZoom={false}
-                    initial={[0.1, -0.1]}
+                    initial={[0.05, -0.05]}
                     tags={[
                       { value: "React", weight: 50 },
                       { value: "Javascript", weight: 30 },
