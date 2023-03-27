@@ -54,6 +54,13 @@
       max-width: 40rem;
       li {
         word-wrap: break-word;
+        b {
+          color: $primary-color;
+        }
+      }
+      li::marker {
+        color: $primary-color;
+        font-size: 1.2rem;
       }
     }
 

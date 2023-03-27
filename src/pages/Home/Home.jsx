@@ -46,21 +46,24 @@ class Home extends PureComponent {
             <div className="paragraph-row">
               <ul>
                 <li>
-                  5+ years of working experience building web-apps for clients
-                  like TransportForLondon, Google, Spotify, Roche, Nike in
-                  London.
+                  <b>5+ years of working experience</b> building web-apps for
+                  clients like TransportForLondon, Google, Spotify, Roche, Nike
+                  in London.
                 </li>
-                <li>University degree in Computer Science.</li>
                 <li>
-                  Worked in very big and complex projects using React, Redux and
-                  Typescript and built projects from scratch.
+                  <b>University degree in Computer Science.</b>
+                </li>
+                <li>
+                  <b>Worked in a wide range of projects</b> from existing big,
+                  complex projects to build scalable projects from scratch used
+                  by millions of users.
                 </li>
                 <li>
                   Worked and collaborated directly with stakeholders, designers,
                   team and multiple teams to deliver projects and new features.
                 </li>
                 <li>Clean, reusable and tested code.</li>
-                <li>Attention to details and user experience.</li>
+                <li>Attention to details, user experience.</li>
               </ul>
               <div className="tags-canvas">
                 <TagsCanvas
@@ -72,13 +75,13 @@ class Home extends PureComponent {
                   noSelect
                   wheelZoom={false}
                   tags={[
+                    { value: "React", weight: 50 },
                     { value: "Javascript", weight: 30 },
-                    { value: "React", weight: 40 },
                     { value: "HTML5", weight: 20 },
                     { value: "CSS3", weight: 20 },
-                    { value: "Typescript", weight: 30 },
+                    { value: "Typescript", weight: 35 },
                     { value: "Git", weight: 20 },
-                    { value: "Redux", weight: 20 },
+                    { value: "Redux", weight: 30 },
                     { value: "Redux-Saga", weight: 20 },
                     { value: "NodeJS", weight: 20 },
                     { value: "NextJS", weight: 20 },

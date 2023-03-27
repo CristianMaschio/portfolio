@@ -31,7 +31,7 @@
         },
         {
           "img": "gestionaleauto.png",
-          "date": "05/2019 - 30/09/2019",
+          "date": "05/2019 - 10/2019",
           "title": "GestionaleAuto.com - React Developer",
           "technologies": "React, Javascript, Redux, Redux-Form, Redux-Saga, Html & Scss.",
           "achieving": "Learned to working in Agile Scrum team: my daily tasks ranged from refactoring to develop new feature for a large project code base of a management software. In which I managed to improve the simplicity and performance of some components, making them 30-40% faster.",
@@ -58,8 +58,7 @@
           "technologies": "C++, SQL, Java, Javascript, Php, html, css, React Native & React.",
           "achieving": "It gave me the mental flexibility to learn new programming languages quickly, handle pointers, object-oriented and concurrent programming."
         }
-      ],
-      "more": []
+      ]
     },
     {
       "id": "passion",
@@ -107,7 +106,7 @@
           "description": "This project gave me the opportunity to collaborate with 6 other unknown people, including a freelancer who gave me a solid foundation of React."
         },
         {
-          "date": "2018",
+          "date": "2017",
           "title": "University project - Mobile app (React Native)",
           "description": "Here on my voluntary request for the Mobile Programming and Multimedia course, I decided to create an application with React Native, to discover the mobile world with React and learning the basics of React Native.",
           "link": "https://github.com/CristianMaschio/Progetto_MPM_React_Native"
@@ -121,13 +120,13 @@
       ],
       "more": [
         {
-          "date": "2018 - Current",
+          "date": "2018 - 2019",
           "title": "Coding Gym - Programmers in Padua",
           "description": "I partecipated to some \"4-5\" Coding Gym. Coding Gym is an international format of programming laboratories open to any language and developed for continuous improvement.",
           "link": "https://www.programmersinpadua.it/"
         },
         {
-          "date": "2018 - Current",
+          "date": "2018 - 2019",
           "title": "Talks - Programmers in Padua",
           "description": "I partecipated to some talks. Programmers in Padua is a little community, who work and passionate about programming, new technologies and startups. We meet once a month in an open and informal environment, where the participants propose themselves for the talks.",
           "link": "https://www.programmersinpadua.it/"
