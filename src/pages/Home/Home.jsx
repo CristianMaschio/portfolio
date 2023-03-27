@@ -4,14 +4,13 @@ import Paragraph from "../../components/Paragraph";
 import { Fade } from "react-reveal";
 import TagsCanvas from "react-tags-canvas";
 import background from "../../utils/background";
-import json from "../../assets/languages/En-paragraphs.json";
 import {
   LinkedinFilled,
   MailFilled,
-  GithubFilled,
   CloudDownloadOutlined,
 } from "@ant-design/icons";
 
+import json from "../../assets/languages/En-paragraphs.json";
 class Home extends PureComponent {
   componentDidMount() {
     background();
@@ -21,21 +20,46 @@ class Home extends PureComponent {
     return (
       <div className="home">
         <div className="image-background">
-          <canvas id="canvas"></canvas>
+          <canvas id="canvas" />
         </div>
-        <Parallax speed={-3}>
+        <Parallax speed={-5}>
           <div className="intro intro-flex-center">
             <div className="intro-flex-center">
-              <Fade bottom>
+              <Fade bottom speed={-5}>
                 <h1>Cristian Maschio</h1>
                 <h2>{"<SeniorFrontEndEngineer />"}</h2>
-                <MailFilled />
+                <div className="icons">
+                  <a
+                    href="mailto:cristianmaschio@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Contact me by email"
+                  >
+                    <MailFilled />
+                  </a>
+                  <a
+                    href="https://drive.google.com/uc?export=download&id=1lB-ySL7IN_8K1UNJVK8TWG9OqxAvVtdG"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Download Resume"
+                  >
+                    <CloudDownloadOutlined />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/cristian-maschio-37004a146"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="LinkedIn profile"
+                  >
+                    <LinkedinFilled />
+                  </a>
+                </div>
               </Fade>
             </div>
           </div>
         </Parallax>
         <div className="paragraphs">
-          <div className="waves-top">
+          <div className="waves waves-top">
             <svg
               fill="white"
               xmlns="http://www.w3.org/2000/svg"
@@ -48,12 +72,10 @@ class Home extends PureComponent {
             </svg>
           </div>
           <div className="paragraph">
-            <Fade bottom>
-              <h2 className="paragraphTitle">Quick overview</h2>
-            </Fade>
+            <h2 className="paragraphTitle">Quick overview</h2>
             <div className="paragraph-row">
-              <ul>
-                <Fade bottom cascade>
+              <Fade left speed={-5}>
+                <ul>
                   <li>
                     <b>5+ years of working experience</b> building web-apps for
                     clients like TransportForLondon, Google, Spotify, Roche,
@@ -74,9 +96,9 @@ class Home extends PureComponent {
                   </li>
                   <li>Clean, reusable and tested code.</li>
                   <li>Attention to details, user experience.</li>
-                </Fade>
-              </ul>
-              <Fade bottom>
+                </ul>
+              </Fade>
+              <Fade right speed={-5}>
                 <div className="tags-canvas">
                   <TagsCanvas
                     textColour="rgba(59, 98, 196, 0.9)"

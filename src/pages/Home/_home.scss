@@ -26,6 +26,19 @@ $text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
       display: flex;
       flex-direction: column;
       justify-content: center;
+
+      .icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 15rem;
+        margin-top: 1.8rem;
+        align-self: center;
+        a {
+          color: white;
+          font-size: 1.8rem;
+        }
+      }
     }
     h1 {
       color: white;
@@ -48,6 +61,7 @@ $text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
       text-shadow: $text-shadow;
       padding: 0;
       margin: 0;
+      margin-top: 0.2rem;
 
       @media screen and (max-width: $mobile-max-width) {
         font-size: 1.5rem;
@@ -60,27 +74,42 @@ $text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     flex-direction: column;
     margin-top: 0;
     background-color: $background-secondary-color;
+  }
+}
 
-    .waves-top {
-      position: absolute;
-      top: -100px;
-      height: 100px;
-      left: 0;
-      width: 100%;
-      z-index: 2;
-      pointer-events: none;
+.waves {
+  height: 100px;
+  width: 100%;
+  z-index: 2;
+  pointer-events: none;
 
-      svg {
-        height: 100px;
-        width: 100vw;
-      }
-      svg path:first-child {
-        opacity: 0.15;
-      }
+  svg {
+    height: 100px;
+    width: 100%;
+  }
+  svg path:first-child {
+    opacity: 0.15;
+  }
 
-      svg path:nth-child(2) {
-        opacity: 0.3;
-      }
+  svg path:nth-child(2) {
+    opacity: 0.3;
+  }
+
+  @media screen and (max-width: $mobile-max-width) {
+    height: 50px;
+
+    svg {
+      height: 50px;
     }
+  }
+}
+
+.waves-top {
+  position: absolute;
+  top: -99px;
+  left: 0;
+
+  @media screen and (max-width: $mobile-max-width) {
+    top: -49px;
   }
 }
