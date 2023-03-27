@@ -1,8 +1,10 @@
-$primary-color: #3b62b1;
+$primary-color: rgba(59, 98, 196, 0.8);
 $background-primary-color: rgba(59, 98, 196, 0.8);
 $background-primary-light-color: rgba(59, 98, 196, 0.05);
-$background-secondary-color: rgba(255, 255, 255, 0.97);
+$background-secondary-color: white;
 $dark-color: #313131;
+
+$primary-color-00: #3b62b1;
 
 $text-color: black;
 $background-color: white;
@@ -18,4 +20,6 @@ $primary-left-linear-gradient: linear-gradient(
   transparent
 );
 
-$mobile-max-width: 950px;
+$mobile-max-width: 700px;
+
+$button-primary-color: rgba(59, 98, 196, 0.7);

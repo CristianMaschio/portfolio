@@ -8,7 +8,7 @@
         {
           "img": "soprasteria.png",
           "date": "10/2021 - Current",
-          "title": "SopraSteria - Senior Front End Engineer",
+          "title": "Senior Front End Engineer - SopraSteria (London)",
           "technologies": "React, Typescript, Javascript, CI/CD, Redux, Redux-Saga, TDD, Jest, Enzyme, Git, W3C, Html & Css.",
           "achieving": "Working in an agile scrum team and my day to day consist in collaborating with others different teams, developing new features and fixing bugs in a big management platform.",
           "link": "https://www.soprasteria.com/"
@@ -16,7 +16,7 @@
         {
           "img": "rehab.svg",
           "date": "12/2019 - 07/2021",
-          "title": "Rehab - Full Stack Engineer",
+          "title": "Full Stack Engineer - Rehab (London)",
           "technologies": "React, Javascript, CI/CD, Python, Django, Redux, Redux-Form, Redux-Saga, Docker, NextJS, TDD, NodeJS, Firebase, Git, W3C, Html & Css.",
           "achieving": "Worked in amazing projects for global clients like Nike, Google, WarnerMedia, Estée Lauder and many others with the possibility to have a complete ownership of some projects, interact, collaborate with clients and team members from different fields of expertise and fix and add new features in a large internal platform.",
           "link": "https://www.rehabagency.ai/"
@@ -26,12 +26,12 @@
           "date": "03/2020 - 06/2020",
           "title": "Open Source - COVID Symptom Study - ZOE",
           "technologies": "React Native, Typescript, Formik, svg, i18n, TDD & Redux.",
-          "achieving": "Created custom components, updated app style and fixed key accessibility issues. <a href='https://github.com/zoe/covid-tracker-react-native/pull/417' target='_blank'>Pull request - 1</a> <a href='https://github.com/zoe/covid-tracker-react-native/issues/230' target='_blank'>Fixed issue</a> <a href='https://github.com/zoe/covid-tracker-react-native/pull/279' target='_blank'>Pull request - 2</a>",
+          "achieving": "Created custom components, updated app style and fixed key accessibility issues.",
           "link": "https://github.com/zoe/covid-tracker-react-native"
         },
         {
           "img": "gestionaleauto.png",
-          "date": "05/2019 - 30/09/2019",
+          "date": "05/2019 - 10/2019",
           "title": "GestionaleAuto.com - React Developer",
           "technologies": "React, Javascript, Redux, Redux-Form, Redux-Saga, Html & Scss.",
           "achieving": "Learned to working in Agile Scrum team: my daily tasks ranged from refactoring to develop new feature for a large project code base of a management software. In which I managed to improve the simplicity and performance of some components, making them 30-40% faster.",
@@ -58,8 +58,7 @@
           "technologies": "C++, SQL, Java, Javascript, Php, html, css, React Native & React.",
           "achieving": "It gave me the mental flexibility to learn new programming languages quickly, handle pointers, object-oriented and concurrent programming."
         }
-      ],
-      "more": []
+      ]
     },
     {
       "id": "passion",
@@ -107,7 +106,7 @@
           "description": "This project gave me the opportunity to collaborate with 6 other unknown people, including a freelancer who gave me a solid foundation of React."
         },
         {
-          "date": "2018",
+          "date": "2017",
           "title": "University project - Mobile app (React Native)",
           "description": "Here on my voluntary request for the Mobile Programming and Multimedia course, I decided to create an application with React Native, to discover the mobile world with React and learning the basics of React Native.",
           "link": "https://github.com/CristianMaschio/Progetto_MPM_React_Native"
@@ -121,35 +120,16 @@
       ],
       "more": [
         {
-          "date": "2018 - Current",
+          "date": "2018 - 2019",
           "title": "Coding Gym - Programmers in Padua",
           "description": "I partecipated to some \"4-5\" Coding Gym. Coding Gym is an international format of programming laboratories open to any language and developed for continuous improvement.",
           "link": "https://www.programmersinpadua.it/"
         },
         {
-          "date": "2018 - Current",
+          "date": "2018 - 2019",
           "title": "Talks - Programmers in Padua",
           "description": "I partecipated to some talks. Programmers in Padua is a little community, who work and passionate about programming, new technologies and startups. We meet once a month in an open and informal environment, where the participants propose themselves for the talks.",
           "link": "https://www.programmersinpadua.it/"
-        }
-      ]
-    },
-    {
-      "id": "code",
-      "title": "Code",
-      "image": "work.png",
-      "sections": [
-        {
-          "date": "10/2019",
-          "title": "Dynamic form - (React + Jest)",
-          "description": "Using React, create a simple one page application with a dynamic form that takes its structure from the JSON...",
-          "link": "https://codesandbox.io/embed/proud-sun-bs4lc?fontsize=14"
-        },
-        {
-          "date": "10/2019",
-          "title": "Manage large data - (React)",
-          "description": "Using React, manage a larger sets of data using a pre-defined list of Employees. </br> For every Employee the rendered list shows 'firstname', 'lastname', 'company' and an icon with Employee's initials. </br> User can search Employees by 'firstname', 'lastname' and 'company'. ",
-          "link": "https://codesandbox.io/embed/funny-feynman-ejc7b?fontsize=14"
         }
       ]
     }
