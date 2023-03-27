@@ -31,7 +31,7 @@ class Home extends PureComponent {
         <div className="paragraphs">
           <div className="waves-top">
             <svg
-              fill="rgba(255, 255, 255, 0.97)"
+              fill="white"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 1000 100"
               preserveAspectRatio="none"
