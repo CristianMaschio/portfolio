@@ -1,4 +1,3 @@
-"use strict";
 export default function background() {
   var canvas = document.getElementById("canvas"),
     ctx = canvas.getContext("2d"),
@@ -7,7 +6,7 @@ export default function background() {
     hue = 217,
     stars = [],
     count = 0,
-    maxStars = 1400;
+    maxStars = 500;
 
   // Thanks @jackrugile for the performance tip! https://codepen.io/jackrugile/pen/BjBGoM
   // Cache gradient

@@ -42,33 +42,56 @@ class Home extends PureComponent {
             </svg>
           </div>
           <div className="paragraph">
-            <h2 className="paragraphTitle">About me</h2>
-            <TagsCanvas
-              style={{ width: "40rem", height: "40rem" }}
-              textColour="rgba(59, 98, 196, 0.9)"
-              maxSpeed={0.06}
-              weightSize={0.5}
-              shape="sphere"
-              noSelect
-              tags={[
-                { value: "Javascript", weight: 30 },
-                { value: "React", weight: 40 },
-                { value: "HTML5", weight: 20 },
-                { value: "CSS3", weight: 20 },
-                { value: "Typescript", weight: 30 },
-                { value: "Git", weight: 20 },
-                { value: "Redux", weight: 20 },
-                { value: "Redux-Saga", weight: 20 },
-                { value: "NodeJS", weight: 20 },
-                { value: "NextJS", weight: 20 },
-                { value: "Docker", weight: 15 },
-                { value: "React-Native", weight: 20 },
-                { value: "Firebase", weight: 20 },
-                { value: "AWS", weight: 20 },
-                { value: "Gatsby", weight: 20 },
-                { value: "GraphQL", weight: 20 },
-              ]}
-            />
+            <h2 className="paragraphTitle">Quick overview</h2>
+            <div className="paragraph-row">
+              <ul>
+                <li>
+                  5+ years of working experience building web-apps for clients
+                  like TransportForLondon, Google, Spotify, Roche, Nike in
+                  London.
+                </li>
+                <li>University degree in Computer Science.</li>
+                <li>
+                  Worked in very big and complex projects using React, Redux and
+                  Typescript and built projects from scratch.
+                </li>
+                <li>
+                  Worked and collaborated directly with stakeholders, designers,
+                  team and multiple teams to deliver projects and new features.
+                </li>
+                <li>Clean, reusable and tested code.</li>
+                <li>Attention to details and user experience.</li>
+              </ul>
+              <div className="tags-canvas">
+                <TagsCanvas
+                  textColour="rgba(59, 98, 196, 0.9)"
+                  maxSpeed={0.1}
+                  weightSize={0.45}
+                  shuffleTags
+                  shape="sphere"
+                  noSelect
+                  wheelZoom={false}
+                  tags={[
+                    { value: "Javascript", weight: 30 },
+                    { value: "React", weight: 40 },
+                    { value: "HTML5", weight: 20 },
+                    { value: "CSS3", weight: 20 },
+                    { value: "Typescript", weight: 30 },
+                    { value: "Git", weight: 20 },
+                    { value: "Redux", weight: 20 },
+                    { value: "Redux-Saga", weight: 20 },
+                    { value: "NodeJS", weight: 20 },
+                    { value: "NextJS", weight: 20 },
+                    { value: "Docker", weight: 15 },
+                    { value: "React-Native", weight: 20 },
+                    { value: "Firebase", weight: 20 },
+                    { value: "AWS", weight: 20 },
+                    { value: "Gatsby", weight: 20 },
+                    { value: "GraphQL", weight: 20 },
+                  ]}
+                />
+              </div>
+            </div>
           </div>
 
           {json.paragraphs?.map((paragraph, index) => {
