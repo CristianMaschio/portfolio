@@ -77,9 +77,9 @@ class Home extends PureComponent {
               <Fade left speed={-5}>
                 <ul>
                   <li>
-                    <b>5+ years of working experience</b> building web-apps for
-                    clients like TransportForLondon, Google, Spotify, Roche,
-                    Nike in London.
+                    <b>6+ years of working experience</b> building ReactJS
+                    web-apps for clients like Transport For London, Google,
+                    Spotify, Roche, Nike in London.
                   </li>
                   <li>
                     <b>University degree in Computer Science.</b>

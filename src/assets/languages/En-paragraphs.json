@@ -9,8 +9,8 @@
           "img": "soprasteria.png",
           "date": "10/2021 - Current",
           "title": "Senior Front End Engineer - SopraSteria (London)",
-          "technologies": "React, Typescript, Javascript, CI/CD, Redux, Redux-Saga, TDD, Jest, Enzyme, Git, W3C, Html & Css.",
-          "achieving": "Working in an agile scrum team and my day to day consist in collaborating with others different teams, developing new features and fixing bugs in a big management platform.",
+          "technologies": "React, Typescript, Javascript, CI/CD, Redux, Redux-Saga, TDD, Jest, Enzyme, Git, W3C, Html & sass.",
+          "achieving": "Working in an agile scrum team in a large management platform for Transport For London. My day to day consists in taking full responsibility for developing new functionalities and fixing bugs, collaborating with different teams and roles and managing the workload to deliver it in time respecting the security and quality standards.",
           "link": "https://www.soprasteria.com/"
         },
         {
@@ -18,7 +18,7 @@
           "date": "12/2019 - 07/2021",
           "title": "Full Stack Engineer - Rehab (London)",
           "technologies": "React, Javascript, CI/CD, Python, Django, Redux, Redux-Form, Redux-Saga, Docker, NextJS, TDD, NodeJS, Firebase, Git, W3C, Html & Css.",
-          "achieving": "Worked in amazing projects for global clients like Nike, Google, WarnerMedia, Estée Lauder and many others with the possibility to have a complete ownership of some projects, interact, collaborate with clients and team members from different fields of expertise and fix and add new features in a large internal platform.",
+          "achieving": "Worked in amazing projects for global clients like Nike, Google, WarnerMedia, Estée Lauder and many others in which I had complete ownership and responsibility in some projects, interacted, collaborated with clients and team members from different fields of expertise and fixed and added new features in a large internal platform.",
           "link": "https://www.rehabagency.ai/"
         },
         {
@@ -34,7 +34,7 @@
           "date": "05/2019 - 10/2019",
           "title": "GestionaleAuto.com - React Developer",
           "technologies": "React, Javascript, Redux, Redux-Form, Redux-Saga, Html & Scss.",
-          "achieving": "Learned to working in Agile Scrum team: my daily tasks ranged from refactoring to develop new feature for a large project code base of a management software. In which I managed to improve the simplicity and performance of some components, making them 30-40% faster.",
+          "achieving": "Learned to work in Agile Scrum team: my daily tasks ranged from refactoring to developing new features for a large management software. In which I managed to improve the simplicity and performance of some components, making them 30-40% faster.",
           "link": "https://gestionaleauto.com/"
         },
         {
@@ -42,7 +42,7 @@
           "date": "10/2018 - 04/2019",
           "title": "Discontinuity - Full Stack Developer",
           "technologies": "React Native, React, Javascript, Gatsby, AWS, DynamoDB, GraphQL, Html & Scss.",
-          "achieving": "Working in Agile team, with maintaining and implementing applications and web sites from scratch",
+          "achieving": "Worked in an agile team, my daily tasks were to maintain and develop apps and websites from scratch too.",
           "link": "http://discontinuity.eu/"
         }
       ]
@@ -68,7 +68,7 @@
         {
           "date": "-",
           "title": "Programming",
-          "description": "I love programming, it allows me to create applications and websites that many people could benefit from them."
+          "description": "I love programming, it allows me to create applications and websites which many people could benefit from."
         },
         {
           "date": "-",
@@ -114,7 +114,7 @@
         {
           "date": "24/11/2018",
           "title": "DevFest Veneto - GDG Venice",
-          "description": "I partecipated to the DevFest organized by Google Developers Group Venice.",
+          "description": "I participated to the DevFest organized by Google Developers Group Venice.",
           "link": "https://gdg-venezia.github.io/devfest-veneto-18/"
         }
       ],
@@ -122,13 +122,13 @@
         {
           "date": "2018 - 2019",
           "title": "Coding Gym - Programmers in Padua",
-          "description": "I partecipated to some \"4-5\" Coding Gym. Coding Gym is an international format of programming laboratories open to any language and developed for continuous improvement.",
+          "description": "I participated to some \"4-5\" Coding Gym. Coding Gym is an international format of programming laboratories open to any language and developed for continuous improvement.",
           "link": "https://www.programmersinpadua.it/"
         },
         {
           "date": "2018 - 2019",
           "title": "Talks - Programmers in Padua",
-          "description": "I partecipated to some talks. Programmers in Padua is a little community, who work and passionate about programming, new technologies and startups. We meet once a month in an open and informal environment, where the participants propose themselves for the talks.",
+          "description": "I participated to some talks. Programmers in Padua is a little community, who work and passionate about programming, new technologies and startups. We meet once a month in an open and informal environment, where the participants propose themselves for the talks.",
           "link": "https://www.programmersinpadua.it/"
         }
       ]
