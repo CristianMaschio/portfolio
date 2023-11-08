@@ -95,7 +95,7 @@ class Home extends PureComponent {
                     new features.
                   </li>
                   <li>Clean, reusable and tested code.</li>
-                  <li>Attention to details, user experience.</li>
+                  <li>Attention to details and user experience.</li>
                 </ul>
               </Fade>
               <Fade right speed={-5}>
