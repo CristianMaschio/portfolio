@@ -11,6 +11,8 @@ import {
 } from "@ant-design/icons";
 
 import json from "../../assets/languages/En-paragraphs.json";
+import { Button } from "antd";
+
 class Home extends PureComponent {
   componentDidMount() {
     background();
@@ -28,6 +30,16 @@ class Home extends PureComponent {
               <Fade bottom speed={-5}>
                 <h1>Cristian Maschio</h1>
                 <h2>{"<SeniorFrontEndEngineer />"}</h2>
+                <Button
+                  onClick={() => {
+                    window?.open(
+                      "https://calendly.com/cristian-maschio/quick-call",
+                      "_blank"
+                    );
+                  }}
+                >
+                  Book a quick call
+                </Button>
                 <div className="icons">
                   <a
                     href="mailto:cristianmaschio@gmail.com"
@@ -71,6 +83,22 @@ class Home extends PureComponent {
               <path d="M 0 58 s 188.29 32 508 32 c 290 0 494 -35 494 -35 v 45 h -1002 z"></path>
             </svg>
           </div>
+          <Fade bottom speed={-5}>
+            <p className="p-des">
+              Hello world!
+              <br />
+              I'm actively searching for a part-time freelance position for a
+              project or collaboration.
+              <br />
+              (No fintech and gambling projects)
+              <br />
+              <br />
+              Why part-time?
+              <br />
+              Because it will help me to continue working on my projects focused
+              on increasing plant biodiversity and resistance.
+            </p>
+          </Fade>
           <div className="paragraph">
             <h2 className="paragraphTitle">Quick overview</h2>
             <div className="paragraph-row">
@@ -132,7 +160,6 @@ class Home extends PureComponent {
               </Fade>
             </div>
           </div>
-
           {json.paragraphs?.map((paragraph, index) => {
             return (
               <Paragraph
